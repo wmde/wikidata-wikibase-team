@@ -1,0 +1,17 @@
+{
+  "name": "wikidata-wikibase-team",
+  "scripts": {
+    "dev": "vuepress dev --no-clear-screen .",
+    "build": "vuepress build .",
+    "test": "echo \"No tests specified yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmde/wikidata-wikibase-team.git"
+  },
+  "author": "",
+  "homepage": "https://github.com/wmde/wikidata-wikibase-team#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
