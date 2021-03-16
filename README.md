@@ -40,17 +40,17 @@ WIP team site
 - https://github.com/wmde/Number
 - https://github.com/wmde/Time
 - https://github.com/wmde/git-filter-repo-docker-action
-- https://github.com/wmde/WikibaseReconcileEdit
-- https://github.com/wmde/WikibaseExampleData
-- https://github.com/wmde/2021-prep-week-wbstack-ui
-- https://github.com/wmde/wikidata-constraints-violation-checker
-- https://github.com/wmde/wikidata-map
 - https://github.com/wmde/vuex-helpers
 - https://github.com/wmde/lib-version-check
 - https://github.com/wmde/hamcrest-html-matchers
 - https://github.com/wmde/WikidataApiGem
 - https://github.com/wmde/wbs_propertypairs
 - https://github.com/wmde/prototype-wikibase-graphql-api
+- https://github.com/wmde/WikibaseReconcileEdit
+- https://github.com/wmde/WikibaseExampleData
+- https://github.com/wmde/2021-prep-week-wbstack-ui
+- https://github.com/wmde/wikidata-constraints-violation-checker
+- https://github.com/wmde/wikidata-map
 
 ### Docs, sites etc
 
