@@ -48,7 +48,6 @@ WIP team site
 - https://github.com/wmde/vuex-helpers
 - https://github.com/wmde/lib-version-check
 - https://github.com/wmde/hamcrest-html-matchers
-- https://github.com/wmde/mediawiki-doctrine-connection
 - https://github.com/wmde/WikidataApiGem
 - https://github.com/wmde/wbs_propertypairs
 - https://github.com/wmde/prototype-wikibase-graphql-api
