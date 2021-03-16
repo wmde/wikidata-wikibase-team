@@ -7,6 +7,8 @@ WIP team site
 ### MediaWiki Extensions
 
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/ArticlePlaceholder
+- https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Cognate
+- https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/InterwikiSorting
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Wikibase
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseLexeme
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseManifest
@@ -38,6 +40,11 @@ WIP team site
 - https://github.com/wmde/Number
 - https://github.com/wmde/Time
 - https://github.com/wmde/git-filter-repo-docker-action
+- https://github.com/wmde/WikibaseReconcileEdit
+- https://github.com/wmde/WikibaseExampleData
+- https://github.com/wmde/2021-prep-week-wbstack-ui
+- https://github.com/wmde/wikidata-constraints-violation-checker
+- https://github.com/wmde/wikidata-map
 - https://github.com/wmde/vuex-helpers
 - https://github.com/wmde/lib-version-check
 - https://github.com/wmde/hamcrest-html-matchers
@@ -50,6 +57,7 @@ WIP team site
 
 - https://github.com/wmde/wikidata-wikibase-architecture
 - https://github.com/wmde/wikidata-wikibase-vision
+- https://github.com/wmde/wikibase-rest-api-proposal
 
 ### Team related
 
