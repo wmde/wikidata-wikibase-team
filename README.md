@@ -7,6 +7,8 @@ WIP team site
 ### MediaWiki Extensions
 
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/ArticlePlaceholder
+- https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Cognate
+- https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/InterwikiSorting
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Wikibase
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseLexeme
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseManifest
