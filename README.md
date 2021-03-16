@@ -55,6 +55,7 @@ WIP team site
 ### Docs, sites etc
 
 - https://github.com/wmde/wikidata-wikibase-architecture
+- https://github.com/wmde/wikidata-wikibase-team
 - https://github.com/wmde/wikidata-wikibase-vision
 - https://github.com/wmde/wikibase-rest-api-proposal
 
