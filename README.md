@@ -37,7 +37,7 @@ WIP team site
 - https://github.com/wmde/php-vuejs-templating
 - https://github.com/wmde/Number
 - https://github.com/wmde/Time
- https://github.com/wmde/git-filter-repo-docker-action
+- https://github.com/wmde/git-filter-repo-docker-action
 
 ### Docs, sites etc
 
