@@ -68,3 +68,4 @@ We do no maintain these things, but they are very relevant for what we do.
 - https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseMediaInfo
 - https://gerrit.wikimedia.org/r/admin/repos/wikidata/query/blazegraph
 - https://gerrit.wikimedia.org/r/admin/repos/wikidata/query/rdf
+- https://github.com/Wikidata/WikibaseImport
