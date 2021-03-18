@@ -40,6 +40,7 @@ WIP team site
 - https://github.com/wmde/Number
 - https://github.com/wmde/Time
 - https://github.com/wmde/git-filter-repo-docker-action
+- https://github.com/wmde/less-variable-resolver
 - https://github.com/wmde/vuex-helpers
 - https://github.com/wmde/lib-version-check
 - https://github.com/wmde/hamcrest-html-matchers
