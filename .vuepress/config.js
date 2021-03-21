@@ -27,6 +27,7 @@ module.exports = {
         sidebar: [
             '/',
             '/pages/architecture.md',
+            '/pages/decisions.md',
             '/pages/repositories.md',
             '/pages/vision.md'
           ],
