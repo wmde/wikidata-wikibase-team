@@ -24,5 +24,9 @@ module.exports = {
         editLinkText: 'Edit this page on Github!',
         lastUpdated: true,
         activeHeaderLinks: false, // Default: true
+        sidebar: [
+            '/',
+            '/pages/repositories.md'
+          ],
     },
 }
