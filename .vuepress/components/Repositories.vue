@@ -3,8 +3,9 @@
 
     <v-data-table
       :headers="headers"
+      :dense=true
+      :disable-pagination=true
       :items="mainRepositories"
-      :items-per-page="100"
       class="elevation-1"
     >
       <template v-slot:item.location="{ item }">
@@ -20,36 +21,21 @@
           {{item.name}}
         </a>
       </template>
+      <template v-slot:item.langs="{ item }">
+        tba...
+        <!-- <img v-if="item.langs.indexOf('php') > -1" width="20" height="20" src="https://php.net/favicon.ico">
+        <img v-if="item.langs.indexOf('js') > -1" width="20" height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/20px-Javascript-736400_960_720.png">
+        <img v-if="item.langs.indexOf('py') > -1" width="20" height="20" src="https://www.python.org/favicon.ico"> -->
+      </template>
+      <template v-slot:item.tools.npm="{ item }">
+        <img v-if="item.tools.npm" width="20" height="20" src="https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png">
+      </template>
+      <template v-slot:item.tools.composer="{ item }">
+        tba...
+        <!-- <img v-if="item.tools.npm" width="20" height="20" src="https://getcomposer.org/favicon.ico"> -->
+      </template>
 
     </v-data-table>
-<!--     
-      <tr>
-        <th>Location</th>
-        <th>Repository</th>
-        <th>Languages</th>
-        <th colspan="10">Tooling</th>
-      </tr>
-      <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th>NPM</th>
-        <th>Composer</th>
-      </tr>
-    <tr v-for="repo in repositories['main']" :key="repo.url">
-      <td>
-        tba...
-        <img v-if="repo.languages && repo.languages.indexOf('php') > -1" width="20" height="20" src="https://php.net/favicon.ico">
-        <img v-if="repo.languages && repo.languages.indexOf('js') > -1" width="20" height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/20px-Javascript-736400_960_720.png">
-        <img v-if="repo.languages && repo.languages.indexOf('py') > -1" width="20" height="20" src="https://www.python.org/favicon.ico">
-      </td>
-      <td>
-        <img v-if="repo.tools && repo.tools.indexOf('npm') > -1" width="20" height="20" src="https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png">
-      </td>
-      <td>
-        <img v-if="repo.tools && repo.tools.indexOf('composer') > -1" width="20" height="20" src="https://getcomposer.org/favicon.ico">
-      </td>
-    </tr> -->
 
     <h2>Others</h2>
     <ul>
@@ -67,10 +53,10 @@ export default {
     return{
       repositories: repositoriesData,
       headers: [
-        { text: 'Location', value: 'location' },
+        { text: 'Location', value: 'location'},
         { text: 'Name', value: 'name' },
-        { text: 'Languages', value: 'languages' },
-        { text: 'Tooling', value: 'tools' }
+        { text: 'Languages', value: 'langs' },
+        { text: 'NPM', value: 'tools.npm', class: 'vertical' }
       ]
     }
   },
@@ -82,8 +68,11 @@ export default {
           url: value.url,
           location: value.url.includes('gerrit.wikimedia.org') ? 'gerrit' : ( value.url.includes('github.com') ? 'github' : 'unknown' ),
           name: value.url.replace('https://gerrit.wikimedia.org/r/admin/repos/','').replace('https://github.com/',''),
-          languages:"tba...",
-          tools:"tba...",
+          langs : value.languages ? value.languages : [],
+          tools: {
+            npm: value.tools && value.tools.indexOf('npm') > -1,
+            composer: "tba.."
+          },
           }
       })
     }
@@ -91,5 +80,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
+
+th.vertical > span {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
 </style>
