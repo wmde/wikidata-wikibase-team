@@ -1,0 +1,68 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/WikibaseDataModelServices",
+      "name": "WikibaseDataModelServices",
+      "nameWithOwner": "wmde/WikibaseDataModelServices",
+      "description": "A collection of services around Wikibase DataModel",
+      "descriptionHTML": "<div>A collection of services around Wikibase DataModel</div>",
+      "primaryLanguage": {
+        "name": "PHP"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "PHP"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".gitattributes"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".phpcs.xml"
+              },
+              {
+                "name": ".scrutinizer.yml"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "RELEASE-NOTES.md"
+              },
+              {
+                "name": "composer.json"
+              },
+              {
+                "name": "phpmd.xml"
+              },
+              {
+                "name": "phpunit.xml.dist"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

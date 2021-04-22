@@ -1,0 +1,128 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wikimedia/wikidata-query-builder",
+      "name": "wikidata-query-builder",
+      "nameWithOwner": "wikimedia/wikidata-query-builder",
+      "description": "A query builder for Wikidata SPARQL queries",
+      "descriptionHTML": "<div>A query builder for Wikidata SPARQL queries</div>",
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "Shell"
+          },
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "Dockerfile"
+          },
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "Vue"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".browserslistrc"
+              },
+              {
+                "name": ".env.example"
+              },
+              {
+                "name": ".env.production"
+              },
+              {
+                "name": ".eslintrc.js"
+              },
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".gitreview"
+              },
+              {
+                "name": ".jest"
+              },
+              {
+                "name": "Dockerfile"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "babel.config.js"
+              },
+              {
+                "name": "build"
+              },
+              {
+                "name": "cypress.json"
+              },
+              {
+                "name": "cypress"
+              },
+              {
+                "name": "docker-compose.yml"
+              },
+              {
+                "name": "docs"
+              },
+              {
+                "name": "jest.config.integration.js"
+              },
+              {
+                "name": "jest.config.js"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "postcss.config.js"
+              },
+              {
+                "name": "public"
+              },
+              {
+                "name": "sonar-project.properties"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "stylelint.config.js"
+              },
+              {
+                "name": "tests"
+              },
+              {
+                "name": "tsconfig.json"
+              },
+              {
+                "name": "vue.config.js"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

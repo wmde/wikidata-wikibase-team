@@ -1,0 +1,47 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/git-filter-repo-docker-action",
+      "name": "git-filter-repo-docker-action",
+      "nameWithOwner": "wmde/git-filter-repo-docker-action",
+      "description": "A GitHub Docker Action to run git-filter-repo and push the result to a GitHub repository using ssh",
+      "descriptionHTML": "<div>A GitHub Docker Action to run git-filter-repo and push the result to a GitHub repository using ssh</div>",
+      "primaryLanguage": {
+        "name": "Shell"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "Dockerfile"
+          },
+          {
+            "name": "Shell"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": "Dockerfile"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "action.yml"
+              },
+              {
+                "name": "entrypoint.sh"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

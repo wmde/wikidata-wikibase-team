@@ -1,0 +1,74 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/wikibase-docker",
+      "name": "wikibase-docker",
+      "nameWithOwner": "wmde/wikibase-docker",
+      "description": "🐳 Docker images and example compose file for Wikibase and surrounding services",
+      "descriptionHTML": "<div>\n<g-emoji class=\"g-emoji\" alias=\"whale\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f433.png\">🐳</g-emoji> Docker images and example compose file for Wikibase and surrounding services</div>",
+      "primaryLanguage": {
+        "name": "Shell"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "Shell"
+          },
+          {
+            "name": "Dockerfile"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": ".travis"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README-compose.md"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "docker-compose.yml"
+              },
+              {
+                "name": "elasticsearch"
+              },
+              {
+                "name": "quickstatements"
+              },
+              {
+                "name": "setup.sh"
+              },
+              {
+                "name": "wdqs-frontend"
+              },
+              {
+                "name": "wdqs-proxy"
+              },
+              {
+                "name": "wdqs"
+              },
+              {
+                "name": "wikibase"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

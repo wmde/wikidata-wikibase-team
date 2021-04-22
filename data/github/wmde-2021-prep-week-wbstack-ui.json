@@ -1,0 +1,83 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/2021-prep-week-wbstack-ui",
+      "name": "2021-prep-week-wbstack-ui",
+      "nameWithOwner": "wmde/2021-prep-week-wbstack-ui",
+      "description": null,
+      "descriptionHTML": "<div></div>",
+      "primaryLanguage": {
+        "name": "Vue"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "Vue"
+          },
+          {
+            "name": "Shell"
+          },
+          {
+            "name": "Dockerfile"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".env"
+              },
+              {
+                "name": ".env.example"
+              },
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": "Dockerfile"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "babel.config.js"
+              },
+              {
+                "name": "nginx"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "public"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "vue.config.js"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/wikidata-constraints-violation-checker",
+      "name": "wikidata-constraints-violation-checker",
+      "nameWithOwner": "wmde/wikidata-constraints-violation-checker",
+      "description": "a tool to analyze constraint violations on Wikidata",
+      "descriptionHTML": "<div>a tool to analyze constraint violations on Wikidata</div>",
+      "primaryLanguage": {
+        "name": "Python"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "Python"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "checkDataQuality.py"
+              },
+              {
+                "name": "data"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

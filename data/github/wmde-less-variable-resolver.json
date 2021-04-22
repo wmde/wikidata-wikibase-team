@@ -1,0 +1,65 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/less-variable-resolver",
+      "name": "less-variable-resolver",
+      "nameWithOwner": "wmde/less-variable-resolver",
+      "description": "💱 Resolve variables defined by other variables' values - to allow for conversion into languages not supporting lazy evaluation.",
+      "descriptionHTML": "<div>\n<g-emoji class=\"g-emoji\" alias=\"currency_exchange\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f4b1.png\">💱</g-emoji> Resolve variables defined by other variables' values - to allow for conversion into languages not supporting lazy evaluation.</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "Dockerfile"
+          },
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintrc"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "Dockerfile"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "docker-compose.yml"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

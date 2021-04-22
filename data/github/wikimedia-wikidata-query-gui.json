@@ -1,0 +1,125 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wikimedia/wikidata-query-gui",
+      "name": "wikidata-query-gui",
+      "nameWithOwner": "wikimedia/wikidata-query-gui",
+      "description": "Github mirror of \"wikidata/query/gui\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
+      "descriptionHTML": "<div>Github mirror of \"wikidata/query/gui\" - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "Python"
+          },
+          {
+            "name": "Less"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintrc.yaml"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".gitreview"
+              },
+              {
+                "name": ".jshintignore"
+              },
+              {
+                "name": ".jshintrc"
+              },
+              {
+                "name": ".stylelintrc"
+              },
+              {
+                "name": "Gruntfile.js"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "default-config.json"
+              },
+              {
+                "name": "dist"
+              },
+              {
+                "name": "embed.html"
+              },
+              {
+                "name": "examples"
+              },
+              {
+                "name": "favicon.ico"
+              },
+              {
+                "name": "i18n"
+              },
+              {
+                "name": "index.html"
+              },
+              {
+                "name": "jsduck.json"
+              },
+              {
+                "name": "logo-embed.svg"
+              },
+              {
+                "name": "logo.svg"
+              },
+              {
+                "name": "maint.html"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "polestar"
+              },
+              {
+                "name": "robots.txt"
+              },
+              {
+                "name": "style.less"
+              },
+              {
+                "name": "tests"
+              },
+              {
+                "name": "vendor"
+              },
+              {
+                "name": "wdio.conf.js"
+              },
+              {
+                "name": "wikibase"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

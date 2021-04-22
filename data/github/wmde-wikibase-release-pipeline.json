@@ -1,0 +1,98 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/wikibase-release-pipeline",
+      "name": "wikibase-release-pipeline",
+      "nameWithOwner": "wmde/wikibase-release-pipeline",
+      "description": null,
+      "descriptionHTML": "<div></div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "Shell"
+          },
+          {
+            "name": "Dockerfile"
+          },
+          {
+            "name": "Makefile"
+          },
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "Python"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".dockerignore"
+              },
+              {
+                "name": ".env"
+              },
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": "Docker"
+              },
+              {
+                "name": "Dockerfile"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "Makefile"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "build.sh"
+              },
+              {
+                "name": "build"
+              },
+              {
+                "name": "diagrams"
+              },
+              {
+                "name": "docs"
+              },
+              {
+                "name": "example"
+              },
+              {
+                "name": "publish"
+              },
+              {
+                "name": "test"
+              },
+              {
+                "name": "update_cache.sh"
+              },
+              {
+                "name": "variables.env"
+              },
+              {
+                "name": "versions"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wikimedia/mediawiki-extensions-WikibaseLexeme",
+      "name": "mediawiki-extensions-WikibaseLexeme",
+      "nameWithOwner": "wikimedia/mediawiki-extensions-WikibaseLexeme",
+      "description": "🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
+      "descriptionHTML": "<div>\n<g-emoji class=\"g-emoji\" alias=\"goat\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f410.png\">🐐</g-emoji>Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
+      "primaryLanguage": {
+        "name": "PHP"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "Lua"
+          },
+          {
+            "name": "Less"
+          },
+          {
+            "name": "HTML"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".gitreview"
+              },
+              {
+                "name": ".phan"
+              },
+              {
+                "name": ".phpcs.xml"
+              },
+              {
+                "name": ".stylelintrc.json"
+              },
+              {
+                "name": "CODE_OF_CONDUCT.md"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "Gruntfile.js"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "WikibaseLexeme.datatypes.client.php"
+              },
+              {
+                "name": "WikibaseLexeme.datatypes.php"
+              },
+              {
+                "name": "WikibaseLexeme.entitytypes.php"
+              },
+              {
+                "name": "WikibaseLexeme.entitytypes.repo.php"
+              },
+              {
+                "name": "WikibaseLexeme.i18n.alias.php"
+              },
+              {
+                "name": "WikibaseLexeme.mediawiki-services.php"
+              },
+              {
+                "name": "WikibaseLexeme.resources.php"
+              },
+              {
+                "name": "composer.json"
+              },
+              {
+                "name": "docs"
+              },
+              {
+                "name": "extension.json"
+              },
+              {
+                "name": "i18n"
+              },
+              {
+                "name": "maintenance"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "phpunit.xml.dist"
+              },
+              {
+                "name": "resources"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

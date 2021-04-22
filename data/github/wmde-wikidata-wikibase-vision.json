@@ -1,0 +1,62 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/wikidata-wikibase-vision",
+      "name": "wikidata-wikibase-vision",
+      "nameWithOwner": "wmde/wikidata-wikibase-vision",
+      "description": "Team owned and developed technical vision diagram for Wikidata & Wikibase.",
+      "descriptionHTML": "<div>Team owned and developed technical vision diagram for Wikidata &amp; Wikibase.</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "HTML"
+          },
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "build.js"
+              },
+              {
+                "name": "data.json"
+              },
+              {
+                "name": "index.html"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "script.js"
+              },
+              {
+                "name": "serve.js"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

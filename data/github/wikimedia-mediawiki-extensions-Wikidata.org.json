@@ -1,0 +1,104 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wikimedia/mediawiki-extensions-Wikidata.org",
+      "name": "mediawiki-extensions-Wikidata.org",
+      "nameWithOwner": "wikimedia/mediawiki-extensions-Wikidata.org",
+      "description": "Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
+      "descriptionHTML": "<div>Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
+      "primaryLanguage": {
+        "name": "PHP"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".gitreview"
+              },
+              {
+                "name": ".phan"
+              },
+              {
+                "name": ".phpcs.xml"
+              },
+              {
+                "name": ".stylelintrc.json"
+              },
+              {
+                "name": "CODE_OF_CONDUCT.md"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "Gruntfile.js"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "RELEASE-NOTES.md"
+              },
+              {
+                "name": "Wikidata.org.php"
+              },
+              {
+                "name": "WikidataOrg.php"
+              },
+              {
+                "name": "composer.json"
+              },
+              {
+                "name": "doc"
+              },
+              {
+                "name": "extension.json"
+              },
+              {
+                "name": "i18n"
+              },
+              {
+                "name": "maintenance"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "resources"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

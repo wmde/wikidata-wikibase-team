@@ -1,0 +1,56 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/lib-version-check",
+      "name": "lib-version-check",
+      "nameWithOwner": "wmde/lib-version-check",
+      "description": "A small utility to check remote library versions against a local dependency entry.",
+      "descriptionHTML": "<div>A small utility to check remote library versions against a local dependency entry.</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "index.js"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

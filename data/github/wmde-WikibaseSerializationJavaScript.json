@@ -1,0 +1,59 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/WikibaseSerializationJavaScript",
+      "name": "WikibaseSerializationJavaScript",
+      "nameWithOwner": "wmde/WikibaseSerializationJavaScript",
+      "description": "Wikibase datamodel serialization implementation in JavaScript",
+      "descriptionHTML": "<div>Wikibase datamodel serialization implementation in JavaScript</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintignore"
+              },
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "karma.conf.js"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

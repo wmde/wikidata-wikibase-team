@@ -1,0 +1,68 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/WikibaseInternalSerialization",
+      "name": "WikibaseInternalSerialization",
+      "nameWithOwner": "wmde/WikibaseInternalSerialization",
+      "description": "Serializers and deserializers for the serialization used in the Wikibase Repo data access layer",
+      "descriptionHTML": "<div>Serializers and deserializers for the serialization used in the Wikibase Repo data access layer</div>",
+      "primaryLanguage": {
+        "name": "PHP"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "PHP"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".gitattributes"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".scrutinizer.yml"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "RELEASE-NOTES.md"
+              },
+              {
+                "name": "composer.json"
+              },
+              {
+                "name": "phpcs.xml"
+              },
+              {
+                "name": "phpmd.xml"
+              },
+              {
+                "name": "phpunit.xml.dist"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

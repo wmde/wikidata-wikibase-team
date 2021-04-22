@@ -63,17 +63,18 @@ export default {
   computed: {
     mainRepositories: function () {
       return repositoriesData['main'].map(function(value,index){
-        console.log(value);
+        let mainUrl = value.url ? value.url : value.github;
+        import thisRepoData from './../../data/github/' + 'foo'
         return {
-          url: value.url,
-          location: value.url.includes('gerrit.wikimedia.org') ? 'gerrit' : ( value.url.includes('github.com') ? 'github' : 'unknown' ),
-          name: value.url.replace('https://gerrit.wikimedia.org/r/admin/repos/','').replace('https://github.com/',''),
+          url: mainUrl,
+          location: mainUrl.includes('gerrit.wikimedia.org') ? 'gerrit' : ( mainUrl.includes('github.com') ? 'github' : 'unknown' ),
+          name: mainUrl.replace('https://gerrit.wikimedia.org/r/admin/repos/','').replace('https://github.com/',''),
           langs : value.languages ? value.languages : [],
           tools: {
             npm: value.tools && value.tools.indexOf('npm') > -1,
             composer: "tba.."
           },
-          }
+        }
       })
     }
   }

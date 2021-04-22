@@ -1,0 +1,65 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/wdio-wikibase",
+      "name": "wdio-wikibase",
+      "nameWithOwner": "wmde/wdio-wikibase",
+      "description": "WebdriverIO plugin for testing a Wikibase repo.",
+      "descriptionHTML": "<div>WebdriverIO plugin for testing a Wikibase repo.</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintignore"
+              },
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "index.js"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "pageobjects"
+              },
+              {
+                "name": "pagesections"
+              },
+              {
+                "name": "wikibase.api.js"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

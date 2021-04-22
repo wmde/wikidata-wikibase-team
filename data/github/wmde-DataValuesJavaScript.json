@@ -1,0 +1,65 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/DataValuesJavaScript",
+      "name": "DataValuesJavaScript",
+      "nameWithOwner": "wmde/DataValuesJavaScript",
+      "description": "JavaScript implementations of all basic DataValue classes, associated parsers and formatters",
+      "descriptionHTML": "<div>JavaScript implementations of all basic DataValue classes, associated parsers and formatters</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintignore"
+              },
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "karma.conf.js"
+              },
+              {
+                "name": "lib"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

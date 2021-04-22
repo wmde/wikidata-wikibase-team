@@ -1,0 +1,62 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/WikibaseDataModelJavaScript",
+      "name": "WikibaseDataModelJavaScript",
+      "nameWithOwner": "wmde/WikibaseDataModelJavaScript",
+      "description": "JavaScript implementation of the basic Wikibase DataModel entity types and components they are made of",
+      "descriptionHTML": "<div>JavaScript implementation of the basic Wikibase DataModel entity types and components they are made of</div>",
+      "primaryLanguage": {
+        "name": "JavaScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintignore"
+              },
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".travis.yml"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "index.d.ts"
+              },
+              {
+                "name": "karma.conf.js"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "src"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

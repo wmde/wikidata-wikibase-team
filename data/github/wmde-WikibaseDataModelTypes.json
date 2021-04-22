@@ -1,0 +1,62 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/WikibaseDataModelTypes",
+      "name": "WikibaseDataModelTypes",
+      "nameWithOwner": "wmde/WikibaseDataModelTypes",
+      "description": "Typescript definitions for the Wikibase DataModel expressed as flat JS objects",
+      "descriptionHTML": "<div>Typescript definitions for the Wikibase DataModel expressed as flat JS objects</div>",
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "TypeScript"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".eslintrc.js"
+              },
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "index.d.ts"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "tsconfig.json"
+              },
+              {
+                "name": "wikibase-datamodel-tests.ts"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

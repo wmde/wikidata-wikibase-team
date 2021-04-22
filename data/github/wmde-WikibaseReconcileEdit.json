@@ -1,0 +1,59 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/WikibaseReconcileEdit",
+      "name": "WikibaseReconcileEdit",
+      "nameWithOwner": "wmde/WikibaseReconcileEdit",
+      "description": null,
+      "descriptionHTML": "<div></div>",
+      "primaryLanguage": {
+        "name": "PHP"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "PHP"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".phpcs.xml"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "composer.json"
+              },
+              {
+                "name": "data"
+              },
+              {
+                "name": "extension.json"
+              },
+              {
+                "name": "i18n"
+              },
+              {
+                "name": "includes"
+              },
+              {
+                "name": "maintenance"
+              },
+              {
+                "name": "tests"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

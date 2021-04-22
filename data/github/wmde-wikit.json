@@ -1,0 +1,89 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wmde/wikit",
+      "name": "wikit",
+      "nameWithOwner": "wmde/wikit",
+      "description": "✨ The Wikibase Design System and home of WMDE-supported component implementations.",
+      "descriptionHTML": "<div>\n<g-emoji class=\"g-emoji\" alias=\"sparkles\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/2728.png\">✨</g-emoji> The Wikibase Design System and home of WMDE-supported component implementations.</div>",
+      "primaryLanguage": {
+        "name": "TypeScript"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "Vue"
+          },
+          {
+            "name": "TypeScript"
+          },
+          {
+            "name": "Shell"
+          },
+          {
+            "name": "SCSS"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".editorconfig"
+              },
+              {
+                "name": ".env"
+              },
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".nvmrc"
+              },
+              {
+                "name": "CHANGELOG.md"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "docker-compose.browsertests.yml"
+              },
+              {
+                "name": "docker-compose.yml"
+              },
+              {
+                "name": "docs"
+              },
+              {
+                "name": "lerna.json"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "tokens"
+              },
+              {
+                "name": "vue-components"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "data": {
+    "repository": {
+      "url": "https://github.com/wikimedia/Wikibase",
+      "name": "Wikibase",
+      "nameWithOwner": "wikimedia/Wikibase",
+      "description": "🌐 The knowledge base software that drives Wikidata.org. Mirror from https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase. See https://www.mediawiki.org/wiki/Developer_access for contributing.",
+      "descriptionHTML": "<div>\n<g-emoji class=\"g-emoji\" alias=\"globe_with_meridians\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f310.png\">🌐</g-emoji> The knowledge base software that drives Wikidata.org. Mirror from <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase</a>. See <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing.</div>",
+      "primaryLanguage": {
+        "name": "PHP"
+      },
+      "languages": {
+        "nodes": [
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "Shell"
+          },
+          {
+            "name": "CSS"
+          },
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "Lua"
+          }
+        ]
+      },
+      "defaultBranchRef": {
+        "target": {
+          "tree": {
+            "entries": [
+              {
+                "name": ".editorconfig"
+              },
+              {
+                "name": ".eslintrc.json"
+              },
+              {
+                "name": ".github"
+              },
+              {
+                "name": ".gitignore"
+              },
+              {
+                "name": ".gitmodules"
+              },
+              {
+                "name": ".gitreview"
+              },
+              {
+                "name": ".luacheckrc"
+              },
+              {
+                "name": ".mailmap"
+              },
+              {
+                "name": ".phan"
+              },
+              {
+                "name": ".phpcs.xml"
+              },
+              {
+                "name": ".rubocop.yml"
+              },
+              {
+                "name": ".rubocop_todo.yml"
+              },
+              {
+                "name": ".scrutinizer.yml"
+              },
+              {
+                "name": ".stylelintrc.json"
+              },
+              {
+                "name": "CODE_OF_CONDUCT.md"
+              },
+              {
+                "name": "COPYING"
+              },
+              {
+                "name": "CREDITS"
+              },
+              {
+                "name": "Doxyfile"
+              },
+              {
+                "name": "Gemfile"
+              },
+              {
+                "name": "Gemfile.lock"
+              },
+              {
+                "name": "Gruntfile.js"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "Rakefile"
+              },
+              {
+                "name": "Wikibase.php"
+              },
+              {
+                "name": "build"
+              },
+              {
+                "name": "client"
+              },
+              {
+                "name": "composer.json"
+              },
+              {
+                "name": "data-access"
+              },
+              {
+                "name": "docs"
+              },
+              {
+                "name": "extension-client.json"
+              },
+              {
+                "name": "extension-repo.json"
+              },
+              {
+                "name": "jmeter"
+              },
+              {
+                "name": "jsduck.json"
+              },
+              {
+                "name": "lib"
+              },
+              {
+                "name": "package-lock.json"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "phpunit.xml.dist"
+              },
+              {
+                "name": "repo"
+              },
+              {
+                "name": "sonar-project.properties"
+              },
+              {
+                "name": "tests"
+              },
+              {
+                "name": "view"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
