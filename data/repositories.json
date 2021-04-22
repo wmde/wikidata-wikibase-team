@@ -1,56 +1,160 @@
 {
-  "main" :
-  [
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/ArticlePlaceholder",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Cognate",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/InterwikiSorting",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Wikibase",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseLexeme",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseManifest",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseQualityConstraints",
-    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Wikidata.org",
-    "https://gerrit.wikimedia.org/r/admin/repos/wikibase/javascript-api",
-    "https://gerrit.wikimedia.org/r/admin/repos/wikibase/property-suggester-scripts",
-    "https://gerrit.wikimedia.org/r/admin/repos/wikibase/termbox",
-    "https://gerrit.wikimedia.org/r/admin/repos/wikidata/query/qui",
-    "https://gerrit.wikimedia.org/r/admin/repos/wikidata/query-builder",
-    "https://gerrit.wikimedia.org/r/admin/repos/data-values/value-view",
-    "https://github.com/wmde/wikit",
-    "https://github.com/wmde/wikibase-release-pipeline",
-    "https://github.com/wmde/DataValuesJavaScript",
-    "https://github.com/wmde/WikibaseDataModel",
-    "https://github.com/wmde/WikibaseDataModelServices",
-    "https://github.com/wmde/WikibaseDataModelSerialization",
-    "https://github.com/wmde/WikibaseInternalSerialization",
-    "https://github.com/wmde/WikibaseDataModelTypes",
-    "https://github.com/wmde/WikibaseDataModelJavaScript",
-    "https://github.com/wmde/WikibaseSerializationJavaScript",
-    "https://github.com/wmde/wdio-wikibase",
-    "https://github.com/wmde/wikibase-docker",
-    "https://github.com/wmde/Serialization",
-    "https://github.com/wmde/php-vuejs-templating",
-    "https://github.com/wmde/Number",
-    "https://github.com/wmde/Time",
-    "https://github.com/wmde/git-filter-repo-docker-action",
-    "https://github.com/wmde/less-variable-resolver",
-    "https://github.com/wmde/vuex-helpers",
-    "https://github.com/wmde/lib-version-check",
-    "https://github.com/wmde/hamcrest-html-matchers",
-    "https://github.com/wmde/WikidataApiGem",
-    "https://github.com/wmde/wbs_propertypairs",
-    "https://github.com/wmde/prototype-wikibase-graphql-api",
-    "https://github.com/wmde/WikibaseReconcileEdit",
-    "https://github.com/wmde/WikibaseExampleData",
-    "https://github.com/wmde/2021-prep-week-wbstack-ui",
-    "https://github.com/wmde/wikidata-constraints-violation-checker",
-    "https://github.com/wmde/wikidata-map",
-    "https://github.com/wmde/wikidata-wikibase-architecture",
-    "https://github.com/wmde/wikidata-wikibase-team",
-    "https://github.com/wmde/wikidata-wikibase-vision",
-    "https://github.com/wmde/wikibase-rest-api-proposal"
+  "main": [
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/ArticlePlaceholder",
+      "languages-todo": [ "php" ],
+      "tools": [ "npm" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Cognate",
+      "languages-todo": [ "php" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/InterwikiSorting",
+      "languages-todo": [ "php" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Wikibase",
+      "languages-todo": [ "php" ],
+      "tools": [ "npm" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseLexeme",
+      "languages-todo": [ "php" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseManifest",
+      "languages-todo": [ "php" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseQualityConstraints",
+      "languages-todo": [ "php" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Wikidata.org",
+      "languages-todo": [ "php" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/wikibase/javascript-api",
+      "languages-todo": [ "js" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/wikibase/property-suggester-scripts",
+      "languages-todo": [ "py" ]
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/wikibase/termbox"
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/wikidata/query/qui"
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/wikidata/query-builder"
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/data-values/value-view"
+    },
+    {
+      "url": "https://github.com/wmde/wikit"
+    },
+    {
+      "url": "https://github.com/wmde/wikibase-release-pipeline"
+    },
+    {
+      "url": "https://github.com/wmde/DataValuesJavaScript"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseDataModel"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseDataModelServices"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseDataModelSerialization"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseInternalSerialization"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseDataModelTypes"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseDataModelJavaScript"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseSerializationJavaScript"
+    },
+    {
+      "url": "https://github.com/wmde/wdio-wikibase"
+    },
+    {
+      "url": "https://github.com/wmde/wikibase-docker"
+    },
+    {
+      "url": "https://github.com/wmde/Serialization"
+    },
+    {
+      "url": "https://github.com/wmde/php-vuejs-templating"
+    },
+    {
+      "url": "https://github.com/wmde/Number"
+    },
+    {
+      "url": "https://github.com/wmde/Time"
+    },
+    {
+      "url": "https://github.com/wmde/git-filter-repo-docker-action"
+    },
+    {
+      "url": "https://github.com/wmde/less-variable-resolver"
+    },
+    {
+      "url": "https://github.com/wmde/vuex-helpers"
+    },
+    {
+      "url": "https://github.com/wmde/lib-version-check"
+    },
+    {
+      "url": "https://github.com/wmde/hamcrest-html-matchers"
+    },
+    {
+      "url": "https://github.com/wmde/WikidataApiGem"
+    },
+    {
+      "url": "https://github.com/wmde/wbs_propertypairs"
+    },
+    {
+      "url": "https://github.com/wmde/prototype-wikibase-graphql-api"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseReconcileEdit"
+    },
+    {
+      "url": "https://github.com/wmde/WikibaseExampleData"
+    },
+    {
+      "url": "https://github.com/wmde/2021-prep-week-wbstack-ui"
+    },
+    {
+      "url": "https://github.com/wmde/wikidata-constraints-violation-checker"
+    },
+    {
+      "url": "https://github.com/wmde/wikidata-map"
+    },
+    {
+      "url": "https://github.com/wmde/wikidata-wikibase-architecture"
+    },
+    {
+      "url": "https://github.com/wmde/wikidata-wikibase-team"
+    },
+    {
+      "url": "https://github.com/wmde/wikidata-wikibase-vision"
+    },
+    {
+      "url": "https://github.com/wmde/wikibase-rest-api-proposal"
+    }
   ],
-  "related":
-  [
+  "related": [
     "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseCirrusSearch",
     "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseLexemeCirrusSearch",
     "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikibaseMediaInfo",
