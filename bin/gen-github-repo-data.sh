@@ -7,7 +7,7 @@ read -a parts <<< "$1"
 IFS=' '
 
 SCRIPTDIR=$(dirname "$(readlink -f "$0")")
-OUTFILE=${SCRIPTDIR}/../data/github/${parts[0]}-${parts[1]}.json
+OUTFILE=${SCRIPTDIR}/../data/tmp-github-${parts[0]}-${parts[1]}.json
 
 echo Fetching data for ${parts[0]} ${parts[1]}
 echo And outputing to ${OUTFILE}
