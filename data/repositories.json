@@ -144,6 +144,9 @@
       "github": "https://github.com/wmde/wikidata-map"
     },
     {
+      "github": "https://github.com/wmde/ansible-roles"
+    },
+    {
       "github": "https://github.com/wmde/wikidata-wikibase-architecture"
     },
     {

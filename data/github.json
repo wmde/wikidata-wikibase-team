@@ -2529,6 +2529,44 @@
       }
     }
   },
+  "https://github.com/wmde/ansible-roles": {
+    "data": {
+      "repository": {
+        "url": "https://github.com/wmde/ansible-roles",
+        "name": "ansible-roles",
+        "nameWithOwner": "wmde/ansible-roles",
+        "description": "Ansible roles for reuse",
+        "descriptionHTML": "<div>Ansible roles for reuse</div>",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "languages": {
+          "nodes": [
+            {
+              "name": "Shell"
+            }
+          ]
+        },
+        "defaultBranchRef": {
+          "target": {
+            "tree": {
+              "entries": [
+                {
+                  "name": "LICENSE"
+                },
+                {
+                  "name": "README.md"
+                },
+                {
+                  "name": "git-updater"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
   "https://github.com/wmde/git-filter-repo-docker-action": {
     "data": {
       "repository": {
