@@ -1,5 +1,9 @@
 {
   "name": "wikidata-wikibase-team",
+  "engines" : {
+    "node": ">=15.0.0"
+  },
+  "engineStrict" : true,
   "scripts": {
     "refresh-data": "./bin/gen-all-github-repo-data.sh",
     "dev": "vuepress dev --no-clear-screen .",

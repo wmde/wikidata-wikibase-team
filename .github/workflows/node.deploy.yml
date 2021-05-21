@@ -10,9 +10,17 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
 
-    - name: vuepress-deploy
+    - name: Use Node.js 15
+      uses: actions/setup-node@v1
+      with:
+        node-version: 15
+
+    - run: npm install
+    - run: BASE_PATH='/wikidata-wikibase-team/' npm run build
+
+    - name: Vuepress deploy
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.CR_PAT }}
-        BUILD_SCRIPT: npm i && BASE_PATH='/wikidata-wikibase-team/' npm run build
+        BUILD_SCRIPT: echo "Already built"
         BUILD_DIR: .vuepress/dist/
