@@ -24,10 +24,11 @@ Wikibase.git ADRs are documented [in doxygen](https://doc.wikimedia.org/Wikibase
 11) [declare strict_types Rollout](https://doc.wikimedia.org/Wikibase/master/php/adr_0011.html)
 12) [PSR-4 and maintenance scripts](https://doc.wikimedia.org/Wikibase/master/php/adr_00012.html)
 13) [Register shared features in Repo and Client](https://doc.wikimedia.org/Wikibase/master/php/adr_0013.html)
-14) [Make Wikibase.git a monorepo](https://doc.wikimedia.org/Wikibase/master/php/adr_0014.html)
+14) PROPOSED: [Make Wikibase.git a monorepo](https://doc.wikimedia.org/Wikibase/master/php/adr_0014.html)
 15) [Use PSR-11-compatible MediaWiki service container as extension basis](https://doc.wikimedia.org/Wikibase/master/php/adr_0015.html)
 16) [Use GitHub Actions as secondary CI system for Wikibase](https://doc.wikimedia.org/Wikibase/master/php/adr_0016.html)
 17) [Wikibase Extension release notes content](https://doc.wikimedia.org/Wikibase/master/php/adr_0017.html)
+18) PROPOSED: [Keep Wikibase master compatible with last stable Mediawiki Core](https://doc.wikimedia.org/Wikibase/master/php/adr_0018.html)
 
 ## Wikit (Design System)
 
