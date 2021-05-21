@@ -48,8 +48,8 @@
       <template v-slot:item.tools.travis="{ item }">
         <img v-if="item.tools.travis" width="20" height="20" src="https://travis-ci.com/images/logos/TravisCI-Mascot-3.svg">
       </template>
-      <template v-slot:item.tools.github="{ item }">
-        <img v-if="item.tools.github" width="20" height="20" src="https://github.com/favicon.ico">
+      <template v-slot:item.tools.githubWorkflows="{ item }">
+        <img v-if="item.tools.githubWorkflows" width="20" height="20" src="https://github.com/favicon.ico">
       </template>
       <template v-slot:item.tools.scrutinizer="{ item }">
         <img v-if="item.tools.scrutinizer" width="20" height="20" src="https://scrutinizer-ci.com/favicon.ico">
@@ -81,7 +81,7 @@ export default {
         { text: 'Location', value: 'location'},
         { text: 'Name', value: 'name' },
         { text: 'Language', value: 'primaryLanguage' },
-        { text: 'Github', value: 'tools.github', class: 'vertical' },
+        { text: 'Github', value: 'tools.githubWorkflows', class: 'vertical' },
         { text: 'Travis', value: 'tools.travis', class: 'vertical' },
         { text: 'Scrutinizer', value: 'tools.scrutinizer', class: 'vertical' },
         { text: 'Composer', value: 'tools.composer', class: 'vertical' },
@@ -97,9 +97,15 @@ export default {
       return repositoriesData['main'].map(function(value){
         let githubData = githubRepositoryData[value.github].data.repository;
         let mainUrl = value.url ? value.url : value.github;
-        let rootRepoFiles = githubData.defaultBranchRef.target.tree.entries.map(function(value) {
-          return value.name
+        let filesRoot = githubData.filesRoot.entries.map(function(value) {
+          return value.path
         });
+        let filesDotGithub = []
+        if( githubData.filesDotGithub !== null) {
+          filesDotGithub = githubData.filesDotGithub.entries.map(function(value) {
+          return value.path
+          });
+        };
 
         return {
           url: mainUrl,
@@ -108,14 +114,14 @@ export default {
           primaryLanguage : githubData.primaryLanguage ? githubData.primaryLanguage.name : null,
           description : githubData.description,
           tools: {
-            npm: rootRepoFiles.indexOf('package.json') > -1,
-            composer: rootRepoFiles.indexOf('composer.json') > -1,
-            grunt: rootRepoFiles.indexOf('Gruntfile.js') > -1,
-            phpunit: rootRepoFiles.indexOf('phpunit.xml.dist') > -1,
-            travis: rootRepoFiles.indexOf('.travis.yml') > -1,
-            github: rootRepoFiles.indexOf('.github') > -1,
-            scrutinizer: rootRepoFiles.indexOf('.scrutinizer.yml') > -1,
-            phpcs: rootRepoFiles.indexOf('.phpcs.xml') > -1,
+            npm: filesRoot.indexOf('package.json') > -1,
+            composer: filesRoot.indexOf('composer.json') > -1,
+            grunt: filesRoot.indexOf('Gruntfile.js') > -1,
+            phpunit: filesRoot.indexOf('phpunit.xml.dist') > -1,
+            travis: filesRoot.indexOf('.travis.yml') > -1,
+            scrutinizer: filesRoot.indexOf('.scrutinizer.yml') > -1,
+            phpcs: filesRoot.indexOf('.phpcs.xml') > -1,
+            githubWorkflows: filesDotGithub.indexOf('.github/workflows') > -1,
           },
         }
       })

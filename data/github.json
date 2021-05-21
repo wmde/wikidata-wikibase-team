@@ -29,136 +29,206 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".editorconfig"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitmodules"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".luacheckrc"
-                },
-                {
-                  "name": ".mailmap"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".rubocop.yml"
-                },
-                {
-                  "name": ".rubocop_todo.yml"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".stylelintrc.json"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "CREDITS"
-                },
-                {
-                  "name": "Doxyfile"
-                },
-                {
-                  "name": "Gemfile"
-                },
-                {
-                  "name": "Gemfile.lock"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "Rakefile"
-                },
-                {
-                  "name": "Wikibase.php"
-                },
-                {
-                  "name": "build"
-                },
-                {
-                  "name": "client"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "data-access"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "extension-client.json"
-                },
-                {
-                  "name": "extension-repo.json"
-                },
-                {
-                  "name": "jmeter"
-                },
-                {
-                  "name": "jsduck.json"
-                },
-                {
-                  "name": "lib"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "repo"
-                },
-                {
-                  "name": "sonar-project.properties"
-                },
-                {
-                  "name": "tests"
-                },
-                {
-                  "name": "view"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".editorconfig"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitmodules"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".luacheckrc"
+            },
+            {
+              "path": ".mailmap"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".rubocop.yml"
+            },
+            {
+              "path": ".rubocop_todo.yml"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".stylelintrc.json"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "CREDITS"
+            },
+            {
+              "path": "Doxyfile"
+            },
+            {
+              "path": "Gemfile"
+            },
+            {
+              "path": "Gemfile.lock"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "Rakefile"
+            },
+            {
+              "path": "Wikibase.php"
+            },
+            {
+              "path": "build"
+            },
+            {
+              "path": "client"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "data-access"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "extension-client.json"
+            },
+            {
+              "path": "extension-repo.json"
+            },
+            {
+              "path": "jmeter"
+            },
+            {
+              "path": "jsduck.json"
+            },
+            {
+              "path": "lib"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "repo"
+            },
+            {
+              "path": "sonar-project.properties"
+            },
+            {
+              "path": "tests"
+            },
+            {
+              "path": "view"
             }
-          }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": {
+          "entries": [
+            {
+              "path": "docs/adr/0000-use-cache-instead-wb_terms-for-data-needed-for-display.md"
+            },
+            {
+              "path": "docs/adr/0001-use-psr-16-cache-interface.md"
+            },
+            {
+              "path": "docs/adr/0002-CacheAwarePropertyInfoStore-caching.md"
+            },
+            {
+              "path": "docs/adr/0003-Termbox-ParserCache-Integration.md"
+            },
+            {
+              "path": "docs/adr/0004-make-apply-return-changeopresult.md"
+            },
+            {
+              "path": "docs/adr/0005-frontend-changes-ParserCache-invalidation.md"
+            },
+            {
+              "path": "docs/adr/0006-use-package-modules-to-manage-resource-loader-modules.md"
+            },
+            {
+              "path": "docs/adr/0007-use-vuex-smart-modules.md"
+            },
+            {
+              "path": "docs/adr/0008-format-bridge-references-via-api.md"
+            },
+            {
+              "path": "docs/adr/0009-refactor-hooks-for-testability.md"
+            },
+            {
+              "path": "docs/adr/0010-federated-properties-without-prefixed-ids.md"
+            },
+            {
+              "path": "docs/adr/0011-declare-strict-types.md"
+            },
+            {
+              "path": "docs/adr/0012-use-psr-4.md"
+            },
+            {
+              "path": "docs/adr/0013-register-shared-features-in-repo-and-client.md"
+            },
+            {
+              "path": "docs/adr/0014-monorepo.md"
+            },
+            {
+              "path": "docs/adr/0015-use-psr-11-mediawiki-service-container.md"
+            },
+            {
+              "path": "docs/adr/0016-use-github-actions-as-secondary-ci.md"
+            },
+            {
+              "path": "docs/adr/0017-release-notes-content-topics.md"
+            },
+            {
+              "path": "docs/adr/0018-wikibase-compatibility-with-mediawiki.md"
+            },
+            {
+              "path": "docs/adr/NNNN-adr-template.md"
+            },
+            {
+              "path": "docs/adr/index.md"
+            }
+          ]
         }
       }
     }
@@ -184,59 +254,57 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "RELEASE-NOTES.md"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "jsduck.json"
-                },
-                {
-                  "name": "lib"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES.md"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "jsduck.json"
+            },
+            {
+              "path": "lib"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -267,74 +335,72 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".stylelintrc.json"
-                },
-                {
-                  "name": "ArticlePlaceholder.alias.php"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "includes"
-                },
-                {
-                  "name": "modules"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".stylelintrc.json"
+            },
+            {
+              "path": "ArticlePlaceholder.alias.php"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "includes"
+            },
+            {
+              "path": "modules"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -359,71 +425,69 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "db"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "maintenance"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "db"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "maintenance"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -448,62 +512,60 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -537,97 +599,107 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".stylelintrc.json"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "WikibaseLexeme.datatypes.client.php"
-                },
-                {
-                  "name": "WikibaseLexeme.datatypes.php"
-                },
-                {
-                  "name": "WikibaseLexeme.entitytypes.php"
-                },
-                {
-                  "name": "WikibaseLexeme.entitytypes.repo.php"
-                },
-                {
-                  "name": "WikibaseLexeme.i18n.alias.php"
-                },
-                {
-                  "name": "WikibaseLexeme.mediawiki-services.php"
-                },
-                {
-                  "name": "WikibaseLexeme.resources.php"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "maintenance"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "resources"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".stylelintrc.json"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "WikibaseLexeme.datatypes.client.php"
+            },
+            {
+              "path": "WikibaseLexeme.datatypes.php"
+            },
+            {
+              "path": "WikibaseLexeme.entitytypes.php"
+            },
+            {
+              "path": "WikibaseLexeme.entitytypes.repo.php"
+            },
+            {
+              "path": "WikibaseLexeme.i18n.alias.php"
+            },
+            {
+              "path": "WikibaseLexeme.mediawiki-services.php"
+            },
+            {
+              "path": "WikibaseLexeme.resources.php"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "maintenance"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "resources"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": {
+          "entries": [
+            {
+              "path": "docs/adr/0001-record-architecture-decisions.md"
+            },
+            {
+              "path": "docs/adr/0002-vuex-store-instead-of-model.md"
+            },
+            {
+              "path": "docs/adr/0003-adr-with-all-team-members.md"
+            }
+          ]
         }
       }
     }
@@ -662,76 +734,89 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".api-testing.config.json"
-                },
-                {
-                  "name": ".editorconfig"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "includes"
-                },
-                {
-                  "name": "infrastructure"
-                },
-                {
-                  "name": "openapi.json"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "schemas.json"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".api-testing.config.json"
+            },
+            {
+              "path": ".editorconfig"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "includes"
+            },
+            {
+              "path": "infrastructure"
+            },
+            {
+              "path": "openapi.json"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "schemas.json"
+            },
+            {
+              "path": "tests"
             }
-          }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": {
+          "entries": [
+            {
+              "path": "docs/adr/0000_deliver_as_extension.md"
+            },
+            {
+              "path": "docs/adr/0001_use_mediawiki_rest_api.md"
+            },
+            {
+              "path": "docs/adr/0002_use_open_api_spec.md"
+            },
+            {
+              "path": "docs/adr/0003_represent_lack_of_value.md"
+            }
+          ]
         }
       }
     }
@@ -760,86 +845,84 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".coveralls.yml"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".mailmap"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".stylelintrc.json"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "WikibaseQualityConstraints.alias.php"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "maintenance"
-                },
-                {
-                  "name": "modules"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "sql"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".coveralls.yml"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".mailmap"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".stylelintrc.json"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "WikibaseQualityConstraints.alias.php"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "maintenance"
+            },
+            {
+              "path": "modules"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "sql"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -867,83 +950,81 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".stylelintrc.json"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "RELEASE-NOTES.md"
-                },
-                {
-                  "name": "Wikidata.org.php"
-                },
-                {
-                  "name": "WikidataOrg.php"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "doc"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "maintenance"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "resources"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".stylelintrc.json"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES.md"
+            },
+            {
+              "path": "Wikidata.org.php"
+            },
+            {
+              "path": "WikidataOrg.php"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "doc"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "maintenance"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "resources"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -965,50 +1046,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1030,56 +1109,54 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "propertysuggester"
-                },
-                {
-                  "name": "requirements.txt"
-                },
-                {
-                  "name": "scripts"
-                },
-                {
-                  "name": "setup.cfg"
-                },
-                {
-                  "name": "setup.py"
-                },
-                {
-                  "name": "test-requirements.txt"
-                },
-                {
-                  "name": "tests"
-                },
-                {
-                  "name": "tox.ini"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "propertysuggester"
+            },
+            {
+              "path": "requirements.txt"
+            },
+            {
+              "path": "scripts"
+            },
+            {
+              "path": "setup.cfg"
+            },
+            {
+              "path": "setup.py"
+            },
+            {
+              "path": "test-requirements.txt"
+            },
+            {
+              "path": "tests"
+            },
+            {
+              "path": "tox.ini"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1113,140 +1190,138 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".browserslistrc"
-                },
-                {
-                  "name": ".dockerignore"
-                },
-                {
-                  "name": ".env.example"
-                },
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.js"
-                },
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".pipeline"
-                },
-                {
-                  "name": ".storybook"
-                },
-                {
-                  "name": ".stylelintrc"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "assets"
-                },
-                {
-                  "name": "babel.config.js"
-                },
-                {
-                  "name": "browserslist-config-base.js"
-                },
-                {
-                  "name": "build"
-                },
-                {
-                  "name": "config.debug.yaml"
-                },
-                {
-                  "name": "config.prod.yaml"
-                },
-                {
-                  "name": "config.yaml"
-                },
-                {
-                  "name": "dist"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "docker"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "infrastructure"
-                },
-                {
-                  "name": "jest.config.js"
-                },
-                {
-                  "name": "jsduck.json"
-                },
-                {
-                  "name": "openapi.json"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "postcss.config.js"
-                },
-                {
-                  "name": "public"
-                },
-                {
-                  "name": "resources.json"
-                },
-                {
-                  "name": "sonar-project.properties"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "stories"
-                },
-                {
-                  "name": "tests"
-                },
-                {
-                  "name": "tsconfig.all.json"
-                },
-                {
-                  "name": "tsconfig.base.json"
-                },
-                {
-                  "name": "tsconfig.json"
-                },
-                {
-                  "name": "tsconfig.server.json"
-                },
-                {
-                  "name": "vue.config.js"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".browserslistrc"
+            },
+            {
+              "path": ".dockerignore"
+            },
+            {
+              "path": ".env.example"
+            },
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.js"
+            },
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".pipeline"
+            },
+            {
+              "path": ".storybook"
+            },
+            {
+              "path": ".stylelintrc"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "assets"
+            },
+            {
+              "path": "babel.config.js"
+            },
+            {
+              "path": "browserslist-config-base.js"
+            },
+            {
+              "path": "build"
+            },
+            {
+              "path": "config.debug.yaml"
+            },
+            {
+              "path": "config.prod.yaml"
+            },
+            {
+              "path": "config.yaml"
+            },
+            {
+              "path": "dist"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "docker"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "infrastructure"
+            },
+            {
+              "path": "jest.config.js"
+            },
+            {
+              "path": "jsduck.json"
+            },
+            {
+              "path": "openapi.json"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "postcss.config.js"
+            },
+            {
+              "path": "public"
+            },
+            {
+              "path": "resources.json"
+            },
+            {
+              "path": "sonar-project.properties"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "stories"
+            },
+            {
+              "path": "tests"
+            },
+            {
+              "path": "tsconfig.all.json"
+            },
+            {
+              "path": "tsconfig.base.json"
+            },
+            {
+              "path": "tsconfig.json"
+            },
+            {
+              "path": "tsconfig.server.json"
+            },
+            {
+              "path": "vue.config.js"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1280,100 +1355,110 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".browserslistrc"
-                },
-                {
-                  "name": ".env.example"
-                },
-                {
-                  "name": ".env.production"
-                },
-                {
-                  "name": ".eslintrc.js"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".jest"
-                },
-                {
-                  "name": "Dockerfile"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "babel.config.js"
-                },
-                {
-                  "name": "build"
-                },
-                {
-                  "name": "cypress.json"
-                },
-                {
-                  "name": "cypress"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "jest.config.integration.js"
-                },
-                {
-                  "name": "jest.config.js"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "postcss.config.js"
-                },
-                {
-                  "name": "public"
-                },
-                {
-                  "name": "sonar-project.properties"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "stylelint.config.js"
-                },
-                {
-                  "name": "tests"
-                },
-                {
-                  "name": "tsconfig.json"
-                },
-                {
-                  "name": "vue.config.js"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".browserslistrc"
+            },
+            {
+              "path": ".env.example"
+            },
+            {
+              "path": ".env.production"
+            },
+            {
+              "path": ".eslintrc.js"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".jest"
+            },
+            {
+              "path": "Dockerfile"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "babel.config.js"
+            },
+            {
+              "path": "build"
+            },
+            {
+              "path": "cypress.json"
+            },
+            {
+              "path": "cypress"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "jest.config.integration.js"
+            },
+            {
+              "path": "jest.config.js"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "postcss.config.js"
+            },
+            {
+              "path": "public"
+            },
+            {
+              "path": "sonar-project.properties"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "stylelint.config.js"
+            },
+            {
+              "path": "tests"
+            },
+            {
+              "path": "tsconfig.json"
+            },
+            {
+              "path": "vue.config.js"
             }
-          }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": {
+          "entries": [
+            {
+              "path": "docs/adr/0000-use-toolforge-kubernetes-for-test-system.md"
+            }
+          ]
         }
       }
     }
@@ -1405,101 +1490,99 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.yaml"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".jshintignore"
-                },
-                {
-                  "name": ".jshintrc"
-                },
-                {
-                  "name": ".stylelintrc"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "default-config.json"
-                },
-                {
-                  "name": "dist"
-                },
-                {
-                  "name": "embed.html"
-                },
-                {
-                  "name": "examples"
-                },
-                {
-                  "name": "favicon.ico"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "index.html"
-                },
-                {
-                  "name": "jsduck.json"
-                },
-                {
-                  "name": "logo-embed.svg"
-                },
-                {
-                  "name": "logo.svg"
-                },
-                {
-                  "name": "maint.html"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "polestar"
-                },
-                {
-                  "name": "robots.txt"
-                },
-                {
-                  "name": "style.less"
-                },
-                {
-                  "name": "tests"
-                },
-                {
-                  "name": "vendor"
-                },
-                {
-                  "name": "wdio.conf.js"
-                },
-                {
-                  "name": "wikibase"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.yaml"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".jshintignore"
+            },
+            {
+              "path": ".jshintrc"
+            },
+            {
+              "path": ".stylelintrc"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "default-config.json"
+            },
+            {
+              "path": "dist"
+            },
+            {
+              "path": "embed.html"
+            },
+            {
+              "path": "examples"
+            },
+            {
+              "path": "favicon.ico"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "index.html"
+            },
+            {
+              "path": "jsduck.json"
+            },
+            {
+              "path": "logo-embed.svg"
+            },
+            {
+              "path": "logo.svg"
+            },
+            {
+              "path": "maint.html"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "polestar"
+            },
+            {
+              "path": "robots.txt"
+            },
+            {
+              "path": "style.less"
+            },
+            {
+              "path": "tests"
+            },
+            {
+              "path": "vendor"
+            },
+            {
+              "path": "wdio.conf.js"
+            },
+            {
+              "path": "wikibase"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1533,56 +1616,60 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".env"
-                },
-                {
-                  "name": ".env.example"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "Dockerfile"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "babel.config.js"
-                },
-                {
-                  "name": "nginx"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "public"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "vue.config.js"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".env"
+            },
+            {
+              "path": ".env.example"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "Dockerfile"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "babel.config.js"
+            },
+            {
+              "path": "nginx"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "public"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "vue.config.js"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -1604,50 +1691,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "karma.conf.js"
-                },
-                {
-                  "name": "lib"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "karma.conf.js"
+            },
+            {
+              "path": "lib"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1669,50 +1754,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Number.php"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Number.php"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1734,47 +1817,45 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpcs.xml"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "test"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpcs.xml"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "test"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1796,47 +1877,45 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpcs.xml"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpcs.xml"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1858,56 +1937,54 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "RELEASE-NOTES.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "phpmd.xml"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "phpmd.xml"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1929,47 +2006,45 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "index.d.ts"
-                },
-                {
-                  "name": "karma.conf.js"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "index.d.ts"
+            },
+            {
+              "path": "karma.conf.js"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -1991,50 +2066,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "RELEASE-NOTES.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2056,53 +2129,51 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "RELEASE-NOTES.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpmd.xml"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpmd.xml"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2127,44 +2198,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.js"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "index.d.ts"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "tsconfig.json"
-                },
-                {
-                  "name": "wikibase-datamodel-tests.ts"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.js"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "index.d.ts"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "tsconfig.json"
+            },
+            {
+              "path": "wikibase-datamodel-tests.ts"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -2189,68 +2264,66 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".gitreview"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".stylelintrc.json"
-                },
-                {
-                  "name": "CODE_OF_CONDUCT.md"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "Gruntfile.js"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "data"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "includes"
-                },
-                {
-                  "name": "maintenance"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".stylelintrc.json"
+            },
+            {
+              "path": "CODE_OF_CONDUCT.md"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "Gruntfile.js"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "data"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "includes"
+            },
+            {
+              "path": "maintenance"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2272,53 +2345,51 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".scrutinizer.yml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "RELEASE-NOTES.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpcs.xml"
-                },
-                {
-                  "name": "phpmd.xml"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".scrutinizer.yml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpcs.xml"
+            },
+            {
+              "path": "phpmd.xml"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2352,65 +2423,69 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".api-testing.config.json.template"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "build"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "extension.json"
-                },
-                {
-                  "name": "i18n"
-                },
-                {
-                  "name": "includes"
-                },
-                {
-                  "name": "infrastructure"
-                },
-                {
-                  "name": "maintenance"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".api-testing.config.json.template"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "build"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "extension.json"
+            },
+            {
+              "path": "i18n"
+            },
+            {
+              "path": "includes"
+            },
+            {
+              "path": "infrastructure"
+            },
+            {
+              "path": "maintenance"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -2432,44 +2507,42 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "karma.conf.js"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "karma.conf.js"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2491,41 +2564,39 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".rspec"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "Gemfile"
-                },
-                {
-                  "name": "LICENCE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "lib"
-                },
-                {
-                  "name": "mediawiki_api-wikidata.gemspec"
-                },
-                {
-                  "name": "spec"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".rspec"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "Gemfile"
+            },
+            {
+              "path": "LICENCE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "lib"
+            },
+            {
+              "path": "mediawiki_api-wikidata.gemspec"
+            },
+            {
+              "path": "spec"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2547,23 +2618,21 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "git-updater"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "git-updater"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2588,29 +2657,27 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": "Dockerfile"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "action.yml"
-                },
-                {
-                  "name": "entrypoint.sh"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": "Dockerfile"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "action.yml"
+            },
+            {
+              "path": "entrypoint.sh"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2632,50 +2699,54 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".editorconfig"
-                },
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phan"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".editorconfig"
+            },
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phan"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -2700,47 +2771,45 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintrc"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "Dockerfile"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintrc"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "Dockerfile"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2762,41 +2831,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "index.js"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "index.js"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/FUNDING.yml"
+            },
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -2824,47 +2900,45 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitattributes"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".phpcs.xml"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "COPYING"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "composer.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "phpunit.xml.dist"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitattributes"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "COPYING"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "phpunit.xml.dist"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2892,41 +2966,39 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".env.example"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "client-demo"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".env.example"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "client-demo"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -2954,59 +3026,63 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.js"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "Dockerfile"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "dist"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "jest.config.js"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                },
-                {
-                  "name": "tests"
-                },
-                {
-                  "name": "tsconfig.json"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.js"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "Dockerfile"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "dist"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "jest.config.js"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
+            },
+            {
+              "path": "tests"
+            },
+            {
+              "path": "tsconfig.json"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -3022,176 +3098,174 @@
         "languages": {
           "nodes": []
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": "20140626"
-                },
-                {
-                  "name": "20140902"
-                },
-                {
-                  "name": "20141120"
-                },
-                {
-                  "name": "20141215"
-                },
-                {
-                  "name": "20150105"
-                },
-                {
-                  "name": "20150216"
-                },
-                {
-                  "name": "20150316"
-                },
-                {
-                  "name": "20150511"
-                },
-                {
-                  "name": "20150713"
-                },
-                {
-                  "name": "20150915"
-                },
-                {
-                  "name": "20151005"
-                },
-                {
-                  "name": "20151123"
-                },
-                {
-                  "name": "20160111"
-                },
-                {
-                  "name": "20160215"
-                },
-                {
-                  "name": "20160314"
-                },
-                {
-                  "name": "20160411"
-                },
-                {
-                  "name": "20160523"
-                },
-                {
-                  "name": "20160704"
-                },
-                {
-                  "name": "20160808"
-                },
-                {
-                  "name": "20160905"
-                },
-                {
-                  "name": "20161003"
-                },
-                {
-                  "name": "20161031"
-                },
-                {
-                  "name": "20161128"
-                },
-                {
-                  "name": "20170102"
-                },
-                {
-                  "name": "20170206"
-                },
-                {
-                  "name": "20170403"
-                },
-                {
-                  "name": "20170508"
-                },
-                {
-                  "name": "20170529"
-                },
-                {
-                  "name": "20170724"
-                },
-                {
-                  "name": "20170828"
-                },
-                {
-                  "name": "20171002"
-                },
-                {
-                  "name": "20171030"
-                },
-                {
-                  "name": "20171211"
-                },
-                {
-                  "name": "20180312"
-                },
-                {
-                  "name": "20180514"
-                },
-                {
-                  "name": "20180611"
-                },
-                {
-                  "name": "20180716"
-                },
-                {
-                  "name": "20181008"
-                },
-                {
-                  "name": "20190311"
-                },
-                {
-                  "name": "20190408"
-                },
-                {
-                  "name": "20190513"
-                },
-                {
-                  "name": "20190701"
-                },
-                {
-                  "name": "20190812"
-                },
-                {
-                  "name": "20190930"
-                },
-                {
-                  "name": "20191104"
-                },
-                {
-                  "name": "20200106"
-                },
-                {
-                  "name": "20200302"
-                },
-                {
-                  "name": "20200406"
-                },
-                {
-                  "name": "20210111"
-                },
-                {
-                  "name": "20210201"
-                },
-                {
-                  "name": "20210308"
-                },
-                {
-                  "name": "20210412"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": "20140626"
+            },
+            {
+              "path": "20140902"
+            },
+            {
+              "path": "20141120"
+            },
+            {
+              "path": "20141215"
+            },
+            {
+              "path": "20150105"
+            },
+            {
+              "path": "20150216"
+            },
+            {
+              "path": "20150316"
+            },
+            {
+              "path": "20150511"
+            },
+            {
+              "path": "20150713"
+            },
+            {
+              "path": "20150915"
+            },
+            {
+              "path": "20151005"
+            },
+            {
+              "path": "20151123"
+            },
+            {
+              "path": "20160111"
+            },
+            {
+              "path": "20160215"
+            },
+            {
+              "path": "20160314"
+            },
+            {
+              "path": "20160411"
+            },
+            {
+              "path": "20160523"
+            },
+            {
+              "path": "20160704"
+            },
+            {
+              "path": "20160808"
+            },
+            {
+              "path": "20160905"
+            },
+            {
+              "path": "20161003"
+            },
+            {
+              "path": "20161031"
+            },
+            {
+              "path": "20161128"
+            },
+            {
+              "path": "20170102"
+            },
+            {
+              "path": "20170206"
+            },
+            {
+              "path": "20170403"
+            },
+            {
+              "path": "20170508"
+            },
+            {
+              "path": "20170529"
+            },
+            {
+              "path": "20170724"
+            },
+            {
+              "path": "20170828"
+            },
+            {
+              "path": "20171002"
+            },
+            {
+              "path": "20171030"
+            },
+            {
+              "path": "20171211"
+            },
+            {
+              "path": "20180312"
+            },
+            {
+              "path": "20180514"
+            },
+            {
+              "path": "20180611"
+            },
+            {
+              "path": "20180716"
+            },
+            {
+              "path": "20181008"
+            },
+            {
+              "path": "20190311"
+            },
+            {
+              "path": "20190408"
+            },
+            {
+              "path": "20190513"
+            },
+            {
+              "path": "20190701"
+            },
+            {
+              "path": "20190812"
+            },
+            {
+              "path": "20190930"
+            },
+            {
+              "path": "20191104"
+            },
+            {
+              "path": "20200106"
+            },
+            {
+              "path": "20200302"
+            },
+            {
+              "path": "20200406"
+            },
+            {
+              "path": "20210111"
+            },
+            {
+              "path": "20210201"
+            },
+            {
+              "path": "20210308"
+            },
+            {
+              "path": "20210412"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -3213,50 +3287,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".eslintignore"
-                },
-                {
-                  "name": ".eslintrc.json"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "index.js"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "pageobjects"
-                },
-                {
-                  "name": "pagesections"
-                },
-                {
-                  "name": "wikibase.api.js"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".eslintignore"
+            },
+            {
+              "path": ".eslintrc.json"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "index.js"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "pageobjects"
+            },
+            {
+              "path": "pagesections"
+            },
+            {
+              "path": "wikibase.api.js"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -3281,56 +3353,54 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".travis.yml"
-                },
-                {
-                  "name": ".travis"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README-compose.md"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "elasticsearch"
-                },
-                {
-                  "name": "quickstatements"
-                },
-                {
-                  "name": "setup.sh"
-                },
-                {
-                  "name": "wdqs-frontend"
-                },
-                {
-                  "name": "wdqs-proxy"
-                },
-                {
-                  "name": "wdqs"
-                },
-                {
-                  "name": "wikibase"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": ".travis"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README-compose.md"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "elasticsearch"
+            },
+            {
+              "path": "quickstatements"
+            },
+            {
+              "path": "setup.sh"
+            },
+            {
+              "path": "wdqs-frontend"
+            },
+            {
+              "path": "wdqs-proxy"
+            },
+            {
+              "path": "wdqs"
+            },
+            {
+              "path": "wikibase"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -3364,70 +3434,131 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".dockerignore"
-                },
-                {
-                  "name": ".env"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "Docker"
-                },
-                {
-                  "name": "Dockerfile"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "Makefile"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "build.sh"
-                },
-                {
-                  "name": "build"
-                },
-                {
-                  "name": "diagrams"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "example"
-                },
-                {
-                  "name": "publish"
-                },
-                {
-                  "name": "test"
-                },
-                {
-                  "name": "update_cache.sh"
-                },
-                {
-                  "name": "variables.env"
-                },
-                {
-                  "name": "versions"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".dockerignore"
+            },
+            {
+              "path": ".env"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "Docker"
+            },
+            {
+              "path": "Dockerfile"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "Makefile"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "build.sh"
+            },
+            {
+              "path": "build"
+            },
+            {
+              "path": "diagrams"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "example"
+            },
+            {
+              "path": "publish"
+            },
+            {
+              "path": "test"
+            },
+            {
+              "path": "update_cache.sh"
+            },
+            {
+              "path": "variables.env"
+            },
+            {
+              "path": "versions"
             }
-          }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": {
+          "entries": [
+            {
+              "path": "docs/adr/0001-docker-image-repository.md"
+            },
+            {
+              "path": "docs/adr/0002-tarball-hosting.md"
+            },
+            {
+              "path": "docs/adr/0003-tarball-contents.md"
+            },
+            {
+              "path": "docs/adr/0004-wdqs-tarball-content.md"
+            },
+            {
+              "path": "docs/adr/0005-release-notes-process.md"
+            },
+            {
+              "path": "docs/adr/0006-pipline-runner.md"
+            },
+            {
+              "path": "docs/adr/0007-wikibase-release-notes-publish.md"
+            },
+            {
+              "path": "docs/adr/0008-wmde-repo-release-notes.md"
+            },
+            {
+              "path": "docs/adr/0009-non-WMDE-release-notes.md"
+            },
+            {
+              "path": "docs/adr/0010-queryservice-tarball.md"
+            },
+            {
+              "path": "docs/adr/0011-wikibase-bundle.md"
+            },
+            {
+              "path": "docs/adr/0012-versioning.md"
+            },
+            {
+              "path": "docs/adr/0013-docker-latest-tag.md"
+            },
+            {
+              "path": "docs/adr/0014-signing-release-packages.md"
+            },
+            {
+              "path": "docs/adr/0015-security-fixes-non-wmde-software.md"
+            },
+            {
+              "path": "docs/adr/0016-updating-non-wmde-software.md"
+            },
+            {
+              "path": "docs/adr/NNNN-adr-template.md"
+            },
+            {
+              "path": "docs/adr/index.md"
+            }
+          ]
         }
       }
     }
@@ -3450,53 +3581,57 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "DECISION-RESEARCH.md"
-                },
-                {
-                  "name": "GOTCHAS.md"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "PRINCIPLES.md"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "SCOPE.md"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "loaders"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "specs"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "DECISION-RESEARCH.md"
+            },
+            {
+              "path": "GOTCHAS.md"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "PRINCIPLES.md"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "SCOPE.md"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "loaders"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "specs"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -3518,29 +3653,27 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "checkDataQuality.py"
-                },
-                {
-                  "name": "data"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "checkDataQuality.py"
+            },
+            {
+              "path": "data"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -3562,38 +3695,36 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "data"
-                },
-                {
-                  "name": "dist"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "src"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "data"
+            },
+            {
+              "path": "dist"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "src"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
       }
     }
   },
@@ -3618,71 +3749,75 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".editorconfig"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".husky"
-                },
-                {
-                  "name": ".svglintrc.js"
-                },
-                {
-                  "name": ".vuepress"
-                },
-                {
-                  "name": "CONTRIBUTING.md"
-                },
-                {
-                  "name": "Concepts.md"
-                },
-                {
-                  "name": "Context_and_Scope.md"
-                },
-                {
-                  "name": "Glossary.md"
-                },
-                {
-                  "name": "Introduction_and_Goals.md"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "blank-arc42"
-                },
-                {
-                  "name": "diagrams"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "systems"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".editorconfig"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".husky"
+            },
+            {
+              "path": ".svglintrc.js"
+            },
+            {
+              "path": ".vuepress"
+            },
+            {
+              "path": "CONTRIBUTING.md"
+            },
+            {
+              "path": "Concepts.md"
+            },
+            {
+              "path": "Context_and_Scope.md"
+            },
+            {
+              "path": "Glossary.md"
+            },
+            {
+              "path": "Introduction_and_Goals.md"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "blank-arc42"
+            },
+            {
+              "path": "diagrams"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "systems"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -3713,44 +3848,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".vuepress"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "bin"
-                },
-                {
-                  "name": "data"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "pages"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".vuepress"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "bin"
+            },
+            {
+              "path": "data"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "pages"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -3775,44 +3914,48 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "build.js"
-                },
-                {
-                  "name": "data.json"
-                },
-                {
-                  "name": "index.html"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "script.js"
-                },
-                {
-                  "name": "serve.js"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "build.js"
+            },
+            {
+              "path": "data.json"
+            },
+            {
+              "path": "index.html"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "script.js"
+            },
+            {
+              "path": "serve.js"
             }
-          }
-        }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": null
       }
     }
   },
@@ -3846,61 +3989,110 @@
             }
           ]
         },
-        "defaultBranchRef": {
-          "target": {
-            "tree": {
-              "entries": [
-                {
-                  "name": ".editorconfig"
-                },
-                {
-                  "name": ".env"
-                },
-                {
-                  "name": ".github"
-                },
-                {
-                  "name": ".gitignore"
-                },
-                {
-                  "name": ".nvmrc"
-                },
-                {
-                  "name": "CHANGELOG.md"
-                },
-                {
-                  "name": "LICENSE"
-                },
-                {
-                  "name": "README.md"
-                },
-                {
-                  "name": "docker-compose.browsertests.yml"
-                },
-                {
-                  "name": "docker-compose.yml"
-                },
-                {
-                  "name": "docs"
-                },
-                {
-                  "name": "lerna.json"
-                },
-                {
-                  "name": "package-lock.json"
-                },
-                {
-                  "name": "package.json"
-                },
-                {
-                  "name": "tokens"
-                },
-                {
-                  "name": "vue-components"
-                }
-              ]
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".editorconfig"
+            },
+            {
+              "path": ".env"
+            },
+            {
+              "path": ".github"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".nvmrc"
+            },
+            {
+              "path": "CHANGELOG.md"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "docker-compose.browsertests.yml"
+            },
+            {
+              "path": "docker-compose.yml"
+            },
+            {
+              "path": "docs"
+            },
+            {
+              "path": "lerna.json"
+            },
+            {
+              "path": "package-lock.json"
+            },
+            {
+              "path": "package.json"
+            },
+            {
+              "path": "tokens"
+            },
+            {
+              "path": "vue-components"
             }
-          }
+          ]
+        },
+        "filesDotGithub": {
+          "entries": [
+            {
+              "path": ".github/workflows"
+            }
+          ]
+        },
+        "filesAdrs": {
+          "entries": [
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0001-use-a-design-system.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0002-wikimedia-ui-base-variable-reuse.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0003-agnostic-tokens.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0004-monorepo.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0005-use-typescript.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0006-manual-token-doc.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0007-css-base.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0008-css-scoping.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0009-rtl-support.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0010-browser-testing.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0011-visual-testing.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0012-remove-widths.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/0013-pre-release-workflow.stories.mdx"
+            },
+            {
+              "path": "docs/src/00-doc/05-decisions-and-ADRs/adr/NNNN-adr-template.mdx"
+            }
+          ]
         }
       }
     }
