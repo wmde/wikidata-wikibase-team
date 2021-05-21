@@ -2337,6 +2337,18 @@
           "nodes": [
             {
               "name": "PHP"
+            },
+            {
+              "name": "Shell"
+            },
+            {
+              "name": "JavaScript"
+            },
+            {
+              "name": "Dockerfile"
+            },
+            {
+              "name": "Jinja"
             }
           ]
         },
@@ -2345,19 +2357,31 @@
             "tree": {
               "entries": [
                 {
+                  "name": ".api-testing.config.json.template"
+                },
+                {
+                  "name": ".eslintrc.json"
+                },
+                {
+                  "name": ".github"
+                },
+                {
                   "name": ".gitignore"
                 },
                 {
                   "name": ".phpcs.xml"
                 },
                 {
+                  "name": "COPYING"
+                },
+                {
                   "name": "README.md"
                 },
                 {
-                  "name": "composer.json"
+                  "name": "build"
                 },
                 {
-                  "name": "data"
+                  "name": "composer.json"
                 },
                 {
                   "name": "extension.json"
@@ -2369,7 +2393,16 @@
                   "name": "includes"
                 },
                 {
+                  "name": "infrastructure"
+                },
+                {
                   "name": "maintenance"
+                },
+                {
+                  "name": "package-lock.json"
+                },
+                {
+                  "name": "package.json"
                 },
                 {
                   "name": "tests"
@@ -3636,6 +3669,9 @@
             },
             {
               "name": "Stylus"
+            },
+            {
+              "name": "Shell"
             }
           ]
         },
@@ -3657,6 +3693,9 @@
                 },
                 {
                   "name": "README.md"
+                },
+                {
+                  "name": "bin"
                 },
                 {
                   "name": "data"
