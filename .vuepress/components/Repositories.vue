@@ -22,6 +22,13 @@
         </a>
       </template>
 
+      <template v-slot:item.created="{ item }">
+        {{new Date(item.created) | dateParse('YYYY-MM-DDTHH:mm:ssZ') | dateFormat('YYYY')}}
+      </template>
+      <template v-slot:item.updated="{ item }">
+        {{new Date(item.updated) | dateParse('YYYY-MM-DDTHH:mm:ssZ') | dateFormat('YYYY-MM')}}
+      </template>
+
       <template v-slot:item.primaryLanguage="{ item }">
         <img v-if="item.primaryLanguage == 'PHP'" width="20" height="20" src="https://php.net/favicon.ico">
         <img v-if="item.primaryLanguage == 'JavaScript'" width="20" height="20" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/20px-Javascript-736400_960_720.png">
@@ -83,6 +90,8 @@ export default {
       headers: [
         { text: 'Location', value: 'location'},
         { text: 'Name', value: 'name' },
+        { text: 'Created', value: 'created' },
+        { text: 'Updated', value: 'updated' },
         { text: 'Language', value: 'primaryLanguage' },
         { text: 'GHActions', value: 'tools.githubWorkflows', class: 'vertical' },
         { text: 'Dependabot', value: 'tools.githubDependabot', class: 'vertical' },
@@ -116,6 +125,8 @@ export default {
           location: mainUrl.includes('gerrit.wikimedia.org') ? 'gerrit' : ( mainUrl.includes('github.com') ? 'github' : 'unknown' ),
           name: mainUrl.replace('https://gerrit.wikimedia.org/r/admin/repos/','').replace('https://github.com/',''),
           primaryLanguage : githubData.primaryLanguage ? githubData.primaryLanguage.name : null,
+          created : githubData.createdAt,
+          updated : githubData.pushedAt,
           description : githubData.description,
           tools: {
             npm: filesRoot.indexOf('package.json') > -1,

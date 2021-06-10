@@ -22,6 +22,8 @@ gh api graphql -f query="
     url
     name
     nameWithOwner
+    createdAt
+    pushedAt
     description
     descriptionHTML
     primaryLanguage {

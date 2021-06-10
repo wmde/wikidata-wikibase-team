@@ -21,6 +21,7 @@
     "vuetify": "^2.4.11"
   },
   "dependencies": {
+    "@vuejs-community/vue-filter-date-format": "^1.6.3",
     "vuepress-plugin-markmap": "^0.1.7"
   }
 }

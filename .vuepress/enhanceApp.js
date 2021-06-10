@@ -4,6 +4,7 @@
 // .vuepress/enhanceApp.js
 import Vuetify from 'vuetify'
 import "vuetify/dist/vuetify.min.css";
+import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 
 export default ({
   Vue,      // the version of Vue being used in the VuePress app
@@ -13,4 +14,5 @@ export default ({
 }) => {
   Vue.use(Vuetify)
   options.vuetify = new Vuetify({})
+  Vue.use(VueFilterDateFormat);
 }
