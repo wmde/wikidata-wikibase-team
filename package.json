@@ -1,9 +1,9 @@
 {
   "name": "wikidata-wikibase-team",
-  "engines" : {
+  "engines": {
     "node": ">=15.0.0"
   },
-  "engineStrict" : true,
+  "engineStrict": true,
   "scripts": {
     "refresh-data": "./bin/gen-all-github-repo-data.sh",
     "dev": "vuepress dev --no-clear-screen .",
@@ -19,5 +19,8 @@
   "devDependencies": {
     "vuepress": "^1.8.2",
     "vuetify": "^2.4.11"
+  },
+  "dependencies": {
+    "vuepress-plugin-markmap": "^0.1.7"
   }
 }

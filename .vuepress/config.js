@@ -32,4 +32,9 @@ module.exports = {
             '/pages/vision.md'
           ],
     },
+    plugins: [
+        [
+          'vuepress-plugin-markmap'
+        ]
+    ],
 }
