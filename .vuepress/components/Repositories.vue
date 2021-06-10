@@ -51,6 +51,9 @@
       <template v-slot:item.tools.githubWorkflows="{ item }">
         <img v-if="item.tools.githubWorkflows" width="20" height="20" src="https://github.com/favicon.ico">
       </template>
+      <template v-slot:item.tools.githubDependabot="{ item }">
+        <img v-if="item.tools.githubDependabot" width="20" height="20" src="https://avatars.githubusercontent.com/u/27347476?s=280&v=4">
+      </template>
       <template v-slot:item.tools.scrutinizer="{ item }">
         <img v-if="item.tools.scrutinizer" width="20" height="20" src="https://scrutinizer-ci.com/favicon.ico">
       </template>
@@ -81,7 +84,8 @@ export default {
         { text: 'Location', value: 'location'},
         { text: 'Name', value: 'name' },
         { text: 'Language', value: 'primaryLanguage' },
-        { text: 'Github', value: 'tools.githubWorkflows', class: 'vertical' },
+        { text: 'GHActions', value: 'tools.githubWorkflows', class: 'vertical' },
+        { text: 'Dependabot', value: 'tools.githubDependabot', class: 'vertical' },
         { text: 'Travis', value: 'tools.travis', class: 'vertical' },
         { text: 'Scrutinizer', value: 'tools.scrutinizer', class: 'vertical' },
         { text: 'Composer', value: 'tools.composer', class: 'vertical' },
@@ -122,6 +126,7 @@ export default {
             scrutinizer: filesRoot.indexOf('.scrutinizer.yml') > -1,
             phpcs: filesRoot.indexOf('.phpcs.xml') > -1,
             githubWorkflows: filesDotGithub.indexOf('.github/workflows') > -1,
+            githubDependabot: filesDotGithub.indexOf('.github/dependabot.yml') > -1,
           },
         }
       })
