@@ -95,7 +95,13 @@
               "path": "Gruntfile.js"
             },
             {
+              "path": "HISTORY"
+            },
+            {
               "path": "README.md"
+            },
+            {
+              "path": "RELEASE-NOTES-1.37"
             },
             {
               "path": "Rakefile"
@@ -2453,6 +2459,9 @@
               "path": "composer.json"
             },
             {
+              "path": "example"
+            },
+            {
               "path": "extension.json"
             },
             {
@@ -3447,6 +3456,9 @@
             },
             {
               "path": ".gitignore"
+            },
+            {
+              "path": ".hadolint.yml"
             },
             {
               "path": "Docker"

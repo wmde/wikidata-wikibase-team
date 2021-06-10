@@ -20,6 +20,12 @@ npm install
 npm run dev
 ```
 
+If you want to update the data pulled from various apis run:
+
+```sh
+npm run refresh-data
+```
+
 ## Deployment
 
 The site is built using Github Actions and is deployed to Github Pages.
