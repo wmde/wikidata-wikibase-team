@@ -57,6 +57,10 @@
       "github": "https://github.com/wikimedia/data-values-value-view"
     },
     {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/purtle",
+      "github": "https://github.com/wikimedia/purtle"
+    },
+    {
       "github": "https://github.com/wmde/wikit"
     },
     {
