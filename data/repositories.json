@@ -158,6 +158,9 @@
     },
     {
       "github": "https://github.com/wmde/wikibase-rest-api-proposal"
+    },
+    {
+      "github": "https://github.com/wmde/wikidata-mismatch-finder"
     }
   ],
   "related": [
