@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 # Fetches data that the team site needs for a single github repository
 # storing it in the data/github directory...
 

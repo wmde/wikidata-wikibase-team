@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e
+
 # Fetches data that the team site needs for all github repositories in repositories.json
 
 SCRIPTDIR=$(dirname "$(readlink -f "$0")")
