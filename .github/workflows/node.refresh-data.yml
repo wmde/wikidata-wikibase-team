@@ -1,7 +1,10 @@
 name: Refresh data
 
 on:
-  workflow_dispatch
+  workflow_dispatch:
+  schedule:
+    # At 06:00 on Monday.
+    - cron: "0 6 * * 1"
 
 jobs:
   refresh-data:
