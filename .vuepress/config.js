@@ -26,6 +26,7 @@ module.exports = {
         activeHeaderLinks: false, // Default: true
         sidebar: [
             '/',
+            '/pages/process.md',
             '/pages/documentation.md',
             '/pages/architecture.md',
             '/pages/decisions.md',
