@@ -2,6 +2,10 @@
 
 There are many documentation sources relevant to the Wikidata & Wikibase team.
 
+::: tip
+For user facing Wikibase documentation please see [https://www.mediawiki.org/wiki/Wikibase](https://www.mediawiki.org/wiki/Wikibase).
+:::
+
 ## Overview
 
 For a WIP high level system overview, checkout the [architecture docs](./architecture.md).
