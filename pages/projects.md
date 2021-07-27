@@ -7,8 +7,6 @@ This is a placeholder for projects documentation...
 # **Mistmatch Finder**
 ### https://mismatch-finder.toolforge.org
 
-|         |            |  
-| ------------- |:-------------:| 
 |**Status:**    | In Development       |   
 | **Production Release:** | 2021 Q4 (tent.)  | 
 
