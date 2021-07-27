@@ -30,6 +30,7 @@ module.exports = {
             '/pages/documentation.md',
             '/pages/architecture.md',
             '/pages/decisions.md',
+            '/pages/projects.md',
             '/pages/repositories.md',
             '/pages/vision.md'
           ],
