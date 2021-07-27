@@ -23,3 +23,24 @@ When an inconsistency between two databases is noticed, this tool allows the use
 
 
 _Mismatch Finder details last updated 2021 July 27_
+
+
+## **Query Builder** 
+
+* **Link to Tool** [https://query-builder-test.toolforge.org/](https://query-builder-test.toolforge.org/)
+* **Status:**    In Final Review       
+* **Production Release:**  2021 Q3 (tent.)  
+
+
+#### **Project Goal:**
+
+The Wikidata Query Builder provides a visual interface for building a simple Wikidata query. It is ideal for users with little or no experience in SPARQL, the powerful query language. The Query Builder doesn't offer SPARQL's full functionality, but you can always open your query in the Query Service, where you can view, edit or expand it via the link above the results
+    
+    
+
+**Development Links**
+* [**Phabricator Board**](https://phabricator.wikimedia.org/project/view/4990/)
+* [**Gerrit**](https://gerrit.wikimedia.org/g/wikidata/query-builder) 
+
+
+_Query Builder details last updated 2021 July 27_
