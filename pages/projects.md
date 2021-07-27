@@ -7,8 +7,8 @@ This is a placeholder for projects documentation...
 # **Mistmatch Finder**
 ### https://mismatch-finder.toolforge.org
 
-|**Status:**    | In Development       |   
-| **Production Release:** | 2021 Q4 (tent.)  | 
+**Status:**    In Development       
+**Production Release:**  2021 Q4 (tent.)  
 
 #### **Project Goal:**
 
@@ -16,7 +16,7 @@ When an inconsistency between two databases is noticed, this tool allows the use
     
 
 
-|         |            |  
+|  Development       |      Links      |  
 | ------------- |-------------| 
 |**Phabricator Board**| https://phabricator.wikimedia.org/project/view/5385/|
 |**Github**| https://github.com/wmde/wikidata-mismatch-finder
