@@ -4,7 +4,7 @@ This is a placeholder for projects documentation...
 
 # Wikidata
 
-# **Mistmatch Finder**
+# **Mismatch Finder**
 ### https://mismatch-finder.toolforge.org
 
 **Status:**    In Development       
