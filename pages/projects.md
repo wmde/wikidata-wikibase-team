@@ -4,14 +4,17 @@ This is a placeholder for projects documentation...
 
 # Wikidata
 
-## **Mismatch Finder** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
+## **Mismatch Finder** 
 
+**Link to Tool* [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
 **Status:**    In Development       
 **Production Release:**  2021 Q4 (tent.)  
+
 
 #### **Project Goal:**
 
 When an inconsistency between two databases is noticed, this tool allows the user to upload this information to get it checked by the Wikidata editors. 
+    
     
 
 **Development Links**
