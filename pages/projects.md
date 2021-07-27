@@ -6,9 +6,9 @@ This is a placeholder for projects documentation...
 
 ## **Mismatch Finder** 
 
-**Link to Tool** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
-**Status:**    In Development       
-**Production Release:**  2021 Q4 (tent.)  
+* **Link to Tool** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
+* **Status:**    In Development       
+* **Production Release:**  2021 Q4 (tent.)  
 
 
 #### **Project Goal:**
