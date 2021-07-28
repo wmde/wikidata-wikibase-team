@@ -44,3 +44,26 @@ The Wikidata Query Builder provides a visual interface for building a simple Wik
 
 
 _Query Builder details last updated 2021 July 27_
+
+
+
+## **WiKit (Design System) ** 
+
+* **Link to Tool** [https://github.com/wmde/wikit](https://github.com/wmde/wikit)
+* **Status:**    Released
+* **Production Release:**  2021 Q1
+
+
+#### **Project Goal:**
+
+Create a design system for WMDE to then be used/ improved upon by the developers working on wikidata and wikibase.
+    
+    
+
+**Development Links**
+* [**Phabricator Board**](https://phabricator.wikimedia.org/tag/wikidata_design_system/) (Component - Wikidata Desin System)
+* [**Github**](https://github.com/wmde/wikit)
+
+
+_WiKit details last updated 2021 July 28_
+
