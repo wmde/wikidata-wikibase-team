@@ -47,7 +47,7 @@ _Query Builder details last updated 2021 July 27_
 
 
 
-## **WiKit (Design System) ** 
+## **WiKit (Design System)** 
 
 * **Link to Tool** [https://github.com/wmde/wikit](https://github.com/wmde/wikit)
 * **Status:**    Released
