@@ -115,7 +115,7 @@ The general process for attendees of the session is outlined below:
 
 **During the session**
 
-- Introduce any people un familiar with the process to the process
+- Introduce any people unfamiliar with the process to the process
 - Start by introducing, scoring and discussing a task that you have brought to the session
 - Repeat the process mixing up who talks about tasks a bit
 
@@ -145,7 +145,7 @@ Throughout:
   - Add the task ID to the first column
   - Set the Status to discuss
   - Copy all formula for columns marked with a ⚡
-  - Enter your name in the Brought by column
+  - Enter your name in the "Brought by" column
 - If you feel comfortable with the scoring system score these in advance (It's fine to do this in the call too)
 
 **During the session**
