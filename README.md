@@ -32,7 +32,7 @@ The site is built using Github Actions and is deployed to Github Pages from the 
 
 ## Diagrams
 
-## [markmap](https://markmap.js.org/)
+### [markmap](https://markmap.js.org/)
 
 Visualize your Markdown with mindmaps.
 
