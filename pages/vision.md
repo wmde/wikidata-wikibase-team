@@ -1,8 +1,17 @@
 # Vision
 
-An old team owned and developed technical vision diagram was created with the GoJS diagram library in 2020.
+Here you will find a non binding tech focused vision of Wikidata and Wikibase generated from the overarching vision and strategy papers.
 
-This has now been converted to be markdown powered using markmap JS.
+You can find the [2019 strategy papers here](https://meta.wikimedia.org/wiki/Wikidata/Strategy/2019).
+
+- [Vision](https://meta.wikimedia.org/wiki/File:Vision_and_high_level_overview_for_Wikidata_and_Wikibase.pdf): high-level overview of where we’d like to see Wikidata and Wikibase evolve and grow
+- [Wikidata for Wikimedia projects](https://meta.wikimedia.org/wiki/File:Strategy_for_Wikidata_for_Wikimedia_projects.pdf): how we see Wikidata developing in the context of the Wikimedia projects
+- [Wikidata as a platform](https://meta.wikimedia.org/wiki/File:Strategy_for_Wikidata_as_a_platform.pdf): the value of Wikidata as a source of data for others outside Wikimedia
+- [Wikibase ecosystem](https://meta.wikimedia.org/wiki/File:Strategy_for_Wikibase_Ecosystem.pdf): the idea of the Wikibase Ecosystem, a network of Wikibase instances which share data and other capacities
+
+The strategy papers are currently being reworked (August 2021), so expect changes here soon.
+
+## Tech vision
 
 **Key:**
 
@@ -11,7 +20,7 @@ This has now been converted to be markdown powered using markmap JS.
 - 🚧 In progress
 - ✔️ Done
 
-## Broad areas
+### Broad areas
 
 ```markmap
 ## Frontends
@@ -67,7 +76,7 @@ This has now been converted to be markdown powered using markmap JS.
   - SDK / Client libraries
 ```
 
-## Product driven
+### Product driven
 
 ```markmap
 ## General
