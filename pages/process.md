@@ -52,7 +52,7 @@ The tech backlog is primarily maintained on the [wdwb-tech workboard](https://ph
 | Who         | Tech lead, 1 Campsite representative, 1 Representative of each current hike. |
 | Why         | The tech prioritization process was created to distribute the process of tech debt & maintenance prioritization, while incorporating views from all products. |
 | Since       | June 2020 |
-| Proposed    | [2020-06-16 Maintenance + Tech Debt Tackle Proposal - Focus on Prioritization](https://docs.google.com/document/d/1qpVtHoLT5lCbzNhbVpUwUtSNG6_XhM4QmN1aQoseyY0) |
+| Docs        | [2021-05 Summarizing blog post](https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/), [2020-06 Proposal](https://docs.google.com/document/d/1qpVtHoLT5lCbzNhbVpUwUtSNG6_XhM4QmN1aQoseyY0) |
 
 Anything that is deemed to touch product / user facing things that is raised as part of the prioritization process would not be prioritized and instead handed to PMs.
 
@@ -101,26 +101,56 @@ A new sheet is created every month:
 
 The general process for attendees of the session is outlined below:
 
-:::details Session leader
+:::details Session leader guide
+
 **Before the session**
-TBA
+
+- If there are not many tasks to discuss, check the `wdwb-tech` board and add some tasks from the inbox or backlog
+- If tasks have been picked up by a team, archive them (adding the archived date)
+- Make sure the sheet is sorted & presentable
 
 **During the session**
-TBA
+
+- Introduce any people un familiar with the process to the process
+- Start by introducing, scoring and discussing a task that you have brought to the session
+- Repeat the process mixing up who talks about tasks a bit
+
+Throughout:
+
+- If people forget to populate the "Session Week" column as they are scoring, populate the column
+- If people do not populate the "Prioritized date" column as they are scoring, populate the column
+- If a task it already done, mark it as archived & set the archive date, leaving a note on the reason for archiving
+- If a task impacts product users, or needs PM input, mark it as pending, leaving a note as to why
+- As people comment on how the scoring system is good or bad, leave comments in cells to be tackled at the end of the month
 
 **After the session**
-TBA
+
+- Click the "Sort the sheet" button
+- Move all tasks to the appropriate columns on the `wdwb-tech` board
+- Message PMs for any needed input, or tasks that are now on their plate
+- Message EMs for any high prio "big" tasks that have appeared
+
 :::
 
-:::details Session attendee
+:::details Session attendee guide
+
 **Before the session**
-TBA
+
+- Add any tasks that you or your team have come across and want to prioritize and represent to the sheet
+  - Create a new row in the Discuss section, below the pending section (top of the sheet)
+  - Add the task ID to the first column
+  - Set the Status to discuss
+  - Copy all formula for columns marked with a ⚡
+  - Enter your name in the Brought by column
+- If you feel comfortable with the scoring system score these in advance (It's fine to do this in the call too)
 
 **During the session**
-TBA
 
-**After the session**
-TBA
+- When called on:
+  - Introduce your ticket, giving people context to understand what it is, and why you are brining it
+  - Run through the scores from left to right, ending with an effort estimation
+  - Ask the round for feedback on your scores
+  - Mark the status to prioritized, set the session week, and set the prioritized date
 :::
 
 **A general process flow**
