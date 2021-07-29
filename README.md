@@ -28,4 +28,20 @@ npm run refresh-data
 
 ## Deployment
 
-The site is built using Github Actions and is deployed to Github Pages.
+The site is built using Github Actions and is deployed to Github Pages from the `main` branch.
+
+## Diagrams
+
+## [markmap](https://markmap.js.org/)
+
+Visualize your Markdown with mindmaps.
+
+A [VuePress plugin](https://www.npmjs.com/package/vuepress-plugin-markmap) allows markmap to be used directly in markdown files.
+
+An [online live editor](https://markmap.js.org/repl) exists if you wish to easily view and edit these diagrams.
+
+### [mermaid](https://mermaid-js.github.io/mermaid/#/)
+
+A [VuePress plugin](https://vuepress-plugin-mermaidjs.efrane.com/) allows mermaid diagrams to be included directly in markdown files.
+
+An [online live editor](https://mermaid-js.github.io/mermaid-live-editor/) exists if you wish to easily view and edit mermaid diagrams.
