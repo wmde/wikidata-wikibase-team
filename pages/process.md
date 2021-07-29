@@ -51,8 +51,8 @@ The tech backlog is primarily maintained on the [wdwb-tech workboard](https://ph
 
 |             | Description |
 | ----------- | ----------- |
-| What        | A weekly 1 hour meeting to prioritize tasks.<br> Tasks are submitted, discussed, scored and sorted.<br>This assigns the responsibility of prioritising maintenance tasks to a group of dedicated, slowly rotating, people.<br>Prioritized tasks then get picked up by teams. |
-| Who         | Tech lead, 1 Campsite representative, 1 Representative of each current hike. |
+| What        | A weekly 1 hour meeting to prioritize tasks.<br> Tasks are submitted, discussed, scored and sorted.<br>This assigns the responsibility of prioritising maintenance tasks to a group of steadily rotating, people.<br>Prioritized tasks then get picked up by teams (usually Campsite). |
+| Who         | Tech lead, Campsite representative, A representative of each current hike, Anyone that wishes to represent a task |
 | Why         | The tech prioritization process was created to distribute the process of tech debt & maintenance prioritization, while incorporating views from all products. |
 | Since       | June 2020 |
 | Docs        | [2021-05 Summarizing blog post](https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/), [2020-06 Proposal](https://docs.google.com/document/d/1qpVtHoLT5lCbzNhbVpUwUtSNG6_XhM4QmN1aQoseyY0) |
@@ -74,7 +74,8 @@ The scoring system has evolved since the process was first introduced in 2020. T
 
 Ultimately the score is a single number, and the backlog is sorted using that number.
 
-The current scoring system is largely based around [RICE](https://roadmunk.com/guides/rice-score-prioritization-framework-product-management/), but with yes/no questions to build both the reach and impact values.
+The current scoring system is inspired from [RICE](https://roadmunk.com/guides/rice-score-prioritization-framework-product-management/) and [User Pain](https://lostgarden.home.blog/2008/05/20/improving-bug-triage-with-user-pain/).
+We record reach by looking are various tech sided stakeholders, but totally eliminate confidence from the score.
 
 The WAPS Score is made up of various components:
 
@@ -149,6 +150,10 @@ Throughout:
 - If you feel comfortable with the scoring system score these in advance (It's fine to do this in the call too)
 
 **During the session**
+
+- When others are representing tasks:
+  - Get an understanding of the task, what it means, what it aims to do and why.
+  - Provide feedback about the scores other participants gave to the tasks that they are presenting.
 
 - When called on:
   - Introduce your ticket, giving people context to understand what it is, and why you are brining it
