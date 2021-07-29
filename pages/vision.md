@@ -11,7 +11,7 @@ You can find the [2019 strategy papers here](https://meta.wikimedia.org/wiki/Wik
 
 The strategy papers are currently being reworked (August 2021), so expect changes here soon.
 
-## Tech vision
+## Diagram key
 
 **Key:**
 
@@ -20,7 +20,7 @@ The strategy papers are currently being reworked (August 2021), so expect change
 - 🚧 In progress
 - ✔️ Done
 
-### Broad areas
+## Broad vision areas
 
 ```markmap
 ## Frontends
@@ -76,7 +76,7 @@ The strategy papers are currently being reworked (August 2021), so expect change
   - SDK / Client libraries
 ```
 
-### Product driven
+## Product driven vision
 
 ```markmap
 ## General
