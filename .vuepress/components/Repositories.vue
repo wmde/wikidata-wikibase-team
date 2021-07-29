@@ -9,12 +9,12 @@
       class="elevation-1"
     >
       <template v-slot:item.location="{ item }">
-        <a v-if="item.location === 'gerrit'" v-bind:href="item.url">
-          <img width="20" height="20" src="https://gerrit.wikimedia.org/favicon.ico"></img> Gerrit
-          </a>
-        <a v-if="item.location === 'github'" v-bind:href="item.url">
-          <img width="20" height="20" src="https://github.com/favicon.ico"></img> Github
+        <a v-bind:href="item.githubUrl">
+          <img width="20" height="20" src="https://github.com/favicon.ico"></img>
         </a>
+        <a v-if="item.location === 'gerrit'" v-bind:href="item.url">
+          <img width="20" height="20" src="https://gerrit.wikimedia.org/favicon.ico"></img>
+          </a>
       </template>
       <template v-slot:item.name="{ item }">
         <a v-bind:href="item.url" v-bind:title="item.description">
@@ -88,7 +88,7 @@ export default {
     return{
       repositories: repositoriesData,
       headers: [
-        { text: 'Location', value: 'location'},
+        { text: 'Repo', value: 'location'},
         { text: 'Name', value: 'name' },
         { text: 'Created', value: 'created' },
         { text: 'Updated', value: 'updated' },
@@ -122,6 +122,7 @@ export default {
 
         return {
           url: mainUrl,
+          githubUrl: value.github,
           location: mainUrl.includes('gerrit.wikimedia.org') ? 'gerrit' : ( mainUrl.includes('github.com') ? 'github' : 'unknown' ),
           name: mainUrl.replace('https://gerrit.wikimedia.org/r/admin/repos/','').replace('https://github.com/',''),
           primaryLanguage : githubData.primaryLanguage ? githubData.primaryLanguage.name : null,
