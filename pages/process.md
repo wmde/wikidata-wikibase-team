@@ -1,3 +1,6 @@
+---
+sidebarDepth: 2
+---
 # Process
 
 ## Campsite
@@ -54,7 +57,8 @@ The tech backlog is primarily maintained on the [wdwb-tech workboard](https://ph
 | Since       | June 2020 |
 | Docs        | [2021-05 Summarizing blog post](https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/), [2020-06 Proposal](https://docs.google.com/document/d/1qpVtHoLT5lCbzNhbVpUwUtSNG6_XhM4QmN1aQoseyY0) |
 
-Anything that is deemed to touch product / user facing things that is raised as part of the prioritization process would not be prioritized and instead handed to PMs.
+If a significant product / user-facing concern is raised during the prioritization process, the task is not prioritized and instead handed to PMs.
+Tech tasks with minor user impact may still be prioritized through the tech backlog, possibly in addition to product prioritization.
 
 #### Goals
 
@@ -66,7 +70,7 @@ Anything that is deemed to touch product / user facing things that is raised as 
 
 #### Prioritization scoring
 
-The scoring system has evolved since the process was first introduced in 2020. The current system is called WAPS.
+The scoring system has evolved since the process was first introduced in 2020. The current system is called WAPS (WMDE Awesome Priority Score).
 
 Ultimately the score is a single number, and the backlog is sorted using that number.
 
@@ -120,7 +124,7 @@ Throughout:
 - If people forget to populate the "Session Week" column as they are scoring, populate the column
 - If people do not populate the "Prioritized date" column as they are scoring, populate the column
 - If a task it already done, mark it as archived & set the archive date, leaving a note on the reason for archiving
-- If a task impacts product users, or needs PM input, mark it as pending, leaving a note as to why
+- If a task has significant negative user/product impact, or needs other PM input, mark it as pending, leaving a note as to why
 - As people comment on how the scoring system is good or bad, leave comments in cells to be tackled at the end of the month
 
 **After the session**
@@ -174,7 +178,7 @@ subgraph session [Prioritization Session]
 
 end
 
-2a(2 - Discuss state) -->|Task needs product decisions / impacts users in a non positive way|N1[Notify Product]
+2a(2 - Discuss state) -->|Task has significant negative user/product impact|N1[Notify Product]
 N1[Notify Product] -->|then...|4.0(4.0 Archived)
 
 3.3(3.3 - Prioritized) -->|Makes sense to be combined with something Bigger|3.1(3.1 - Bigger Batch)
