@@ -17,9 +17,14 @@
           </a>
       </template>
       <template v-slot:item.name="{ item }">
-        <a v-bind:href="item.url" v-bind:title="item.description">
-          {{item.name}}
-        </a>
+		    <Popover position="end">
+          <template v-slot:target>
+            <a v-bind:href="item.url">
+                {{item.name}}
+            </a>
+          </template>
+          {{item.description}}
+        </Popover>
       </template>
 
       <template v-slot:item.created="{ item }">
@@ -82,9 +87,13 @@
 import repositoriesData from './../../data/repositories.json'
 import githubRepositoryData from './../../data/github.json'
 import "vuetify/dist/vuetify.min.css";
+import { Popover } from '@wmde/wikit-vue-components';
 
 export default {
   name: "Repositories",
+  components: {
+		Popover,
+	},
   data(){
     return{
       repositories: repositoriesData,
@@ -153,5 +162,9 @@ export default {
 th.vertical > span {
   writing-mode: vertical-rl;
   text-orientation: sideways;
+}
+
+.wikit-Popover__content-wrapper {
+  z-index: 100;
 }
 </style>

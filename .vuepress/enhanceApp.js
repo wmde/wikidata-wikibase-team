@@ -9,6 +9,10 @@ import Vuetify from 'vuetify'
 
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 
+// Wikit
+// https://wmde.github.io/wikit/?path=/story/documentation-getting-started--page
+import '@wmde/wikit-vue-components/dist/wikit-vue-components.css';
+
 export default ({
   Vue,      // the version of Vue being used in the VuePress app
   options,  // the options for the root Vue instance
