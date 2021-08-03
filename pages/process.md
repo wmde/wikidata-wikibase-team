@@ -36,7 +36,57 @@ Backlog4(DS prioritized backlog) -->|Pickup attempt, every 2 weeks| C2(Campsite 
 C2(Campsite Storytime) -->|Estimated & picked up| C3(Campsite Iteration)
 ```
 
-### Tech track
+### Tech polishing
+
+Tech polishing happens before the Campsite received tickets from the tech backlog to the Campsite Storytime.
+
+<ProcessTable
+  :what="[
+    'A weekly 45 minuite meeting to polish tech backlog tickets about to head to Campsite Dtorytime.',
+  ]"
+  :why="[
+    'Specify possible missing details in the tickets to be presented in the Campsite Storytime',
+    'Have a more productive and time-efficent Storytime meeting, by having som questions asked in advance'
+  ]"
+  who="Tech lead (or representative), Campsite representative"
+  since="November 2020"
+/>
+
+:::details Campsite representative
+
+If you want to have a look at what will be polished ahead of time, ask the Tech lead (or representative) to ensure the "Prioritized tech" column is up to date and ready.
+
+**During the session**
+
+- Provide questions, thoguhts and input on the tasks that will be brought to the campsite storytime
+- Ensure the task is clear and could be picked up by the campsite
+
+**After the session**
+
+- Report on mattermost to the campsite channel about the tasks that were polished
+
+![](https://i.imgur.com/A2MR204.png)
+
+:::
+
+:::details Tech lead (or representative)
+
+**Before the session**
+
+- Check the Campsite iteration board & talk to other Campsite inputers to see how many tasks it might make sense to bring to the Storytime.
+- Add the highest scored tasks from the tech backlog to the "Prioritized tech" column on the Campsite board, ordered from highest to loweest.
+- Do not add things that are blocked and thus can not be picked up.
+- Keep the "Prioritized tech" column lean, removing anything that is no longer at the top of the tech backlog from the board.
+
+**During the session**
+
+- Introduce the campsite representative to the polishing session if needed
+- Iterate through the tasks in the "Prioritized tech" column as time allows
+  - Acceptance criteria should be added to the tasks
+
+![](https://i.imgur.com/p1jJo8M.png)
+
+:::
 
 - Tech Lead will make sure the "Tech backlog" on the campsite board has appropriate ordered tasks at the top of it
 - A "ticket polishing" session happens weekly with a member of the campsite to ensure the ticket makes sense and to write ACs
@@ -65,7 +115,7 @@ The tech backlog is primarily maintained on the [wdwb-tech workboard](https://ph
     'Knowledge sharing will happen during prioritization.',
     'A wide range of views will be incorporated.',
   ]"
-  who="Tech lead, Campsite representative, A representative of each current hike, Anyone that wishes to represent a task"
+  who="Tech lead (or representative), Campsite representative, A representative of each current hike, Anyone that wishes to represent a task"
   since="June 2020"
   :docs="[
     {name: '2021-05 Summarizing blog post', url: 'https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/'},
