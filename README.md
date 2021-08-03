@@ -2,21 +2,45 @@
 
 Wikidata & Wikibase team site, including manually maintained and automatically generated content.
 
+### Structure
+
+- [Index](./): Site & Content intro, Development & Deployment details
+- [Process](./pages/process.html): Guides for the processes used by the team
+- [Documentation](./pages/documentation.html): All team relevant docs should be findable from this portal
+- [Architecture](./pages/architecture.html): Link to the team architecture docs
+- [Decisions](./pages/decisions.html): Collection of team decisions from all repsositories
+- [Projects](./pages/projects.html): Projects the team is running or responsible for
+- [Repositories](./pages/repositories.html): All code repositories the team is responsible for
+- [Vision](./pages/vision.html): Overall tech vision fed from product stratergy and vision
+
+## Deployment
+
+The site is built using Github Actions and is deployed to [Github Pages](https://wmde.github.io/wikidata-wikibase-team/) from the `main` branch.
+
+The `refresh-data` command also runs weekly in a Github Action.
+
+## Development
+
 The code is on [Github](https://github.com/wmde/wikidata-wikibase-team).
 
-## Layout
+### Layout
 
 - `/pages`, Markdown manually maintained page content
 - `/.vuepress/components`, VueJS components
 - `/data`, Data used for content generation
 - `/bin`, scripts to generate data for the site
 
-## Development
+### Commands
 
-You can get a local copy of the site running using:
+You can install the site dependencies running:
 
 ```sh
 npm install
+```
+
+You can get a local live updating copy of the site running using:
+
+```sh
 npm run dev
 ```
 
@@ -26,11 +50,7 @@ If you want to update the data pulled from various apis run:
 npm run refresh-data
 ```
 
-## Deployment
-
-The site is built using Github Actions and is deployed to Github Pages from the `main` branch.
-
-## Diagrams
+### Diagraming
 
 ### [markmap](https://markmap.js.org/)
 
