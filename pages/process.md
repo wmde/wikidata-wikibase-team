@@ -45,66 +45,38 @@ C2(Campsite Storytime) -->|Estimated & picked up| C3(Campsite Iteration)
 
 ## Tech Backlog
 
-The tech backlog is primarily maintained on the [wdwb-tech workboard](https://phabricator.wikimedia.org/project/board/3532/).
+The tech backlog is primarily maintained on the [wdwb-tech workboard](https://phabricator.wikimedia.org/project/board/3532/), and managed by the prioritization session and Tech Lead.
 
-### Tech prioritization
+### Prioritization session
 
-|             | Description |
-| ----------- | ----------- |
-| What        | A weekly 1 hour meeting to prioritize tasks.<br> Tasks are submitted, discussed, scored and sorted.<br>This assigns the responsibility of prioritising maintenance tasks to a group of steadily rotating, people.<br>Prioritized tasks then get picked up by teams (usually Campsite). |
-| Who         | Tech lead, Campsite representative, A representative of each current hike, Anyone that wishes to represent a task |
-| Why         | The tech prioritization process was created to distribute the process of tech debt & maintenance prioritization, while incorporating views from all products. |
-| Since       | June 2020 |
-| Docs        | [2021-05 Summarizing blog post](https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/), [2020-06 Proposal](https://docs.google.com/document/d/1qpVtHoLT5lCbzNhbVpUwUtSNG6_XhM4QmN1aQoseyY0) |
+<ProcessTable
+  :what="[
+    'A weekly 1 hour meeting to prioritize tasks.',
+    'Tasks are submitted, discussed, scored and sorted.',
+    'Tasks are submitted, discussed, scored and sorted.',
+    'Prioritized tasks then get picked up by teams (usually Campsite).',
+  ]"
+  :why="[
+    'Prioritization process will be clearer for the whole team.',
+    'Process of prioritization is distributed.',
+    'Backlog will be more organized.',
+    'Team as a whole will feel more involved in prioritization.',
+    'Important tech tasks will organically surface.',
+    'Knowledge sharing will happen during prioritization.',
+    'A wide range of views will be incorporated.',
+  ]"
+  who="Tech lead, Campsite representative, A representative of each current hike, Anyone that wishes to represent a task"
+  since="June 2020"
+  :docs="[
+    {name: '2021-05 Summarizing blog post', url: 'https://addshore.com/2021/06/tackling-technical-debt-big-and-small-in-wikidata-and-wikibase/'},
+    {name: '2020-06 Proposal', url: 'https://docs.google.com/document/d/1qpVtHoLT5lCbzNhbVpUwUtSNG6_XhM4QmN1aQoseyY0'},
+  ]"
+/>
+
+The prioritization sessions focus around a [Google sheet](https://docs.google.com/spreadsheets/d/1Sa4x3XYqpK1v6s4HnIIKq327UVYXd38PpDyT-7PqtCo) and a fairly objective scoring system (detailed below).
 
 If a significant product / user-facing concern is raised during the prioritization process, the task is not prioritized and instead handed to PMs.
 Tech tasks with minor user impact may still be prioritized through the tech backlog, possibly in addition to product prioritization.
-
-#### Goals
-
-- Team as a whole will feel more involved in prioritization
-- Prioritization process will be clearer for the whole team
-- Tech backlog will be more organized
-- Important tech tasks will organically surface
-- Knowledge sharing will happen as prioritization happens
-
-#### Prioritization scoring
-
-The scoring system has evolved since the process was first introduced in 2020. The current system is called WAPS (WMDE Awesome Priority Score).
-
-Ultimately the score is a single number, and the backlog is sorted using that number.
-
-The current scoring system is inspired from [RICE](https://roadmunk.com/guides/rice-score-prioritization-framework-product-management/) and [User Pain](https://lostgarden.home.blog/2008/05/20/improving-bug-triage-with-user-pain/).
-We record reach by looking are various tech sided stakeholders, but totally eliminate confidence from the score.
-
-The WAPS Score is made up of various components:
-
-- SUM OF IMPACT: Aims to prioritize on key things that we care about. This is a SUM of impacts from both team focuses (includes some duplication)
-- SUM OF REACH: Aims to prioritize things that have a broader reaching impact or that more folks care about
-- EFFORT WEIGHT: Aims to prioritize higher impact lower effort things first
-- WEEK MODIFIER: Aims to give new things a tiny decimal edge, so that we don't have ties
-
-The formula is currently very roughly:
-
-```
-( SUM OF IMPACT ) * ( 1 + SUM OF REACH ) * ( ( EFFORT WEIGHT + WEEK MODIFIER ) * 10 ) / 4
-```
-
-As the score makeup evolves the higher end pickup mark should aim to stay around 100+ (which is why the current score is `/4`
-
-#### Process
-
-The prioritization sessions focus around a [Google sheet](https://docs.google.com/spreadsheets/d/1Sa4x3XYqpK1v6s4HnIIKq327UVYXd38PpDyT-7PqtCo) and a fairly objective scoring system.
-
-A new sheet is created every month:
-
-- Current "Active" sheet is copied / duplicated to an "Archive"
-- Copy all cells in the "Archive" sheet and paste in past "with values"
-- All comments on the Active sheet are tended to
-- All archived tasks are removed from the "Active" sheet
-- Larger changes are made to the scoring system
-
-The general process for attendees of the session is outlined below:
 
 :::details Session leader guide
 
@@ -121,7 +93,7 @@ The general process for attendees of the session is outlined below:
 - Start by introducing, scoring and discussing a task that you have brought to the session
 - Repeat the process, picking who goes next if tasks were brought, or poking to see who might want to represent a ticket. (Mix around who talks)
 
-Throughout:
+**Throughout the session**
 
 - As people talk about their task:
   - Make the task as "Prioritzed" if it was missed
@@ -165,7 +137,29 @@ Throughout:
   - Mark the status to prioritized, set the session week, and set the prioritized date
 :::
 
-**A general process flow**
+:::details Tech lead monthly guide
+
+Each month, to keep sheet size down and speed up a new sheet should be created.
+
+- Current "Active" sheet is duplicated, and the duplicate renammed as an archive copy of the current state.
+- All cells on the new archive sheet are copied and pasted using the "with values" feature, which will remove all formula.
+- All comments on the new Active sheet are tended to, including changes to the scoring system.
+- All archived task rows are deleted from the new "Active" sheet.
+
+:::
+
+#### Details
+
+##### States
+
+States are numbered to aid in sorting and visibility on the sheet.
+
+- 1 - **Pending**: Generally on the radar of the session, but might not be discussed in the next session.
+- 2 - **Discuss**: Try and discuss in the next session.
+- 3.3 - **Prioritized**: Already been through the process and acquired a score.
+- 3.2 - **Prio Bigger**: Already been through the process and acquired a score. But estimated at more 2 or more weeks work, so not fitting for a simple Campsite or Team pickup. Must be funneled into initiatives for the EMs.
+- 3.1 - **Bigger Batch**: Not neccesarily been through the process, but these tasks make sense to bundle with other bigger tasks, or as a set of small things. Must be funneled into initiatives for the EMs.
+- 4 - **Archived**: Is closed, or picked up by a team.
 
 ```mermaid
 graph LR
@@ -201,3 +195,18 @@ classDef woo fill:#1de249;
 classDef final fill:#f64209;
 classDef mid fill:#dc8b23;
 ```
+
+##### Scoring
+
+Ultimately the score is a single number, and the backlog is sorted using that number. This was inspired by [RICE](https://roadmunk.com/guides/rice-score-prioritization-framework-product-management/) and [User Pain](https://lostgarden.home.blog/2008/05/20/improving-bug-triage-with-user-pain/).
+
+```
+( SUM OF IMPACT ) * ( 1 + SUM OF REACH ) * ( ( EFFORT WEIGHT + WEEK MODIFIER ) * 10 ) / 4
+```
+
+- **SUM OF IMPACT**: Aims to prioritize on key things that we care about. This is a SUM of impacts from both team focuses (includes some duplication)
+- **SUM OF REACH**: Aims to prioritize things that have a broader reaching impact or that more folks care about
+- **EFFORT WEIGHT**: Aims to prioritize higher impact lower effort things first
+- **WEEK MODIFIER**: Aims to give new things a tiny decimal edge, so that we don't have ties
+
+As the score makeup evolves the higher end pickup mark should aim to stay around 100+ (which is why the current score is `/4`
