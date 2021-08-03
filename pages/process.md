@@ -58,7 +58,7 @@ If you want to have a look at what will be polished ahead of time, ask the Tech 
 
 **During the session**
 
-- Provide questions, thoguhts and input on the tasks that will be brought to the campsite storytime
+- Provide questions, thoughts and input on the tasks in the "Prioritized tech" column (that will be brought to the campsite storytime)
 - Ensure the task is clear and could be picked up by the campsite
 
 **After the session**
