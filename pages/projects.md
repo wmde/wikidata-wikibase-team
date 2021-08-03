@@ -13,7 +13,8 @@ This is a placeholder for projects documentation...
 
 #### **Project Goal:**
 
-When an inconsistency between two databases is noticed, this tool allows the user to upload this information to get it checked by the Wikidata editors. 
+When an inconsistency between two databases is noticed, this tool allows the user to upload this information to get it checked by the Wikidata editors.  
+[Find more information on the Wikidata Page](https://www.wikidata.org/wiki/Wikidata:Mismatch_Finder)
     
     
 
