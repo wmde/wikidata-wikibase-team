@@ -81,6 +81,7 @@
 <script>
 import repositoriesData from './../../data/repositories.json'
 import githubRepositoryData from './../../data/github.json'
+import "vuetify/dist/vuetify.min.css";
 
 export default {
   name: "Repositories",

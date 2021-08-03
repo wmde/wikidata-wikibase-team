@@ -3,7 +3,10 @@
 // register vuetify as a global plugin with vuepress
 // .vuepress/enhanceApp.js
 import Vuetify from 'vuetify'
-import "vuetify/dist/vuetify.min.css";
+// vuetify.min.css is not actually loaded here, as it messes with the default vuepress theme,
+// It should be loaded in each component that actually makes use of vuetify
+//import "vuetify/dist/vuetify.min.css";
+
 import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 
 export default ({
