@@ -1,10 +1,13 @@
+---
+sidebarDepth: 2
+---
 # Projects
 
 This is a placeholder for projects documentation...
 
-# Wikidata
+## Wikidata
 
-## **Mismatch Finder** 
+### **Mismatch Finder**
 
 * **Link to Tool** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
 * **Status:**    In Development       
@@ -26,7 +29,7 @@ When an inconsistency between two databases is noticed, this tool allows the use
 _Mismatch Finder details last updated 2021 July 27_
 
 
-## **Query Builder** 
+### **Query Builder**
 
 * **Link to Tool** [https://query-builder-test.toolforge.org/](https://query-builder-test.toolforge.org/)
 * **Status:**    In Final Review       
@@ -48,7 +51,7 @@ _Query Builder details last updated 2021 July 27_
 
 
 
-## **WiKit (Design System)** 
+### **WiKit (Design System)**
 
 * **Link to Tool** [https://github.com/wmde/wikit](https://github.com/wmde/wikit)
 * **Status:**    Released
