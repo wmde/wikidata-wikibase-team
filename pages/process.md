@@ -79,18 +79,18 @@ We record reach by looking are various tech sided stakeholders, but totally elim
 
 The WAPS Score is made up of various components:
 
- - Stakeholders that care about the task being done
- - Impact calculated via weighted yes no (ish) questions
- - Effort in person weeks
+- SUM OF IMPACT: Aims to prioritize on key things that we care about. This is a SUM of impacts from both team focuses (includes some duplication)
+- SUM OF REACH: Aims to prioritize things that have a broader reaching impact or that more folks care about
+- EFFORT WEIGHT: Aims to prioritize higher impact lower effort things first
+- WEEK MODIFIER: Aims to give new things a tiny decimal edge, so that we don't have ties
 
 The formula is currently very roughly:
 
 ```
-(IMPACT * STAKEHOLDERS / EFFORT) * ( effort/impact adjustment ) + ( tiny increment )
+( SUM OF IMPACT ) * ( 1 + SUM OF REACH ) * ( ( EFFORT WEIGHT + WEEK MODIFIER ) * 10 ) / 2
 ```
 
-- effort/impact adjustment: Aims to de-prioritize larger or lower impact things
-- tiny increment: Based on the session number this aims to eliminate ties (by adding some decimal places, newer wins)
+As the score makeup evolves the higher end pickup mark should aim to stay around 100+ (which is why the current score is `/2`
 
 #### Process
 
@@ -117,12 +117,12 @@ The general process for attendees of the session is outlined below:
 **During the session**
 
 - Introduce any people unfamiliar with the process to the process
+- Introduce the sheet changes, if any have been made you are aware of
 - Start by introducing, scoring and discussing a task that you have brought to the session
 - Repeat the process mixing up who talks about tasks a bit
 
 Throughout:
 
-- If people forget to populate the "Session Week" column as they are scoring, populate the column
 - If people do not populate the "Prioritized date" column as they are scoring, populate the column
 - If a task it already done, mark it as archived & set the archive date, leaving a note on the reason for archiving
 - If a task has significant negative user/product impact, or needs other PM input, mark it as pending, leaving a note as to why
@@ -143,10 +143,11 @@ Throughout:
 
 - Add any tasks that you or your team have come across and want to prioritize and represent to the sheet
   - Create a new row in the Discuss section, below the pending section (top of the sheet)
-  - Add the task ID to the first column
-  - Set the Status to discuss
   - Copy all formula for columns marked with a ⚡
-  - Enter your name in the "Brought by" column
+  - Fill in the first green columns
+    - Phabricator task ID
+    - Set the Status to "Discuss"
+    - Enter your name in the "Brought by" column
 - If you feel comfortable with the scoring system score these in advance (It's fine to do this in the call too)
 
 **During the session**
