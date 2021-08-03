@@ -41,6 +41,12 @@ This also coveres services provided by the Wikimedia Foundation such as Cloud VP
 
 You can find the Wikidata specific hub on the [WMDE/Wikidata page](https://wikitech.wikimedia.org/wiki/WMDE/Wikidata).
 
+## WMDE's Design System
+
+See [WiKit Documentation](https://wmde.github.io/wikit/?path=/story/documentation-getting-started--page).
+
+Documentation that covers how to use and contribute to WiKit - the Wikidata / Wikibase Design System.
+
 ## Internal
 
 If you are on the team you can also find a variety of resources on the internal Google Drive.
