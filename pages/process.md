@@ -87,10 +87,10 @@ The WAPS Score is made up of various components:
 The formula is currently very roughly:
 
 ```
-( SUM OF IMPACT ) * ( 1 + SUM OF REACH ) * ( ( EFFORT WEIGHT + WEEK MODIFIER ) * 10 ) / 2
+( SUM OF IMPACT ) * ( 1 + SUM OF REACH ) * ( ( EFFORT WEIGHT + WEEK MODIFIER ) * 10 ) / 4
 ```
 
-As the score makeup evolves the higher end pickup mark should aim to stay around 100+ (which is why the current score is `/2`
+As the score makeup evolves the higher end pickup mark should aim to stay around 100+ (which is why the current score is `/4`
 
 #### Process
 
@@ -119,11 +119,13 @@ The general process for attendees of the session is outlined below:
 - Introduce any people unfamiliar with the process to the process
 - Introduce the sheet changes, if any have been made you are aware of
 - Start by introducing, scoring and discussing a task that you have brought to the session
-- Repeat the process mixing up who talks about tasks a bit
+- Repeat the process, picking who goes next if tasks were brought, or poking to see who might want to represent a ticket. (Mix around who talks)
 
 Throughout:
 
-- If people do not populate the "Prioritized date" column as they are scoring, populate the column
+- As people talk about their task:
+  - Make the task as "Prioritzed" if it was missed
+  - Populate the "Prioritized date" column
 - If a task it already done, mark it as archived & set the archive date, leaving a note on the reason for archiving
 - If a task has significant negative user/product impact, or needs other PM input, mark it as pending, leaving a note as to why
 - As people comment on how the scoring system is good or bad, leave comments in cells to be tackled at the end of the month
