@@ -28,10 +28,10 @@
       </template>
 
       <template v-slot:item.created="{ item }">
-        {{new Date(item.created) | dateParse('YYYY-MM-DDTHH:mm:ssZ') | dateFormat('YYYY')}}
+        {{new Date(item.created) | dateFormat('YYYY')}}
       </template>
       <template v-slot:item.updated="{ item }">
-        {{new Date(item.updated) | dateParse('YYYY-MM-DDTHH:mm:ssZ') | dateFormat('YYYY-MM')}}
+        {{new Date(item.updated) | dateFormat('YYYY-MM')}}
       </template>
 
       <template v-slot:item.primaryLanguage="{ item }">
