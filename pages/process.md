@@ -7,33 +7,40 @@ sidebarDepth: 2
 
 ### Task ingestion
 
-Campsite tasks come from a variety of places.
+Campsite tasks come from a variety of places, but generally they all start life as Phabricator tasks, moving through one of 4 owned backlogs, the appropriate sessions to prepare the task for pickup, eventually making their wait to the Campsite storytime and iterration.
 
 ```mermaid
 graph LR
-A[Phabricator task created] -->|Tagged & Seen| B1(Wikidata product backlog)
-A[Phabricator task created] -->|Tagged & Seen| B2(Wikibase product backlog)
-A[Phabricator task created] -->|Tagged & Seen| B3(Wikidata / Wikibase Tech backlog)
-A[Phabricator task created] -->|Tagged & Seen| B4(Design System backlog)
+A[Task created]:::created -->B1(Wikidata product backlog):::backlog
+A[Task created] -->B2(Wikibase product backlog):::backlog
+A[Task created] -->B3(General Tech backlog):::backlog
+A[Task created] -->B4(Design System backlog):::backlog
 
-B1(Wikidata product backlog) -->|Prioritized by product| Backlog1(Prioritized backlog)
-Backlog1(Prioritized backlog) -->|Product Polishing| CP1(Campsite Product Polishing)
-CP1(Campsite Product Polishing) -->|Pickup attempt, weekly| C2(Campsite Storytime)
+B1(Wikidata product backlog) -->Backlog1(Prioritized backlog):::prio
+Backlog1(Prioritized backlog) -->CP1(Product Polishing):::groomOrPrio
+CP1(Product Polishing) -->C2(Storytime)
 
-B2(Wikibase product backlog) -->|Prioritized by product| Backlog2(Prioritized backlog)
-Backlog2(Prioritized backlog) -->|Product Polishing| CP2(Campsite Product Polishing)
-CP2(Campsite Product Polishing) -->|Pickup attempt, weekly| C2(Campsite Storytime)
+B2(Wikibase product backlog) -->Backlog2(Prioritized backlog):::prio
+Backlog2(Prioritized backlog) -->CP2(Product Polishing):::groomOrPrio
+CP2(Product Polishing) -->C2(Storytime)
 
-B3(Wikidata / Wikibase Tech backlog) -->|Brought to Prioritization Session | P3(Tech Prioritization Session)
-P3(Tech Prioritization Session) -->|Prioritized| Backlog3(Tech prioritized backlog)
-Backlog3(Tech prioritized backlog) -->|Groomed| CP3(Campsite Tech Polishing)
-CP3(Campsite Tech Polishing) -->|Pickup attempt, weekly| C2(Campsite Storytime)
+B3(Wikidata / Wikibase Tech backlog) -->P3(Tech Prioritization Session):::groomOrPrio
+P3(Tech Prioritization Session) -->Backlog3(Prioritized backlog):::prio
+Backlog3(Prioritized backlog) -->CP3(Tech Polishing):::groomOrPrio
+CP3(Tech Polishing) -->C2(Storytime)
 
-B4(Design System backlog) -->|Brought to Prioritization Session | P4(DS Grooming Session)
-P4(DS Grooming Session) -->|Groomed & Prioritized| Backlog4(DS prioritized backlog)
-Backlog4(DS prioritized backlog) -->|Pickup attempt, every 2 weeks| C2(Campsite Storytime)
+B4(Design System backlog) -->P4(DS Grooming Session):::groomOrPrio
+P4(DS Grooming Session) -->Backlog4(Prioritized backlog):::prio
+Backlog4(Prioritized backlog) -->C2(Storytime)
 
-C2(Campsite Storytime) -->|Estimated & picked up| C3(Campsite Iteration)
+C2(Storytime):::woo -->C3(Iteration):::woo
+
+%% Colours progress from red -> orange -> yellow -> green, as they go via the blue bits of process
+classDef created fill:#fa8072;
+classDef backlog fill:#dc8b23;
+classDef groomOrPrio fill:#6495ed
+classDef prio fill:#f8de7e
+classDef woo fill:#1de249;
 ```
 
 ### Tech polishing
