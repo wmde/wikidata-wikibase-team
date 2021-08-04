@@ -41,6 +41,10 @@
       "github": "https://github.com/wikimedia/wikibase-property-suggester-scripts"
     },
     {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/PropertySuggester",
+      "github": "https://github.com/wikimedia/mediawiki-extensions-PropertySuggester"
+    },
+    {
       "url": "https://gerrit.wikimedia.org/r/admin/repos/wikibase/termbox",
       "github": "https://github.com/wikimedia/wikibase-termbox"
     },
