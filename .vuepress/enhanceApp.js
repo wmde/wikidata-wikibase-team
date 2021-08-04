@@ -13,6 +13,10 @@ import VueFilterDateFormat from '@vuejs-community/vue-filter-date-format';
 // https://wmde.github.io/wikit/?path=/story/documentation-getting-started--page
 import '@wmde/wikit-vue-components/dist/wikit-vue-components.css';
 
+// For fix for "Unknown custom element"
+// https://github.com/vuejs/vuepress/issues/1173#issuecomment-470534176
+import pageComponents from '@internal/page-components'
+
 export default ({
   Vue,      // the version of Vue being used in the VuePress app
   options,  // the options for the root Vue instance
@@ -22,4 +26,10 @@ export default ({
   Vue.use(Vuetify)
   options.vuetify = new Vuetify({})
   Vue.use(VueFilterDateFormat);
+
+  // For fix for "Unknown custom element"
+  // https://github.com/vuejs/vuepress/issues/1173#issuecomment-470534176
+  for (const [name, component] of Object.entries(pageComponents)) {
+    Vue.component(name, component)
+  }
 }

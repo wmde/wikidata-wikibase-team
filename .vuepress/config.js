@@ -36,10 +36,8 @@ module.exports = {
           ],
     },
     plugins: [
-        [
-          'vuepress-plugin-mermaidjs',
-          'vuepress-plugin-markmap',
-          '@vuepress/medium-zoom'
-        ]
+        'vuepress-plugin-mermaidjs',
+        'vuepress-plugin-markmap',
+        '@vuepress/medium-zoom'
     ],
 }
