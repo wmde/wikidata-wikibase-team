@@ -2,16 +2,15 @@
 
 Wikidata & Wikibase team site, including manually maintained and automatically generated content.
 
-### Structure
+## Structure
 
 - [Index](./): Site & Content intro, Development & Deployment details
-- [Process](./pages/process.html): Guides for the processes used by the team
-- [Documentation](./pages/documentation.html): All team relevant docs should be findable from this portal
-- [Architecture](./pages/architecture.html): Link to the team architecture docs
-- [Decisions](./pages/decisions.html): Collection of team decisions from all repsositories
-- [Projects](./pages/projects.html): Projects the team is running or responsible for
-- [Repositories](./pages/repositories.html): All code repositories the team is responsible for
-- [Vision](./pages/vision.html): Overall tech vision fed from product stratergy and vision
+- [Documentation](./documentation): All team relevant docs should be findable from this portal
+- [Process](./process): Guides for the processes used by the team
+- [Repositories](./repositories): All code repositories the team is responsible for
+- [Projects](./projects): Projects the team is running or responsible for
+- [Decisions](./decisions): Collection of team decisions from all repsositories
+- [Vision](./vision): Overall tech vision fed from product stratergy and vision
 
 ## Deployment
 
@@ -50,7 +49,7 @@ If you want to update the data pulled from various apis run:
 npm run refresh-data
 ```
 
-### Diagraming
+## Diagrams
 
 ### [markmap](https://markmap.js.org/)
 

@@ -6,10 +6,13 @@ There are many documentation sources relevant to the Wikidata & Wikibase team.
 For user facing Wikibase documentation please see [https://www.mediawiki.org/wiki/Wikibase](https://www.mediawiki.org/wiki/Wikibase).
 :::
 
-## Overview
+## Architecture
 
-For a WIP high level system overview, checkout the [architecture docs](./architecture.md).
-This aims to cover all Wikibase systems and components.
+See: ([wmde.github.io/wikidata-wikibase-architecture](https://wmde.github.io/wikidata-wikibase-architecture/))
+
+In 2020 an initiative was started to create some architecture documentation for both Wikidata and Wikibase.
+
+This documentation is currently work in progress.
 
 ## Wikimedia documentation portal
 
