@@ -1,6 +1,10 @@
 # Campsite
 
-The campsite works in an kanbanish reactive model in an [infinite iteration](https://phabricator.wikimedia.org/project/view/3539/).
+**Campers will work in a Kanbanish** and will mostly do maintenance work, minor features and bug fixes that are not related to ongoing journeys.
+
+They should use the **20% consultation** time that the hikers / trailblazers reserve to get help on **how to solve the things they are working on, but they have never seen before.**
+
+You can find the work on an [infinate iteration Phabricator board](https://phabricator.wikimedia.org/project/view/3539/).
 
 **Campers (Metaphors)**
 
@@ -122,21 +126,3 @@ If you want to have a look at what will be polished ahead of time, ask the Tech 
 - A "ticket polishing" session happens weekly with a member of the campsite to ensure the ticket makes sense and to write ACs
 - The ticket is represented in a story time by the tech lead for pickup by the team
 - Once picked up the task is archived from the tech prioritization system & moved to "Active" on the wdwb-tech board
-
-## Story time
-
-:::warning
-Process documentation in progress
-:::
-
-### User Stories Estimations
-
-| Story Points      | Description |
-| ----------- | ----------- |
-| 1      | Configs, HTML, CSS, Documentation        |
-| 2   | Minor code changes + No scaffolding needed        |
-| 3-5   | Local code changes (It touches one component and doesn’t spill) + No scaffolding needed        |
-| 5-8   | User Story that touches more than one component **or** some scaffolding is needed        |
-| 8-13   | Big user story, or story that touches number of components, or much scaffolding needed, or some combination of these        |
-
-Everything bigger than 13 must be further broken down into smaller pieces.
