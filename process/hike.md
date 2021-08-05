@@ -8,7 +8,7 @@
 - They can invite people from other camps to join their hike
 - A group of hikers will choose one person to navigate or decide that the whole group would share that responsibility
 
-**Campers will…**
+**Hikers will…**
 
 - form around a product on the roadmap
 - not last more than 1Q to avoid long running teams

@@ -20,8 +20,12 @@ Campers will…
     *   Every workday
 *   User Stories - ✔
 *   Story Time - Once a week, 45 minutes
-*   Task Breakdown - Once a week, 45 minutes
-*   Commitment - ✔ - Take task from highest prio User Story
+*   Task Discussion - Once a week, 45 minutes
+    * This part of the process is subjected to the fact that there are tasks to discuss. The goal of this session is to create a discussion and a common understanding about how to tackle the tasks.
+*   Board clean up - Once a week 15mins after story time
+*   Commitment - ✔ - Take task from highest prio User Story from the Ready-to-pick-up column
+    * The **TODO column** is meant to hold tasks coming back from peer-review or test/verification and expected to be re-worked on quite soon. Otherwise, they must move back somewhere else as appropriate. See definition of TODO on board description: https://phabricator.wikimedia.org/project/manage/3539/ 
+    * **Ready-to-pick-up column** is the place for campers to pull tasks from. They have already been prioritised and estimated.Please note that idle times and the fact that the Ready-to-pick-up column is/will be empty should be foreseen and planned for.
 *   Iteration - ❌- No need, as Campers are working in a reactive model.
 *   Retrospective - ✔ - Every 2 weeks, 60 minutes.
 
