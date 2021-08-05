@@ -214,3 +214,33 @@ At the start of each iteration, we will ask how did the action items work for us
 So we chose to go and tackle things in small incremental changes and to try and take a small step forward and asses if it worked next time we meet.
 
 The idea is, small steps are easily reversible so no harm done if they don’t work, but if they do work, we can easily build on them and progress in that direction - no overhauls! But seeing the process naturally progress in time (and adapt itself to new team members as well).
+
+## Navigator Summit
+
+This is the forum for the navigators of all on-going journeys to update each other about the technical and product-related advancements, challenges, successes etc their journeys are currently working on and are about to face next.
+
+<ProcessTable
+  :what="[
+    'A weekly 30 minuite meeting to prioritize tasks.',
+    'Updates are shared about the technical and product-related advancements, challenges, successes.',
+  ]"
+  who="Navigators (or representative), Tech lead, Engineering Manager"
+  since="October 2019"
+/>
+
+:::details Attendee guide
+
+Before the call:
+
+- Fill out the "Navigator Summit" document with details about your hike from the last week
+
+During the call:
+
+- Give your prepared update to the group
+- Answer any questions that may come up
+
+After the call:
+
+- Feed any relevant points back to your journey team
+
+:::
