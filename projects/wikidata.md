@@ -64,3 +64,26 @@ Create a design system for WMDE to then be used/ improved upon by the developers
 
 _WiKit details last updated 2021 July 28_
 
+## **Tainted References**
+
+TBA
+
+## **Bridge**
+
+TBA
+
+## **Shape Expressions**
+
+TBA
+
+## **Termbox**
+
+TBA
+
+## **wb_terms removal**
+
+TBA
+
+## **Lexicographical data (Lexeme)**
+
+TBA
