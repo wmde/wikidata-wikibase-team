@@ -1,5 +1,7 @@
 # Campsite
 
+The campsite works in an kanbanish reactive model in an [infinite iteration](https://phabricator.wikimedia.org/project/view/3539/).
+
 **Campers (Metaphors)**
 
 *   The camp is our home - we all belong there
@@ -16,20 +18,17 @@ Campers will…
 
 ## Process overview
 
-*   Daily - ✔ - 
-    *   Every workday
-*   User Stories - ✔
-*   Story Time - Once a week, 45 minutes
-*   Task Discussion - Once a week, 45 minutes
-    * This part of the process is subjected to the fact that there are tasks to discuss. The goal of this session is to create a discussion and a common understanding about how to tackle the tasks.
-*   Board clean up - Once a week 15mins after story time
-*   Commitment - ✔ - Take task from highest prio User Story from the Ready-to-pick-up column
-    * The **TODO column** is meant to hold tasks coming back from peer-review or test/verification and expected to be re-worked on quite soon. Otherwise, they must move back somewhere else as appropriate. See definition of TODO on board description: https://phabricator.wikimedia.org/project/manage/3539/ 
-    * **Ready-to-pick-up column** is the place for campers to pull tasks from. They have already been prioritised and estimated.Please note that idle times and the fact that the Ready-to-pick-up column is/will be empty should be foreseen and planned for.
-*   Iteration - ❌- No need, as Campers are working in a reactive model.
-*   Retrospective - ✔ - Every 2 weeks, 60 minutes.
+| Rituals & Details      |  |
+| ----------- | ----------- |
+| Daily      | ✔️ Every workday       |
+| Story Time   | ✔️ Once a week, 45 minutes     |
+| Task Breakdown   | ❔ Weekly, as and when needed     |
+| Board clean up | ✔️ Once a week 15 minutes after story time |
+| Retrospective | ✔️ Every 2 weeks, 60 minutes. |
+| Working mode | Kanbanish with Story times |
+| Commitment | Take the task from highest priority Story from the "To Do" column |
 
-## Task ingestion
+## Task input
 
 Campsite tasks come from a variety of places, but generally they all start life as Phabricator tasks, moving through one of 4 owned backlogs, the appropriate sessions to prepare the task for pickup, eventually making their wait to the Campsite storytime and iterration.
 

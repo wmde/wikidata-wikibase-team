@@ -32,18 +32,13 @@
 - Several hikes can happen at the same time
 - A hiker is a part of one hike only at a time
 
-## Hike Process Overview
+## Process Overview
 
-- Daily ✔ - 
-    - Every workday
-- Iterations ✔ - 
-    - Team’s decision: every 14 to 21 days
-- Sprint Start Meeting ✔  - Also might be emergency story time
-- Story Time ✔ - 
-    - Once a week (30 minutes) 
-- Task Breakdown ✔ - 
-    - Once a week, 45 minutes
-- Commitment - ✔ - 
-    - Finish what we picked up on the Sprint board
-- Retrospective - ✔ - 
-    - Every 2 weeks, 60 minutes.
+| Rituals & Details      |  |
+| ----------- | ----------- |
+| Daily      | ✔️ Every workday       |
+| Story Time   | ✔️ Once a week, 30 minutes     |
+| Task Breakdown | ✔️ Once a week, 45 minutes |
+| Retrospective | ✔️ Every 2 weeks, 60 minutes. |
+| Working mode | Iterations every 14 to 21 days (Team's decision) |
+| Commitment | Finish what was picked up on the Sprint board |
