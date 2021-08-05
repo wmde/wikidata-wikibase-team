@@ -1,5 +1,30 @@
 # Campsite
 
+**Campers (Metaphors)**
+
+*   The camp is our home - we all belong there
+*   We need to make sure it could grow to our needs and contain what our hikers are bringing in
+*   Our camp should be strong enough to handle rain and even rainstorm and campers should prepare for those scenarios
+
+Campers will…
+
+*   do maintenance work and bug fixes
+*   finish loose ends of other features if needed 
+*   work in kanban and will follow the process Ministry of Magic team has established and works well (see campers process below)
+*   Campers / Engineering Manager can (and are encouraged to) create a Trailblazers team to tackle big maintenance issues / tech innovation they want to try and have a kickoff meeting and try to form their journey
+*   There must always be **1.2 FTEs on camp (on average - they can still take holiday etc..)**
+
+## Process overview
+
+*   Daily - ✔ - 
+    *   Every workday
+*   User Stories - ✔
+*   Story Time - Once a week, 45 minutes
+*   Task Breakdown - Once a week, 45 minutes
+*   Commitment - ✔ - Take task from highest prio User Story
+*   Iteration - ❌- No need, as Campers are working in a reactive model.
+*   Retrospective - ✔ - Every 2 weeks, 60 minutes.
+
 ## Task ingestion
 
 Campsite tasks come from a variety of places, but generally they all start life as Phabricator tasks, moving through one of 4 owned backlogs, the appropriate sessions to prepare the task for pickup, eventually making their wait to the Campsite storytime and iterration.
@@ -94,3 +119,21 @@ If you want to have a look at what will be polished ahead of time, ask the Tech 
 - A "ticket polishing" session happens weekly with a member of the campsite to ensure the ticket makes sense and to write ACs
 - The ticket is represented in a story time by the tech lead for pickup by the team
 - Once picked up the task is archived from the tech prioritization system & moved to "Active" on the wdwb-tech board
+
+## Story time
+
+:::warning
+Process documentation in progress
+:::
+
+### User Stories Estimations
+
+| Story Points      | Description |
+| ----------- | ----------- |
+| 1      | Configs, HTML, CSS, Documentation        |
+| 2   | Minor code changes + No scaffolding needed        |
+| 3-5   | Local code changes (It touches one component and doesn’t spill) + No scaffolding needed        |
+| 5-8   | User Story that touches more than one component **or** some scaffolding is needed        |
+| 8-13   | Big user story, or story that touches number of components, or much scaffolding needed, or some combination of these        |
+
+Everything bigger than 13 must be further broken down into smaller pieces.

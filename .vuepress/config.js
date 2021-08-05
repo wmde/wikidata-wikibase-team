@@ -39,8 +39,12 @@ module.exports = {
             ],
             '/process/': [
                 [ './', 'Process Overview' ],
+                [ './journey-model', 'Journey Model' ],
                 [ './campsite', 'Campsite' ],
+                [ './hike', 'Hike' ],
+                [ './trailblaze', 'Trailblaze' ],
                 [ './tech-backlog', 'Tech Backlog' ],
+                [ './incident-management', 'Incident Management' ],
             ],
             '/repositories/': [
                 [ './', 'Repositories' ],
