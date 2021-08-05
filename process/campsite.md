@@ -44,7 +44,7 @@ Tech polishing happens before the Campsite received tickets from the tech backlo
 
 <ProcessTable
   :what="[
-    'A weekly 45 minuite meeting to polish tech backlog tickets about to head to Campsite Dtorytime.',
+    'A weekly 45 minuite meeting to polish tech backlog tickets about to head to Campsite Storytime.',
   ]"
   :why="[
     'Specify possible missing details in the tickets to be presented in the Campsite Storytime',
