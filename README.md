@@ -34,7 +34,7 @@ The code is on [Github](https://github.com/wmde/wikidata-wikibase-team).
 You can install the site dependencies running:
 
 ```sh
-npm install
+npm ci
 ```
 
 You can get a local live updating copy of the site running using:
