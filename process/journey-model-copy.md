@@ -1,17 +1,92 @@
-# Journey Model
+# Journey Model COPY (WIP)
+
+notes: 
+- the definitions for hike/trailblaze need work
+- what is the definition of discovery ?
 
 ## Introduction
 
-The Journey model is a a version of the [Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify) which has been used in the Wikidata & Wikibase team since 2019.
+The Journey model is a a version of the [Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify) and has been in use by the Wikidata & Wikibase team since 2019.
+
+## Process Overview
+In our Journey model, we separate our work into two concepts: Campsite and Journeys.
+
+[**Campsite**](#glossary)  is our home. It covers the topics of maintenance, bug fixes, live operations, and similar topics. 
+<br> 
+[**Journeys**](#glossary)  involve a group of people who leave camp to focus completely on a topic for a *limited amount of time*. 
+
+**How it works:**
+<br>
+Campers spend their time keeping everything in order. Then the Product Manager decides on a feature set/ product they'd like to have worked on and organize a [kickoff meeting](#glossary). Everyone at camp is invited (this means all teams!) and the goals and epics involved are introduced. After all the questions and comments have been discussed, a [bonfire meeting](#glossary) is held. During the bonfire, it is decided who will join the journey.
+
+:::warning
+In practice, the order in which the kickoff and bonfire meetings happen are sometimes switched or combined into one meeting meetings -- Adam
+:::
+
+
+There are currently two types of journeys:
+
+[**Hikes**](#glossary)  are journeys with a clear map
+<br>
+[**Trailblaze**](#glossary)  are journeys without a map (often technical in nature)
+
+Journeys exist outside of the campsite and their first order of business is to establish a method of working (usually some variation of [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) ) as well as a Navigator. The [Navigator](#glossary) is an engineer and is the designated voice of the project. In theory, a journey lasts as long as it needs to last. In practice, roadmaps use an estimate of three months. 
+
+*To see examples of what was produced during a journey, check out the [Project](https://wmde.github.io/wikidata-wikibase-team/projects/) section!*
+
+The journey concludes with a [Marshmallows (or S'mores) meeting](#glossary). The people on the journey invite everyone in the software development department to show their result and then talk about their trials and tribulations (and, of course, successes!).
+
+After this meeting, everyone on the journey returns to camp. To make sure that the entire team is able to maintain the new feature or product there is a final step: ["boot cleaning"](#glossary). The boot cleaning phase has at least one person from the journey in camp for a minimum of four weeks. This person assists the other campers with any journey-related bugs or incidents which may pop up. 
+
+
+## Lifecycle
+|Step: | Discovery | Kickoff/ Bonfire| Journey| Marshmallows (S’mores)| Boot Cleaning|
+|--- | --- | --- | --- | --- | ---|
+|Involved | PM / UX / Devs / Etc | Everyone | Journey Team | Everyone | 1 Journey-er + Campers|
+
+For details on each of the steps, please see the [Glossary](#Glossary).
+
+## Glossary
+|What| Details|
+|--- | ---|
+|**Campsite** | Its our homebase. It covers the topics of maintenance, bug fixes, live operations, and similar topics.|
+|**Journeys** | A journey involves a group of people who leave camp to focus completely on a topic for a *limited amount of time*.|
+|**Kickoff Meeting** | A kickoff meeting introduces the feature set or product that a stakeholder would like to have worked on. All teams in the department should be invited and the stakeholder should come prepared with the goals and epics involved.|
+|**Bonfire Meeting** | During a bonfire, the team members who will work on the journey are decided. In practice, this is often combined with the kickoff meeting|
+|**Hikes** | A hike is a journeys with a clear map. Meaning, we know what we're working on|
+|**Trailblaze** | A trailblaze is a journey without a map (often technical in nature).|
+|**Navigator** | A navigator is an engineers. They are to maee sure the process is working well and that information is funneled to the Product Manager / Engineering Manager and try to be the voice for the team in case unclarities arise. A journey member that holds the map that was given to the group and funnels information from the team / to the team to the outside world.  Ideally the navigator takes care of the team’s processes. (A navigator is not a must and the entire team can share that responsibility).|
+|**Marshmallows (or S'mores) meeting** | During the S'mores meeting, what was done during the journey is presented to the department along with the good/bad of the journey|
+|**Boot Cleaning** | The four weeks after a journey during which a journey person consciously remains at camp. This person assists the other camps in dealing with any issues which pop up with the explicit goal of knowledge transfer|
+|**Discovery**| |
+ <br>
+//////////////
+
+
+
+
+Aside from each individual journey’s retro, there will be a Journey model retro for the entire camp every 4 weeks, to iron out everything and assess how is this thing working for us. In this meeting EM + PM and ComCom will participate.
+#
+Navigator
+
+
+<!-- 
+## Why it was introduced 
+At the most basic level, to be able to work in a more efficient way.
 
 :::details Read more about why this model was introduced
 
 ### Problems we had
 
-*   Complicated structure to our roadmap, sometimes we had 3 - 4 lanes happening at the same time, sometimes just 1… started to feel we were having a fake constructs of teams, where one team worked on 1 thing and the other worked on 3 different things at the same time.
-*   Knowledge sharing between the teams was difficult, people were stuck in their silo and didn’t see what’s going on the other part of the bigger team.
-*   We never had time to modernise or try new things out, 2 team structure made it feel like there are always enough products to work on and allocating people to do something new will just not work, unless the entire team is allocated (which is also not what Engineering Manager / Team might want) 
-*   We are working in a dynamic industry and also with clear lack of resources (to tackle what we are trying to) - We are in a never ending race to produce and we never find the time to work on our infrastructure (aside from fire fighting)
+- Complicated structure to our roadmap
+  * Sometimes we had 3 - 4 lanes happening at the same time, sometimes just 1
+  * It started to feel as if we were having a fake constructs of teams where one team worked on 1 thing and the other worked on 3 different things at the same time.
+- Knowledge sharing between the teams was difficult. People were stuck in their silos and didn’t see what was going on with the other parts of the team.
+- We never had time to modernise or try new things out
+  * 2 team structure made it feel like there are always enough products to work on 
+  * Felt like allocating people to do something new will just not work, unless the entire team is allocated (which is also not what Engineering Manager / Team might want) 
+- We are working in a dynamic industry and also with clear lack of resources (to tackle what we are trying to) 
+- We are in a never ending race to produce and we never find the time to work on our infrastructure (aside from fire fighting)
 
 The problems stated above are not all of our problems of course, these are just the ones we decided to that we feel are more pressing right now.
 
@@ -242,11 +317,11 @@ After the call:
 
 :::
 
-## Marshmallows / Smores
+## Marshmallows / Smores -->
 
-**Marshmallows / Smores meeting** - A meeting that takes place in camp, after a journey has ended, The Hikers / Trail blazers are talking about what they did, what they achieved and what they learned from their journey.
+<!-- **Marshmallows / Smores meeting** - A meeting that takes place in camp, after a journey has ended, The Hikers / Trail blazers are talking about what they did, what they achieved and what they learned from their journey.
 
 - Suggested structure: scope of the journey, approach, what was completed, lessons learned, next steps
 - Make sure to share the technical challenges and decisions that were made during the hike and the arguments as to why those decisions were taken.
 - Make sure to include screenshots
-- Hikers should know who’s going to talk when about what, ideally do a dry-run first
+- Hikers should know who’s going to talk when about what, ideally do a dry-run first -->
