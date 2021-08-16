@@ -16,10 +16,11 @@ When an inconsistency between two databases is noticed, this tool allows the use
 
 **Development Links**
 * [**Phabricator Board**](https://phabricator.wikimedia.org/project/view/5385/)
-* [**Github**](https://github.com/wmde/wikidata-mismatch-finder) 
+* [**Github**](https://github.com/wmde/wikidata-mismatch-finder)
+* [**Tool Deployment and Maintenance Guides**](https://wikitech.wikimedia.org/wiki/Tool:Wikidata_Mismatch_Finder) 
 
 
-_Mismatch Finder details last updated 2021 July 27_
+_Mismatch Finder details last updated 2021 August 16_
 
 
 ## **Query Builder**
