@@ -33,7 +33,9 @@ _Mismatch Finder details last updated 2021 August 16_
 ### **Project Goal:**
 
 The Wikidata Query Builder provides a visual interface for building a simple Wikidata query. It is ideal for users with little or no experience in SPARQL, the powerful query language. The Query Builder doesn't offer SPARQL's full functionality, but you can always open your query in the Query Service, where you can view, edit or expand it via the link above the results
-    
+
+
+More information here [Wikimedia Tech Blog Post _Wikidata’s Query Builder: Your new Superpower in the World of Open Data_](https://tech-news.wikimedia.de/en/2021/08/23/wikidatas-query-builder-your-new-superpower-in-the-world-of-open-data/_
     
 
 **Development Links**
