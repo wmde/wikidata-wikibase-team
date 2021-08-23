@@ -25,9 +25,9 @@ _Mismatch Finder details last updated 2021 August 16_
 
 ## **Query Builder**
 
-* **Link to Tool** [https://query-builder-test.toolforge.org/](https://query-builder-test.toolforge.org/)
-* **Status:**    In Final Review       
-* **Production Release:**  2021 Q3 (tent.)  
+* **Link to Tool** [https://query.wikidata.org/querybuilder/](https://query.wikidata.org/querybuilder//)
+* **Status:**    Live       
+* **Production Release:**  2021 August 17
 
 
 ### **Project Goal:**
@@ -41,7 +41,7 @@ The Wikidata Query Builder provides a visual interface for building a simple Wik
 * [**Gerrit**](https://gerrit.wikimedia.org/g/wikidata/query-builder) 
 
 
-_Query Builder details last updated 2021 July 27_
+_Query Builder details last updated 2021 August 23_
 
 
 
