@@ -3686,6 +3686,59 @@
       }
     }
   },
+  "https://github.com/wmde/wikibase-registry": {
+	"data": {
+      "repository": {
+		"url": "https://github.com/wmde/wikibase-registry",
+		"name": "wikibase-registry",
+		"nameWithOwner": "wmde/wikibase-registry",
+		"createdAt": "2021-08-18T09:57:47Z",
+		"pushedAt": "2021-08-23T12:03:00Z",
+		"description": "Wikibase Registry setup",
+		"descriptionHTML": "<div>Wikibase Registry setup</div>",
+		"primaryLanguage": {
+          "name": "PHP"
+		},
+		"languages": {
+          "nodes": [
+			{
+              "name": "PHP"
+			},
+			{
+              "name": "Shell"
+			}
+          ]
+		},
+		"filesRoot": {
+          "entries": [
+			{
+              "path": ".gitignore"
+			},
+			{
+              "path": "Dockerfile.wikibase.1.32-bundle"
+			},
+			{
+              "path": "LICENSE"
+			},
+			{
+              "path": "LocalSettings.php"
+			},
+			{
+              "path": "README.md"
+			},
+			{
+              "path": "docker-compose.yml"
+			},
+			{
+              "path": "entrypoint.sh"
+			}
+          ]
+		},
+		"filesDotGithub": null,
+		"filesAdrs": null
+      }
+	}
+  },
   "https://github.com/wmde/wikibase-release-pipeline": {
     "data": {
       "repository": {

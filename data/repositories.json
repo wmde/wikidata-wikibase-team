@@ -165,6 +165,9 @@
     },
     {
       "github": "https://github.com/wmde/wikidata-mismatch-finder"
+    },
+    {
+      "github": "https://github.com/wmde/wikibase-registry"
     }
   ],
   "related": [
