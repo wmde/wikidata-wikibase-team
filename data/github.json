@@ -253,6 +253,130 @@
       }
     }
   },
+  "https://github.com/wikimedia/analytics-wmde-scripts": {
+    "data": {
+      "repository": {
+        "url": "https://github.com/wikimedia/analytics-wmde-scripts",
+        "name": "analytics-wmde-scripts",
+        "nameWithOwner": "wikimedia/analytics-wmde-scripts",
+        "createdAt": "2016-02-10T10:30:23Z",
+        "pushedAt": "2021-09-01T12:28:13Z",
+        "description": "Github mirror of \"analytics/wmde/scripts\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
+        "descriptionHTML": "<div>Github mirror of \"analytics/wmde/scripts\" - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "languages": {
+          "nodes": [
+            {
+              "name": "Shell"
+            },
+            {
+              "name": "PHP"
+            }
+          ]
+        },
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".editorconfig"
+            },
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".phpcs.xml"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "composer.json"
+            },
+            {
+              "path": "cron"
+            },
+            {
+              "path": "lib"
+            },
+            {
+              "path": "maint"
+            },
+            {
+              "path": "src"
+            }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
+      }
+    }
+  },
+  "https://github.com/wikimedia/analytics-wmde-toolkit-analyzer": {
+    "data": {
+      "repository": {
+        "url": "https://github.com/wikimedia/analytics-wmde-toolkit-analyzer",
+        "name": "analytics-wmde-toolkit-analyzer",
+        "nameWithOwner": "wikimedia/analytics-wmde-toolkit-analyzer",
+        "createdAt": "2016-02-10T10:35:53Z",
+        "pushedAt": "2021-04-29T11:09:25Z",
+        "description": "Github mirror of \"analytics/wmde/toolkit-analyzer\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
+        "descriptionHTML": "<div>Github mirror of \"analytics/wmde/toolkit-analyzer\" - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "languages": {
+          "nodes": [
+            {
+              "name": "Java"
+            },
+            {
+              "name": "Python"
+            }
+          ]
+        },
+        "filesRoot": {
+          "entries": [
+            {
+              "path": ".gitignore"
+            },
+            {
+              "path": ".gitreview"
+            },
+            {
+              "path": ".mvn"
+            },
+            {
+              "path": ".travis.yml"
+            },
+            {
+              "path": "LICENSE"
+            },
+            {
+              "path": "README.md"
+            },
+            {
+              "path": "analyzer"
+            },
+            {
+              "path": "geo2png.py"
+            },
+            {
+              "path": "mvnw"
+            },
+            {
+              "path": "mvnw.cmd"
+            }
+          ]
+        },
+        "filesDotGithub": null,
+        "filesAdrs": null
+      }
+    }
+  },
   "https://github.com/wikimedia/data-values-value-view": {
     "data": {
       "repository": {
@@ -4423,7 +4547,7 @@
         "name": "wikidata-wikibase-team",
         "nameWithOwner": "wmde/wikidata-wikibase-team",
         "createdAt": "2021-03-11T12:55:42Z",
-        "pushedAt": "2021-09-08T09:33:22Z",
+        "pushedAt": "2021-09-08T09:37:19Z",
         "description": "Wikidata / Wikibase team site",
         "descriptionHTML": "<div>Wikidata / Wikibase team site</div>",
         "primaryLanguage": {

@@ -1,6 +1,14 @@
 {
   "main": [
     {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/analytics/wmde/scripts",
+      "github": "https://github.com/wikimedia/analytics-wmde-scripts"
+    },
+    {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/analytics/wmde/toolkit-analyzer",
+      "github": "https://github.com/wikimedia/analytics-wmde-toolkit-analyzer"
+    },
+    {
       "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/ArticlePlaceholder",
       "github": "https://github.com/wikimedia/mediawiki-extensions-ArticlePlaceholder"
     },
