@@ -1,23 +1,23 @@
 # Journey Model COPY (WIP)
 
-notes: 
+## notes: 
 - the definitions for hike/trailblaze need work
 - what is the definition of discovery ?
 
 ## Introduction
 
-The Journey model is a a version of the [Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify) and has been in use by the Wikidata & Wikibase team since 2019.
+The Journey model is a a version of the [Spotify model](https://www.atlassian.com/agile/agile-at-scale/spotify) and has been in use by the Wikidata & Wikibase team since 2019. See the [ So, why the Journey Model?](#so-why-the-journey-model) for why this method was selected. 
 
 ## Process Overview
 In our Journey model, we separate our work into two concepts: Campsite and Journeys.
 
-[**Campsite**](#glossary)  is our home. It covers the topics of maintenance, bug fixes, live operations, and similar topics. 
+[**Campsite**](/process/campsite) is our home. It covers the topics of maintenance, bug fixes, live operations, and similar topics. 
 <br> 
-[**Journeys**](#glossary)  involve a group of people who leave camp to focus completely on a topic for a *limited amount of time*. 
+[**Journeys**](/process/journeys) involve a group of people who leave camp to focus completely on a topic for a *limited amount of time*. 
 
 **How it works:**
 <br>
-Campers spend their time keeping everything in order. Then the Product Manager decides on a feature set/ product they'd like to have worked on and organize a [kickoff meeting](#glossary). Everyone at camp is invited (this means all teams!) and the goals and epics involved are introduced. After all the questions and comments have been discussed, a [bonfire meeting](#glossary) is held. During the bonfire, it is decided who will join the journey.
+Campers spend their time keeping everything in order. Then the Product Manager decides on a feature set/ product they'd like to have worked on and organize a [kickoff meeting](#glossary). Everyone at camp is invited (this means all teams!) and the goals and epics involved are introduced. After all the questions and comments have been discussed, a [bonfire meeting](#glossary) is held. During (or shortly after) the bonfire, it is decided who will join the journey.
 
 :::warning
 In practice, the order in which the kickoff and bonfire meetings happen are sometimes switched or combined into one meeting meetings -- Adam
@@ -26,25 +26,99 @@ In practice, the order in which the kickoff and bonfire meetings happen are some
 
 There are currently two types of journeys:
 
-[**Hikes**](#glossary)  are journeys with a clear map
+[**Hikes**](#hike-or-trailblaze)  are journeys with a clear map
 <br>
-[**Trailblaze**](#glossary)  are journeys without a map (often technical in nature)
+[**Trailblaze**](#hike-or-trailblaze)  are journeys without a map (often technical in nature)
 
-Journeys exist outside of the campsite and their first order of business is to establish a method of working (usually some variation of [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) ) as well as a Navigator. The [Navigator](#glossary) is an engineer and is the designated voice of the project. In theory, a journey lasts as long as it needs to last. In practice, roadmaps use an estimate of three months. 
+Journeys exist outside of the campsite and their first order of business is to establish a method of working (usually some variation of [scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) ) as well as a [Navigator](#glossary). A journey should be no longer than a quarter, but may [run longer].(#hike-or-trailblaze)
 
-*To see examples of what was produced during a journey, check out the [Project](https://wmde.github.io/wikidata-wikibase-team/projects/) section!*
+*To see examples of what was produced during a journey, check out the [Projects](https://wmde.github.io/wikidata-wikibase-team/projects/) section!*
 
 The journey concludes with a [Marshmallows (or S'mores) meeting](#glossary). The people on the journey invite everyone in the software development department to show their result and then talk about their trials and tribulations (and, of course, successes!).
 
 After this meeting, everyone on the journey returns to camp. To make sure that the entire team is able to maintain the new feature or product there is a final step: ["boot cleaning"](#glossary). The boot cleaning phase has at least one person from the journey in camp for a minimum of four weeks. This person assists the other campers with any journey-related bugs or incidents which may pop up. 
 
-
-## Lifecycle
-|Step: | Discovery | Kickoff/ Bonfire| Journey| Marshmallows (S’mores)| Boot Cleaning|
+## Journey Lifecycle
+<!-- |Step: | Discovery | Kickoff/ Bonfire| Journey| Marshmallows (S’mores)| Boot Cleaning|
 |--- | --- | --- | --- | --- | ---|
-|Involved | PM / UX / Devs / Etc | Everyone | Journey Team | Everyone | 1 Journey-er + Campers|
+|Involved | PM / UX / Devs / Etc | Everyone | Journey Team | Everyone | 1 Journey-er + Campers| -->
+
+|Step|Name|Duration | Involved|
+|--- | --- | --- | --- |
+|1|[Discovery](#discovery) | TBD | PM / UX / Devs / Etc | 
+|2|[Kickoff/ Bonfire](#bonfire-kick-off) |1-2 Meetings|  Everyone |
+|3|[Journey](#journey)| 3 months |Journey Team | 
+|4|[Marshmallows](#marshmallows-s-mores) (S’mores)|1 Meeting |Everyone | 
+|5|[Boot Cleaning](#boot-cleaning)| 4 Weeks after Journey's end | 1 Journey-er + Campers|
+
 
 For details on each of the steps, please see the [Glossary](#Glossary).
+
+
+
+
+
+
+## Hike or Trailblaze?
+
+Hike are journeys that have clear map to achieve their goal.  
+
+Hikes...
+- are driven by a Product Manager
+- form around a product on the roadmap
+<!-- - can invite people from other camps to join their hike. -->
+- have no team limit (as long as the camp is protected)
+- should not last more than one quarter (3 months)
+
+
+Trailblaze are journeys without a clear map. Part of their task is to find the way to achieving their goal. They follow the same processes as a hike except: 
+- anyone may propose a trailblaze
+- The kickoff must be persuasive enough to get it accepted into the roadmap
+
+If a journey 
+
+## Discovery
+
+TBD
+
+## Bonfire / Kick off 
+
+<ProcessTable
+  :what="[
+    'A meeting, run by a product representative, that takes place in camp before a journey starts.',
+  ]"
+  :why="[
+    'Present the journey to the team',
+    'Decide who goes on the journey',
+  ]"
+  who="All involved parties of the journey should attend: Engineers, Product Manager, UX/Com/Architect (if needed)"
+/>
+
+During the bonfire, the team is encourage to self-organize. Meaning:
+- the developers can decide whether they want to join a hike and who else is needed
+- Non-engineers can be invited to join a hike (UX for example) for limited amount of time or for the full hike.
+- Engineering Managers will make the final decision if too few or too many people are interested
+
+
+While everyone can join a bonfire, only people who are at camp may join a hike
+
+:::tip
+**The team is strongly encouraged to say no if they feel that a journey is not well prepared.** A journey will only work if the goals are clear!
+:::
+
+## Journey
+
+## Marshmallows (S'mores)
+
+## Boot Cleaning
+
+
+
+
+
+## Journeys Processes
+
+
 
 ## Glossary
 |What| Details|
@@ -59,34 +133,65 @@ For details on each of the steps, please see the [Glossary](#Glossary).
 |**Marshmallows (or S'mores) meeting** | During the S'mores meeting, what was done during the journey is presented to the department along with the good/bad of the journey|
 |**Boot Cleaning** | The four weeks after a journey during which a journey person consciously remains at camp. This person assists the other camps in dealing with any issues which pop up with the explicit goal of knowledge transfer|
 |**Discovery**| |
- <br>
-//////////////
+ 
 
 
 
 
-Aside from each individual journey’s retro, there will be a Journey model retro for the entire camp every 4 weeks, to iron out everything and assess how is this thing working for us. In this meeting EM + PM and ComCom will participate.
-#
-Navigator
+## Journey Ceremonies and Artifacts
+Below is a table of all the ceremonies and artifacts that are a part of the journey model, who is involved, and where they are occuring.
+
+ - 🔥 is the Campsite!
+ - 🥾 are the Journeys!
+
+|What | What | Where its found|
+|--- | --- | ---|
+|Bonfire | Ceremony | 🥾|
+|Daily | Ceremony | 🔥 & 🥾|
+|Discovery | Process | 🥾 |
+|Marshmallows / Smores | Ceremony | 🔥 & 🥾|
+|Navigator | Person | 🥾|
+|Navigator Summit | Ceremony | 🔥 & 🥾|
+|Retrospectives | Ceremony | 🔥 & 🥾|
+|Story Time (aka Sprint Planning) | Ceremony | 🔥 & 🥾|
+|Story Writing / Task Polishing | Ceremony | 🔥 & 🥾|
+|Task breakdown | Ceremony | 🔥 & 🥾|
+|User Story Estimations | Process | 🔥 & 🥾|
 
 
-<!-- 
-## Why it was introduced 
-At the most basic level, to be able to work in a more efficient way.
+## Bonfire / Kick off 
+
+
+<ProcessTable
+  :what="[
+    'A meeting, run by a product representative, that takes place in camp before a journey starts.',
+  ]"
+  :why="[
+    'Present the journey to the team',
+    'Decide who goes on the journey',
+  ]"
+  who="All involved parties of the journey should attend: Engineers, Product Manager, UX/Com/Architect (if needed)"
+/>
+
+::warn:::
+The team is strongly encouraged to say **no** if they feel that a journey is not well prepared**, a journey will only work if the goals are clear.
+:::
+
+Daily (Standup)
+
+Story Time (a.k.a Sprint Planning)
+
+## 
+## So, why the Journey Model?
 
 :::details Read more about why this model was introduced
 
 ### Problems we had
 
-- Complicated structure to our roadmap
-  * Sometimes we had 3 - 4 lanes happening at the same time, sometimes just 1
-  * It started to feel as if we were having a fake constructs of teams where one team worked on 1 thing and the other worked on 3 different things at the same time.
-- Knowledge sharing between the teams was difficult. People were stuck in their silos and didn’t see what was going on with the other parts of the team.
-- We never had time to modernise or try new things out
-  * 2 team structure made it feel like there are always enough products to work on 
-  * Felt like allocating people to do something new will just not work, unless the entire team is allocated (which is also not what Engineering Manager / Team might want) 
-- We are working in a dynamic industry and also with clear lack of resources (to tackle what we are trying to) 
-- We are in a never ending race to produce and we never find the time to work on our infrastructure (aside from fire fighting)
+*   Complicated structure to our roadmap, sometimes we had 3 - 4 lanes happening at the same time, sometimes just 1… started to feel we were having a fake constructs of teams, where one team worked on 1 thing and the other worked on 3 different things at the same time.
+*   Knowledge sharing between the teams was difficult, people were stuck in their silo and didn’t see what’s going on the other part of the bigger team.
+*   We never had time to modernise or try new things out, 2 team structure made it feel like there are always enough products to work on and allocating people to do something new will just not work, unless the entire team is allocated (which is also not what Engineering Manager / Team might want) 
+*   We are working in a dynamic industry and also with clear lack of resources (to tackle what we are trying to) - We are in a never ending race to produce and we never find the time to work on our infrastructure (aside from fire fighting)
 
 The problems stated above are not all of our problems of course, these are just the ones we decided to that we feel are more pressing right now.
 
@@ -155,173 +260,3 @@ And that’s how the **journey** metaphor started. A “team” became “Hikers
 *   Creates an opening to invite UX to join our journeys 
 
 :::
-
-## Lifecycle
-
-:::warning
-We possibly switched the use of "bonfire" and "kickoff" meetings -- Adam
-:::
-
-|Step: | Discovery | Bonfire meeting | Hike / Trailblaze* | Marshmallows or S’mores meeting. | Boot Cleaning|
-|--- | --- | --- | --- | --- | ---|
-|Who | PM / UX / Devs / Etc | PM / EMs / UX / Devs / Etc | Hike Team | Hike Team | 1 Hiker + Campers|
-|Content | Pre-development work | Feature Set/Product Proposal + Team Assembling | Feature development | Hike Review | Post hike issues|
-|Notes | The product idea, use cases, etc are examined and ironed out | Is a discovery is successful, it is then ready for development. The bonfire meeting introduces the stakeholders to the concept, potential roadmaps, and needed reasources. Then, those who are interested in working on the presented topic make their interest known and a team is assembled. | Usually an agile process is used *Trailblaze is used for technical hikes | The Hike Team presents what was done during the hike to the rest of the department | 1 dedicated hiker handles post-hike issues while onboarding campers to the new topic|
-
-
-**Hike** - A journey with a clear map
-<br>
-**Trailblaze** - A journey without a map 
-
-
-Campers are working on camp, a **kickoff meeting** begins and all the members of the big Wikidata camp are invited to join.
-Product Manager / Engineering Manager will have a **kickoff meeting** for a feature set / Product with a goal and epics (for hikers)
-
-After the kickoff meeting there will be **bonfire meeting**, where the camp will decide who will join the **hike** / **trailblazing**.
-
-**hikes** / **trailblazings** process exists outside of the campsite and normally makes up a scrum agile process.
-
-On returning from a journey, the respective members will hold a **Marshmallows or S’mores meeting**.
-Judgement applying, at least one of the members should join camp for a minimum of 4 weeks for **“boot cleaning”**, i.e. be available to pair with fellow campers in dealing with possible incidents and share knowledge in the process.
-It is **important for the hikers coming back to camp** not to be the only ones to deal with the bugs originated from the hike - ideally others, not familiar with the hike, take those bugs on and the former hikers assist when needed.
-The goal of that is knowledge transfer.
-
-Aside from each individual journey’s retro, there will be a **Journey model retro** for the **entire camp every 4 weeks**, to iron out everything and assess how is this thing working for us. **In this meeting EM + PM and ComCom will participate**.
-
-## Navigator
-
-Each **journey** will need to have a **navigator** from the engineers, a person that will make sure the process is working well and funnel information to the Product Manager / Engineering Manager and try to be the voice for the team in case unclarities arise.
-
-A journey member that holds the map that was given to the group and funnels information from the team / to the team to the outside world. 
-
-Ideally the navigator takes care of the team’s processes. (A navigator is not a must and the entire team can share that responsibility).
-
-## Daily
-
-This meeting will take place locally for the campsite, the hikes and the trailblazers on a daily basis - same as an Stand Up meeting.
-
-Everyone shares:
-
-1) what they did the day before
-2) what they plan to do for the day
-3) whether there are any blockers in their way
-4) whether they need help from someone.
-
-At the end of the meeting it will be made clear who needs/wants to do some pair programming in that day.
-
-## Story time
-
-**Story Time (a.k.a Sprint Planning**- A meeting that takes place at the campsite, on the hikes and on the trailblazes.
-The goal of this meeting is to decide the stories/tickets that will be taken care of in the “round” - that is the next iteration for the journeys and the tailblazers and the next time frame for the campsite.
-For that purpose the tickets/stories ready for development will be discussed one by one, estimated, and among all of them prioritized.
-
-If the discussion of a story/ticket reflects that there’s still some clarification needed, that story will not be estimated.
-The steps to get it clarified will be decided on the spot e.g. “who asks whom what”
-
-The estimation of the stories/tickets will follow the story point guidelines.
-If after the first estimation there are significantly different opinions, one of the people with the highest one and one of the people with the lowest one will expose their reasons.
-A discussion might follow.
-Then everyone will estimate again until there is a consensus: either the new estimations are all the same or they agree to meet in the middle and go for the average.
-
-If there’s no agreement on the estimation the team must address what is causing that.
-
-### User Story Estimations
-
-| Story Points      | Description |
-| ------ | ----------- |
-| 1      | Configs, HTML, CSS, Documentation        |
-| 2      | Minor code changes + No scaffolding needed        |
-| 3-5    | Local code changes (It touches one component and doesn’t spill) + No scaffolding needed        |
-| 5-8    | User Story that touches more than one component **or** some scaffolding is needed        |
-| 8-13   | Big user story, or story that touches number of components, or much scaffolding needed, or some combination of these        |
-
-Everything bigger than 13 must be further broken down into smaller pieces.
-
-## Task breakdown
-
-**Task Breakdown** - This meeting takes place potentially in all of the journeys (hikes, trailblazers and campsite).
-Its goal will be to decide whether the tickets/stories to tackle should be broken into smaller pieces e.g. in case parallelism is possible/needed or simply makes it easier and a collaboration is needed or wished for… or it stays as a whole.
-
-## Retrospectives
-
-This meeting will take place locally for the campsite, the hikes and the trailblazers.
-A global camp retrospective (that includes all campers) also takes place, with lower frequency than the local ones..
-The goal of this meeting is to keep on the good practices and learn from the bad ones and change these.
-
-### How it works:
-
-#### Likes (Or better yet, “what is the wind in our sails?”) 
-
-We are starting our meeting with 5 minutes to write things we liked during our Sprint:
-
-*   we used “I… “ language - for example: “I like when…”
-*   we agree to not name names or to cast blame, but to tell how “I” felt when something happened to me...
-
-After the 5 minutes each person goes to the board in his/her turn and presents what we liked on a board.
-
-After we all said what we liked and put it on the board, all of us stand up and cluster our likes, we give each cluster a name (or common grounds title).
-
-This is a good time to celebrate our accomplishments and understand what we are doing well as a group.
-
-#### To Improve (Or, “What anchors us?”):
-
-After grouping the things we did well it was time to reflect on what was anchoring us down and what we can improve moving forward.
-
-We take 5 minutes yet again and write what we did not like / wanted to improve, again using “I” language and describing how we feel without naming names/casting blames. 
-
-After those 5 minutes we go to the board again (one at a time), read our cards out loud, explain a bit and after that we group those items as well together and give them a title.
-
-#### Action Items (Small steps we would try to take during this Sprint, so we could improve/try new things)
-
-After we group our “To Improve”, we will vote on the board by putting dots on the clusters and try and create 3-4 action items we want to tackle for the next iteration. 
-
-Every team member will give away 3 points in total to the cluster(s) they think should be handled sooner rather than later. The only condition is to give a maximum of 2 points to any subject. That forces everyone to choose at least two items. 
-
-At the start of each iteration, we will ask how did the action items work for us
-
-*   Do we want to integrate the action item in our process?
-*   Do we want to drop it? (Why wasn’t it working?) 
-*   Do we want to try the same action items for another iteration (if yes, we drag it to the current iteration action items list)
-
-So we chose to go and tackle things in small incremental changes and to try and take a small step forward and asses if it worked next time we meet.
-
-The idea is, small steps are easily reversible so no harm done if they don’t work, but if they do work, we can easily build on them and progress in that direction - no overhauls! But seeing the process naturally progress in time (and adapt itself to new team members as well).
-
-## Navigator Summit
-
-This is the forum for the navigators of all on-going journeys to update each other about the technical and product-related advancements, challenges, successes etc their journeys are currently working on and are about to face next.
-
-<ProcessTable
-  :what="[
-    'A weekly 30 minuite meeting to prioritize tasks.',
-    'Updates are shared about the technical and product-related advancements, challenges, successes.',
-  ]"
-  who="Navigators (or representative), Tech lead, Engineering Manager"
-  since="October 2019"
-/>
-
-:::details Attendee guide
-
-Before the call:
-
-- Fill out the "Navigator Summit" document with details about your hike from the last week
-
-During the call:
-
-- Give your prepared update to the group
-- Answer any questions that may come up
-
-After the call:
-
-- Feed any relevant points back to your journey team
-
-:::
-
-## Marshmallows / Smores -->
-
-<!-- **Marshmallows / Smores meeting** - A meeting that takes place in camp, after a journey has ended, The Hikers / Trail blazers are talking about what they did, what they achieved and what they learned from their journey.
-
-- Suggested structure: scope of the journey, approach, what was completed, lessons learned, next steps
-- Make sure to share the technical challenges and decisions that were made during the hike and the arguments as to why those decisions were taken.
-- Make sure to include screenshots
-- Hikers should know who’s going to talk when about what, ideally do a dry-run first -->
