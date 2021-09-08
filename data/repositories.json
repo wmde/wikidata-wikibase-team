@@ -33,6 +33,10 @@
       "github": "https://github.com/wikimedia/mediawiki-extensions-Wikidata.org"
     },
     {
+      "url": "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/WikimediaBadges",
+      "github": "https://github.com/wikimedia/mediawiki-extensions-WikimediaBadges"
+    },
+    {
       "url": "https://gerrit.wikimedia.org/r/admin/repos/wikibase/javascript-api",
       "github": "https://github.com/wikimedia/wikibase-javascript-api"
     },
