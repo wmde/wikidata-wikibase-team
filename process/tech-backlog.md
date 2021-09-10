@@ -152,6 +152,145 @@ classDef final fill:#f64209;
 classDef mid fill:#dc8b23;
 ```
 
+#### Meaning of columns
+
+<TechPrioSheetTable
+  :columns="[
+    { 
+      name: 'X: UX, PM, EM, Dev',
+      descr: 'Does the ticket affect the work of any of those teams? 1 per internal team - UX, PM, EM, Devs, Tech Writer.',
+    },
+    { 
+      name: 'WMF Product Teams',
+      descr: 'Does the ticket affect the work of WMF Product teams? 1 for each distinct Product team, such as WMF Core Platform, WMF Structured Data, WMF Search Platform.',
+    },
+    { 
+      name: 'X: WMF Eng teams',
+      descr: 'Does the ticket affect the work of WMF Engineering teams? 1 for each distinct tech team, such as Service OPs, DBA, Release Engineering, Performence, Security, Cloud Services.',
+    },
+    { 
+      name: 'X: Volunteer Devs',
+      descr: 'Does the ticket affect the work of volunteer developers?',
+    },
+    { 
+      name: 'A: WMF Production Sites',
+      descr: 'Does the ticket affect any WMF production sites?',
+    },
+    { 
+      name: 'B: Wikibase 3rd parties',
+      descr: 'Does the ticket affect the work 3rd party Wikibase users?',
+    },
+    { 
+      name: 'Security',
+      descr: 'Is the ticket related to security issues - both for production code (1 point) and development code (0.5 points)?',
+    },
+    { 
+      name: 'Prevented merging of code',
+      descr: 'Is the issue preventing merging of code, e.g. broken CI?',
+    },
+    { 
+      name: 'Performance',
+      descr: 'Is the ticket related to improving production performance?',
+    },
+    { 
+      name: 'CI Stability / Speed / Ease',
+      descr: 'Does the task relate to improving CI stability, speed or ease of use for both WMDE and others e.g. WMF? 1 point for big improvements or issues, 0.5 for small ones. ',
+    },
+    { 
+      name: 'ADR Compliance',
+      descr: 'Does the task describe something to be done in line with some of our accepted ADRs?'
+    },
+    { 
+      name: 'External Code Review',
+      descr: 'This task was done by an external person and now needs review from us.',
+    },
+    { 
+      name: 'Deprecated Removal',
+      descr: 'This tasks stops using a deprecated tool/class/module etc.',
+    },
+    { 
+      name: 'Test Coverage',
+      descr: 'This task will improve our test coverage.',
+    },
+    { 
+      name: 'Documentation',
+      descr: 'This task has to do with any kind of documentation that developers are responsible for.',
+    },
+    { 
+      name: 'Dev Environment',
+      descr: 'This task has to do with WMDE\'s dev environment.',
+    },
+    { 
+      name: 'Confusing, smelly, old code',
+      descr: 'This task is related to improving confusing or smelly code.',
+    },
+    { 
+      name: 'Consistency & Readability',
+      descr: 'This task will make a part of the code consistent with how we do things elsewhere',
+    },
+    { 
+      name: 'Using shiny things',
+      descr: 'This task will introduce modern tools, technologies, patterns etc.',
+    },
+    { 
+      name: 'Team A Focus: Blocked MW Train',
+      descr: 'Solving this task will unblock mediawiki\'s train',
+    },
+    { 
+      name: 'Team A Focus: Incident Prevention',
+      descr: 'Has this been identified as a way to prevent a previous or predicted production incident?',
+    },
+    { 
+      name: 'Team A Focus: Logstash Log spam',
+      descr: 'This task fixes something that creates log spam in Logstash',
+    },
+    { 
+      name: 'Team A Focus: Production Performance',
+      descr: 'This task is about production performance of products/projects in Team A\'s jurisdiction',
+    },
+    { 
+      name: 'Team A Focus: Manual Intervention',
+      descr: 'This task will improve/automate something that has been done manually so far.',
+    },
+    { 
+      name: 'Team A Focus: Out of train deploy',
+      descr: 'This task will require deployment out of mediawiki\'s train',
+    },
+    { 
+      name: 'Team B Focus: Blocking 3rd party deploy',
+      descr: 'Solving this task will unblock deployment of products used by 3rd parties.',
+    },
+    { 
+      name: 'Team B Focus: Incident Prevention',
+      descr: 'Has this been identified as a way to prevent a previous or predicted production incident?',
+    },
+    { 
+      name: 'Team B Focus: Log spam',
+      descr: 'This task fixes something that creates log spam.',
+    },
+    { 
+      name: 'Team B Focus: Performance',
+      descr: 'This task is about performance of products/projects in Team B\'s jurisdiction',
+    },
+    { 
+      name: 'Team B Focus: Manual Intervention',
+      descr: 'This task will improve/automate something that has been done manually so far.',
+    },
+    { 
+      name: 'Team B Focus: Increase Debugability',
+      descr: 'This task will improve the ability to debug problems in Team B\'s products.',
+    },
+    { 
+      name: 'Future planned work',
+      descr: 'The project/product/code etc. the task relates to has future work planned for it.',
+    },
+    { 
+      name: 'Effort (in person weeks)',
+      descr: 'How much effort in person weeks will this task take? The possible values are from 0.2 to 8. Big estimations usually mean that the task should turn into a hike.',
+    },
+  ]"
+/>
+
 #### Scoring
 
 Ultimately the score is a single number, and the backlog is sorted using that number. This was inspired by [RICE](https://roadmunk.com/guides/rice-score-prioritization-framework-product-management/) and [User Pain](https://lostgarden.home.blog/2008/05/20/improving-bug-triage-with-user-pain/).
