@@ -189,6 +189,7 @@
     "https://gerrit.wikimedia.org/r/admin/repos/wikidata/query/blazegraph",
     "https://gerrit.wikimedia.org/r/admin/repos/wikidata/query/rdf",
     "https://github.com/Wikidata/WikibaseImport",
-    "https://github.com/DataValues"
+    "https://github.com/DataValues",
+    "https://gerrit.wikimedia.org/r/admin/repos/mediawiki/extensions/Math"
   ]
 }
