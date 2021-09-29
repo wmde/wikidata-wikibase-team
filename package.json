@@ -23,7 +23,7 @@
     "@vuejs-community/vue-filter-date-format": "^1.6.3",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
     "@wmde/wikit-vue-components": "^2.0.0",
-    "vue-good-table": "^2.21.10",
+    "vue-good-table": "^2.21.11",
     "vuepress-plugin-markmap": "^0.2.0",
     "vuepress-plugin-mermaidjs": "^1.8.1"
   }
