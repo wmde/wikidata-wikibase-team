@@ -4210,7 +4210,7 @@
         "name": "wikibase-release-pipeline",
         "nameWithOwner": "wmde/wikibase-release-pipeline",
         "createdAt": "2020-11-09T13:35:36Z",
-        "pushedAt": "2021-09-24T00:35:51Z",
+        "pushedAt": "2021-10-08T16:23:33Z",
         "description": null,
         "descriptionHTML": "<div></div>",
         "primaryLanguage": {
@@ -4301,6 +4301,9 @@
         },
         "filesDotGithub": {
           "entries": [
+            {
+              "path": ".github/dependabot.yml"
+            },
             {
               "path": ".github/workflows"
             }
@@ -4807,7 +4810,7 @@
         "name": "wikidata-wikibase-team",
         "nameWithOwner": "wmde/wikidata-wikibase-team",
         "createdAt": "2021-03-11T12:55:42Z",
-        "pushedAt": "2021-10-08T16:19:57Z",
+        "pushedAt": "2021-10-08T16:23:30Z",
         "description": "Wikidata / Wikibase team site",
         "descriptionHTML": "<div>Wikidata / Wikibase team site</div>",
         "primaryLanguage": {
