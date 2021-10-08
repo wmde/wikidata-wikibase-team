@@ -1,8 +1,14 @@
 name: NPM Install, Build and Deploy
+
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
+  schedule:
+    # At 06:15 on Monday.
+    - cron: "15 6 * * 1"
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
