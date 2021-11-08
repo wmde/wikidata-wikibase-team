@@ -52,6 +52,7 @@ module.exports = {
                 [ './', 'Projects Overview' ],
                 [ './wikibase', 'Wikibase' ],
                 [ './wikidata', 'Wikidata' ],
+                [ './misc', 'Miscellaneous' ],
             ],
             '/decisions/': [
                 [ './', 'Decisions' ],
