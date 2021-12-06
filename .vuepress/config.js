@@ -27,7 +27,6 @@ module.exports = {
         displayAllHeaders: true, // Default: false
         nav: [
             { text: 'Documentation', link: '/documentation/' },
-            { text: 'Process', link: '/process/' },
             { text: 'Repositories', link: '/repositories/' },
             { text: 'Projects', link: '/projects/' },
             { text: 'Decisions', link: '/decisions/' },
@@ -36,14 +35,6 @@ module.exports = {
         sidebar: {
             '/documentation/': [
                 [ './', 'Documentation Overview' ]
-            ],
-            '/process/': [
-                [ './', 'Process Overview' ],
-                [ './journey-model', 'Journey Model' ],
-                [ './campsite', 'Campsite' ],
-                [ './journeys', 'Journeys' ],
-                [ './tech-backlog', 'Tech Backlog' ],
-                [ './incident-management', 'Incident Management' ],
             ],
             '/repositories/': [
                 [ './', 'Repositories' ],

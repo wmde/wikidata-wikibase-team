@@ -6,7 +6,6 @@ Wikidata & Wikibase team site, including manually maintained and automatically g
 
 - [Index](./): Site & Content intro, Development & Deployment details
 - [Documentation](./documentation): All team relevant docs should be findable from this portal
-- [Process](./process): Guides for the processes used by the team
 - [Repositories](./repositories): All code repositories the team is responsible for
 - [Projects](./projects): Projects the team is running or responsible for
 - [Decisions](./decisions): Collection of team decisions from all repsositories
