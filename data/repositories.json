@@ -1,6 +1,9 @@
 {
   "main": [
     {
+      "github": "https://github.com/wmde/wmde-access"
+    },
+    {
       "url": "https://gerrit.wikimedia.org/r/admin/repos/analytics/wmde/scripts",
       "github": "https://github.com/wikimedia/analytics-wmde-scripts"
     },
