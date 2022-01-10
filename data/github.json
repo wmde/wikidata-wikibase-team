@@ -6,7 +6,7 @@
         "name": "Wikibase",
         "nameWithOwner": "wikimedia/Wikibase",
         "createdAt": "2012-11-01T19:33:23Z",
-        "pushedAt": "2022-01-07T07:31:23Z",
+        "pushedAt": "2022-01-10T06:03:53Z",
         "description": "🌐 The knowledge base software that drives Wikidata.org. Mirror from https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase. See https://www.mediawiki.org/wiki/Developer_access for contributing.",
         "descriptionHTML": "<div>\n<g-emoji class=\"g-emoji\" alias=\"globe_with_meridians\" fallback-src=\"https://github.githubassets.com/images/icons/emoji/unicode/1f310.png\">🌐</g-emoji> The knowledge base software that drives Wikidata.org. Mirror from <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase</a>. See <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing.</div>",
         "primaryLanguage": {
@@ -1288,7 +1288,7 @@
         "name": "mediawiki-extensions-Wikidata.org",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikidata.org",
         "createdAt": "2014-07-11T10:08:45Z",
-        "pushedAt": "2022-01-05T05:52:15Z",
+        "pushedAt": "2022-01-10T06:03:23Z",
         "description": "Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -1894,7 +1894,7 @@
         "name": "wikidata-query-builder",
         "nameWithOwner": "wikimedia/wikidata-query-builder",
         "createdAt": "2021-03-30T12:38:11Z",
-        "pushedAt": "2022-01-06T15:38:20Z",
+        "pushedAt": "2022-01-07T15:42:54Z",
         "description": "A query builder for Wikidata SPARQL queries",
         "descriptionHTML": "<div>A query builder for Wikidata SPARQL queries</div>",
         "primaryLanguage": {
@@ -4825,7 +4825,7 @@
         "name": "wikidata-wikibase-team",
         "nameWithOwner": "wmde/wikidata-wikibase-team",
         "createdAt": "2021-03-11T12:55:42Z",
-        "pushedAt": "2022-01-03T06:24:52Z",
+        "pushedAt": "2022-01-07T11:12:03Z",
         "description": "Wikidata / Wikibase team site",
         "descriptionHTML": "<div>Wikidata / Wikibase team site</div>",
         "primaryLanguage": {
@@ -5054,7 +5054,7 @@
         "name": "wmde-access",
         "nameWithOwner": "wmde/wmde-access",
         "createdAt": "2018-06-01T11:22:52Z",
-        "pushedAt": "2022-01-07T10:22:32Z",
+        "pushedAt": "2022-01-07T13:19:39Z",
         "description": "Tool showing who at WMDE SWE has access to what in the Wikimedia landscape",
         "descriptionHTML": "<div>Tool showing who at WMDE SWE has access to what in the Wikimedia landscape</div>",
         "primaryLanguage": {
@@ -5086,6 +5086,9 @@
             },
             {
               "path": "GroupsPage.php"
+            },
+            {
+              "path": "LICENSE"
             },
             {
               "path": "README.md"
