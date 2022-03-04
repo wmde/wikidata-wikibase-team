@@ -1,10 +1,31 @@
 # Wikidata
 
+
+## **New Special:Lexeme Page**
+
+* **Link to Tool** [https://wikidata.beta.wmflabs.org/wiki/Special:NewLexemeAlpha](https://wikidata.beta.wmflabs.org/wiki/Special:NewLexemeAlpha)
+* **Status:**    In Development       
+* **Production Release:**  2022 Q2
+
+
+### **Project Goal:**
+The current [Create a new lexeme](https://www.wikidata.org/wiki/Special:NewLexeme) page is clunky and the code outdated. This project aims to create a more intuative process for users and to modernize the code.
+    
+    
+
+**Development Links**
+* [**Phabricator Board**](https://phabricator.wikimedia.org/project/view/5674/)
+* [**Github**](https://github.com/wmde/new-lexeme-special-page)
+
+
+_New Special:Lexeme Page details last updated 2022 March 04_
+
+
 ## **Mismatch Finder**
 
 * **Link to Tool** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
 * **Status:**    In Development       
-* **Production Release:**  2021 Q4 (tent.)  
+* **Production Release:**  2022 Februray 22
 
 
 ### **Project Goal:**
@@ -20,7 +41,7 @@ When an inconsistency between two databases is noticed, this tool allows the use
 * [**Tool Deployment and Maintenance Guides**](https://wikitech.wikimedia.org/wiki/Tool:Wikidata_Mismatch_Finder) 
 
 
-_Mismatch Finder details last updated 2021 August 16_
+_Mismatch Finder details last updated 2022 March 04_
 
 
 ## **Query Builder**
