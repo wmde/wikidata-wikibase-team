@@ -107,7 +107,3 @@ TBA
 ## **wb_terms removal**
 
 TBA
-
-## **Lexicographical data (Lexeme)**
-
-TBA
