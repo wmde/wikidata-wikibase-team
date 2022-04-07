@@ -8,8 +8,8 @@ Wikidata & Wikibase team site, including manually maintained and automatically g
 - [Documentation](./documentation): All team relevant docs should be findable from this portal
 - [Repositories](./repositories): All code repositories the team is responsible for
 - [Projects](./projects): Projects the team is running or responsible for
-- [Decisions](./decisions): Collection of team decisions from all repsositories
-- [Vision](./vision): Overall tech vision fed from product stratergy and vision
+- [Decisions](./decisions): Collection of team decisions from all repositories
+- [Vision](./vision): Overall tech vision fed from product strategy and vision
 
 ## Deployment
 
