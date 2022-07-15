@@ -1,5 +1,23 @@
 # Wikidata
 
+## **EntitySchemas Improvements**
+
+* **Link to Tool** N/A
+* **Status:**    In Conception       
+* **Production Release:**  TBD (2024)
+
+
+### **Project Goal:**
+Add much desired and data-quality vital features for or editor's data quality work.
+     
+    
+
+**Development Links**
+* [**Phabricator Board TBA**]()
+* [**Github TBA**](): 
+
+
+_EntitySchema Improvements details last updated 2022 July 15_
 
 ## **New Special:Lexeme Page**
 
@@ -18,18 +36,19 @@ The current [Create a new lexeme](https://www.wikidata.org/wiki/Special:NewLexem
 * [**Github**](https://github.com/wmde/new-lexeme-special-page)
 
 
-_New Special:Lexeme Page details last updated 2022 March 04_
+_New Special:Lexeme Page details last updated 2022 July 15_
 
 
 ## **Mismatch Finder**
 
 * **Link to Tool** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
 * **Status:**    Live      
-* **Production Release:**  2022 Februray 22
+* **Production Release:**  
+    * Version 1 : 2022 Februray 22
+    * Version 2 : Q3 or Q4 2022
 
 
 ### **Project Goal:**
-
 When an inconsistency between two databases is noticed, this tool allows the user to upload this information to get it checked by the Wikidata editors.  
 [Find more information on the Wikidata Page](https://www.wikidata.org/wiki/Wikidata:Mismatch_Finder)
     
