@@ -4,8 +4,8 @@
 ## **New Special:Lexeme Page**
 
 * **Link to Tool** [https://wikidata.beta.wmflabs.org/wiki/Special:NewLexemeAlpha](https://wikidata.beta.wmflabs.org/wiki/Special:NewLexemeAlpha)
-* **Status:**    In Development       
-* **Production Release:**  2022 Q2
+* **Status:**    In Alpha       
+* **Production Release:**  2022 August 3
 
 
 ### **Project Goal:**
@@ -24,7 +24,7 @@ _New Special:Lexeme Page details last updated 2022 March 04_
 ## **Mismatch Finder**
 
 * **Link to Tool** [https://mismatch-finder.toolforge.org](https://mismatch-finder.toolforge.org)
-* **Status:**    In Development       
+* **Status:**    Live      
 * **Production Release:**  2022 Februray 22
 
 
