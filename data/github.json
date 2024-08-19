@@ -6,7 +6,7 @@
         "name": "mediawiki-extensions-Wikibase",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikibase",
         "createdAt": "2012-11-01T19:33:23Z",
-        "pushedAt": "2024-08-09T23:31:46Z",
+        "pushedAt": "2024-08-19T05:50:54Z",
         "description": "🌐 The knowledge base software that drives Wikidata.org. Mirror from https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase. See https://www.mediawiki.org/wiki/Developer_access for contributing.",
         "descriptionHTML": "<div>🌐 The knowledge base software that drives Wikidata.org. Mirror from <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase</a>. See <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing.</div>",
         "primaryLanguage": {
@@ -272,7 +272,7 @@
         "name": "analytics-wmde-scripts",
         "nameWithOwner": "wikimedia/analytics-wmde-scripts",
         "createdAt": "2016-02-10T10:30:23Z",
-        "pushedAt": "2023-11-16T11:51:48Z",
+        "pushedAt": "2024-08-12T09:44:07Z",
         "description": "Github mirror of \"analytics/wmde/scripts\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of \"analytics/wmde/scripts\" - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -485,7 +485,7 @@
         "name": "mediawiki-extensions-ArticlePlaceholder",
         "nameWithOwner": "wikimedia/mediawiki-extensions-ArticlePlaceholder",
         "createdAt": "2015-08-03T14:17:05Z",
-        "pushedAt": "2024-08-11T23:30:44Z",
+        "pushedAt": "2024-08-16T23:30:46Z",
         "description": "Github mirror of  MediaWiki extension ArticlePlaceholder - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension ArticlePlaceholder - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -595,7 +595,7 @@
         "name": "mediawiki-extensions-Cognate",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Cognate",
         "createdAt": "2016-04-13T21:46:42Z",
-        "pushedAt": "2024-08-11T23:30:57Z",
+        "pushedAt": "2024-08-13T01:00:29Z",
         "description": "Github mirror of MediaWiki extension Cognate - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of MediaWiki extension Cognate - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -696,7 +696,7 @@
         "name": "mediawiki-extensions-InterwikiSorting",
         "nameWithOwner": "wikimedia/mediawiki-extensions-InterwikiSorting",
         "createdAt": "2016-10-03T09:37:10Z",
-        "pushedAt": "2024-08-11T23:31:15Z",
+        "pushedAt": "2024-08-13T01:00:46Z",
         "description": "Github mirror of MediaWiki extension InterwikiSorting - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of MediaWiki extension InterwikiSorting - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -788,7 +788,7 @@
         "name": "mediawiki-extensions-PropertySuggester",
         "nameWithOwner": "wikimedia/mediawiki-extensions-PropertySuggester",
         "createdAt": "2014-01-20T17:06:02Z",
-        "pushedAt": "2024-08-12T03:26:42Z",
+        "pushedAt": "2024-08-13T01:01:03Z",
         "description": "Github mirror of  MediaWiki extension PropertySuggester - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension PropertySuggester - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -895,7 +895,7 @@
         "name": "mediawiki-extensions-WikibaseLexeme",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikibaseLexeme",
         "createdAt": "2016-10-19T09:40:02Z",
-        "pushedAt": "2024-08-10T23:31:18Z",
+        "pushedAt": "2024-08-15T06:09:53Z",
         "description": "🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -942,6 +942,9 @@
             },
             {
               "path": ".minus-x.json"
+            },
+            {
+              "path": ".npmrc"
             },
             {
               "path": ".phan"
@@ -993,6 +996,12 @@
             },
             {
               "path": "composer.json"
+            },
+            {
+              "path": "cypress.config.ts"
+            },
+            {
+              "path": "cypress"
             },
             {
               "path": "docs"
@@ -1199,7 +1208,7 @@
         "name": "mediawiki-extensions-WikibaseQualityConstraints",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikibaseQualityConstraints",
         "createdAt": "2015-06-18T13:58:46Z",
-        "pushedAt": "2024-08-09T23:31:39Z",
+        "pushedAt": "2024-08-15T23:31:28Z",
         "description": "Github mirror of MediaWiki extension WikibaseQualityConstraints - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of MediaWiki extension WikibaseQualityConstraints - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -1318,7 +1327,7 @@
         "name": "mediawiki-extensions-Wikidata.org",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikidata.org",
         "createdAt": "2014-07-11T10:08:45Z",
-        "pushedAt": "2024-08-06T01:01:37Z",
+        "pushedAt": "2024-08-15T23:31:29Z",
         "description": "Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -1428,7 +1437,7 @@
         "name": "mediawiki-extensions-WikimediaBadges",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikimediaBadges",
         "createdAt": "2014-08-06T10:59:25Z",
-        "pushedAt": "2024-08-06T01:01:41Z",
+        "pushedAt": "2024-08-13T23:31:36Z",
         "description": "Mirror of https://gerrit.wikimedia.org/g/mediawiki/extensions/WikimediaBadges",
         "descriptionHTML": "<div>Mirror of <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/WikimediaBadges\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/WikimediaBadges</a></div>",
         "primaryLanguage": {
@@ -1526,7 +1535,7 @@
         "name": "purtle",
         "nameWithOwner": "wikimedia/purtle",
         "createdAt": "2016-04-29T11:53:50Z",
-        "pushedAt": "2024-05-06T05:12:00Z",
+        "pushedAt": "2024-08-13T06:27:47Z",
         "description": "Mirror of https://gerrit.wikimedia.org/g/purtle See https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Mirror of <a href=\"https://gerrit.wikimedia.org/g/purtle\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/purtle</a> See <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -1600,7 +1609,7 @@
         "name": "wikibase-javascript-api",
         "nameWithOwner": "wikimedia/wikibase-javascript-api",
         "createdAt": "2017-11-08T16:38:24Z",
-        "pushedAt": "2024-06-12T06:44:12Z",
+        "pushedAt": "2024-08-14T09:28:19Z",
         "description": "Github mirror - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -1936,7 +1945,7 @@
         "name": "wikidata-query-builder",
         "nameWithOwner": "wikimedia/wikidata-query-builder",
         "createdAt": "2021-03-30T12:38:11Z",
-        "pushedAt": "2024-08-07T17:26:33Z",
+        "pushedAt": "2024-08-12T12:19:57Z",
         "description": "A query builder for Wikidata SPARQL queries",
         "descriptionHTML": "<div>A query builder for Wikidata SPARQL queries</div>",
         "primaryLanguage": {
@@ -2088,7 +2097,7 @@
         "name": "wikidata-query-gui",
         "nameWithOwner": "wikimedia/wikidata-query-gui",
         "createdAt": "2016-02-07T11:19:20Z",
-        "pushedAt": "2024-08-01T12:18:59Z",
+        "pushedAt": "2024-08-15T12:19:59Z",
         "description": "Github mirror of \"wikidata/query/gui\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of \"wikidata/query/gui\" - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -2583,7 +2592,7 @@
         "name": "WikibaseDataModel",
         "nameWithOwner": "wmde/WikibaseDataModel",
         "createdAt": "2013-12-11T15:20:51Z",
-        "pushedAt": "2024-08-08T07:53:19Z",
+        "pushedAt": "2024-08-13T12:52:23Z",
         "description": "⚙ PHP implementation of the Wikibase Data Model",
         "descriptionHTML": "<div>⚙ PHP implementation of the Wikibase Data Model</div>",
         "primaryLanguage": {
@@ -2775,7 +2784,7 @@
         "name": "WikibaseDataModelServices",
         "nameWithOwner": "wmde/WikibaseDataModelServices",
         "createdAt": "2015-06-22T01:47:49Z",
-        "pushedAt": "2024-07-25T12:23:03Z",
+        "pushedAt": "2024-08-13T12:52:27Z",
         "description": "A collection of services around Wikibase DataModel",
         "descriptionHTML": "<div>A collection of services around Wikibase DataModel</div>",
         "primaryLanguage": {
@@ -2994,7 +3003,7 @@
         "name": "WikibaseInternalSerialization",
         "nameWithOwner": "wmde/WikibaseInternalSerialization",
         "createdAt": "2013-12-16T18:28:33Z",
-        "pushedAt": "2024-04-17T14:36:47Z",
+        "pushedAt": "2024-08-13T07:33:00Z",
         "description": "Serializers and deserializers for the serialization used in the Wikibase Repo data access layer",
         "descriptionHTML": "<div>Serializers and deserializers for the serialization used in the Wikibase Repo data access layer</div>",
         "primaryLanguage": {
@@ -4297,7 +4306,7 @@
         "name": "wikibase-release-pipeline",
         "nameWithOwner": "wmde/wikibase-release-pipeline",
         "createdAt": "2020-11-09T13:35:36Z",
-        "pushedAt": "2024-08-09T13:10:31Z",
+        "pushedAt": "2024-08-18T21:36:25Z",
         "description": null,
         "descriptionHTML": "<div></div>",
         "primaryLanguage": {
@@ -4650,7 +4659,7 @@
         "name": "wikidata-mismatch-finder",
         "nameWithOwner": "wmde/wikidata-mismatch-finder",
         "createdAt": "2021-06-16T09:08:26Z",
-        "pushedAt": "2024-08-08T12:21:40Z",
+        "pushedAt": "2024-08-15T12:22:24Z",
         "description": "A tool to review mismatches between Wikidata and External Databases",
         "descriptionHTML": "<div>A tool to review mismatches between Wikidata and External Databases</div>",
         "primaryLanguage": {
@@ -4918,7 +4927,7 @@
         "name": "wikidata-wikibase-team",
         "nameWithOwner": "wmde/wikidata-wikibase-team",
         "createdAt": "2021-03-11T12:55:42Z",
-        "pushedAt": "2024-08-05T06:07:10Z",
+        "pushedAt": "2024-08-12T06:07:15Z",
         "description": "Wikidata / Wikibase team site",
         "descriptionHTML": "<div>Wikidata / Wikibase team site</div>",
         "primaryLanguage": {
@@ -5144,7 +5153,7 @@
         "name": "wmde-access",
         "nameWithOwner": "wmde/wmde-access",
         "createdAt": "2018-06-01T11:22:52Z",
-        "pushedAt": "2024-07-29T12:45:49Z",
+        "pushedAt": "2024-08-12T10:28:19Z",
         "description": "Tool showing who at WMDE SWE has access to what in the Wikimedia landscape",
         "descriptionHTML": "<div>Tool showing who at WMDE SWE has access to what in the Wikimedia landscape</div>",
         "primaryLanguage": {
