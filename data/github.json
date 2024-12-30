@@ -6,7 +6,7 @@
         "name": "mediawiki-extensions-Wikibase",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikibase",
         "createdAt": "2012-11-01T19:33:23Z",
-        "pushedAt": "2024-12-22T00:30:48Z",
+        "pushedAt": "2024-12-30T06:04:47Z",
         "description": "🌐 The knowledge base software that drives Wikidata.org. Mirror from https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase. See https://www.mediawiki.org/wiki/Developer_access for contributing.",
         "descriptionHTML": "<div>🌐 The knowledge base software that drives Wikidata.org. Mirror from <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase</a>. See <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing.</div>",
         "primaryLanguage": {
@@ -390,7 +390,7 @@
         "name": "data-values-value-view",
         "nameWithOwner": "wikimedia/data-values-value-view",
         "createdAt": "2013-12-15T16:49:31Z",
-        "pushedAt": "2024-12-16T12:09:44Z",
+        "pushedAt": "2024-12-26T12:08:46Z",
         "description": "Github mirror of \"data-values/value-view\" - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of \"data-values/value-view\" - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -889,7 +889,7 @@
         "name": "mediawiki-extensions-WikibaseLexeme",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikibaseLexeme",
         "createdAt": "2016-10-19T09:40:02Z",
-        "pushedAt": "2024-12-22T00:30:39Z",
+        "pushedAt": "2024-12-26T06:03:28Z",
         "description": "🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -1318,7 +1318,7 @@
         "name": "mediawiki-extensions-Wikidata.org",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikidata.org",
         "createdAt": "2014-07-11T10:08:45Z",
-        "pushedAt": "2024-12-19T06:09:00Z",
+        "pushedAt": "2024-12-30T06:04:25Z",
         "description": "Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -1936,7 +1936,7 @@
         "name": "wikidata-query-builder",
         "nameWithOwner": "wikimedia/wikidata-query-builder",
         "createdAt": "2021-03-30T12:38:11Z",
-        "pushedAt": "2024-12-19T10:42:57Z",
+        "pushedAt": "2024-12-23T12:20:28Z",
         "description": "A query builder for Wikidata SPARQL queries",
         "descriptionHTML": "<div>A query builder for Wikidata SPARQL queries</div>",
         "primaryLanguage": {
@@ -2326,7 +2326,7 @@
         "name": "DataValuesJavaScript",
         "nameWithOwner": "wmde/DataValuesJavaScript",
         "createdAt": "2013-12-15T17:06:03Z",
-        "pushedAt": "2024-06-14T15:15:39Z",
+        "pushedAt": "2024-12-26T09:46:07Z",
         "description": "JavaScript implementations of all basic DataValue classes, associated parsers and formatters",
         "descriptionHTML": "<div>JavaScript implementations of all basic DataValue classes, associated parsers and formatters</div>",
         "primaryLanguage": {
@@ -2663,7 +2663,7 @@
         "name": "WikibaseDataModelJavaScript",
         "nameWithOwner": "wmde/WikibaseDataModelJavaScript",
         "createdAt": "2014-06-18T09:16:29Z",
-        "pushedAt": "2023-10-28T16:58:10Z",
+        "pushedAt": "2024-12-26T10:09:47Z",
         "description": "JavaScript implementation of the basic Wikibase DataModel entity types and components they are made of",
         "descriptionHTML": "<div>JavaScript implementation of the basic Wikibase DataModel entity types and components they are made of</div>",
         "primaryLanguage": {
@@ -3175,7 +3175,7 @@
         "name": "WikibaseSerializationJavaScript",
         "nameWithOwner": "wmde/WikibaseSerializationJavaScript",
         "createdAt": "2014-07-03T07:47:01Z",
-        "pushedAt": "2023-10-28T16:23:29Z",
+        "pushedAt": "2024-12-26T14:51:01Z",
         "description": "Wikibase datamodel serialization implementation in JavaScript",
         "descriptionHTML": "<div>Wikibase datamodel serialization implementation in JavaScript</div>",
         "primaryLanguage": {
@@ -4695,7 +4695,7 @@
         "name": "wikidata-mismatch-finder",
         "nameWithOwner": "wmde/wikidata-mismatch-finder",
         "createdAt": "2021-06-16T09:08:26Z",
-        "pushedAt": "2024-12-19T12:22:09Z",
+        "pushedAt": "2024-12-26T12:19:18Z",
         "description": "A tool to review mismatches between Wikidata and External Databases",
         "descriptionHTML": "<div>A tool to review mismatches between Wikidata and External Databases</div>",
         "primaryLanguage": {
@@ -4963,7 +4963,7 @@
         "name": "wikidata-wikibase-team",
         "nameWithOwner": "wmde/wikidata-wikibase-team",
         "createdAt": "2021-03-11T12:55:42Z",
-        "pushedAt": "2024-12-16T06:08:47Z",
+        "pushedAt": "2024-12-23T06:08:05Z",
         "description": "Wikidata / Wikibase team site",
         "descriptionHTML": "<div>Wikidata / Wikibase team site</div>",
         "primaryLanguage": {
