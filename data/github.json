@@ -6,7 +6,7 @@
         "name": "mediawiki-extensions-Wikibase",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikibase",
         "createdAt": "2012-11-01T19:33:23Z",
-        "pushedAt": "2026-08-08T01:03:09Z",
+        "pushedAt": "2026-08-15T01:02:37Z",
         "description": "🌐 The knowledge base software that drives Wikidata.org. Mirror from https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase. See https://www.mediawiki.org/wiki/Developer_access for contributing.",
         "descriptionHTML": "<div>🌐 The knowledge base software that drives Wikidata.org. Mirror from <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/Wikibase</a>. See <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing.</div>",
         "primaryLanguage": {
@@ -521,7 +521,7 @@
         "name": "mediawiki-extensions-ArticlePlaceholder",
         "nameWithOwner": "wikimedia/mediawiki-extensions-ArticlePlaceholder",
         "createdAt": "2015-08-03T14:17:05Z",
-        "pushedAt": "2026-08-08T23:31:17Z",
+        "pushedAt": "2026-08-15T01:01:11Z",
         "description": "Github mirror of  MediaWiki extension ArticlePlaceholder - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension ArticlePlaceholder - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -634,7 +634,7 @@
         "name": "mediawiki-extensions-Cognate",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Cognate",
         "createdAt": "2016-04-13T21:46:42Z",
-        "pushedAt": "2026-08-09T01:01:31Z",
+        "pushedAt": "2026-08-13T06:24:44Z",
         "description": "Github mirror of MediaWiki extension Cognate - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of MediaWiki extension Cognate - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -827,7 +827,7 @@
         "name": "mediawiki-extensions-PropertySuggester",
         "nameWithOwner": "wikimedia/mediawiki-extensions-PropertySuggester",
         "createdAt": "2014-01-20T17:06:02Z",
-        "pushedAt": "2026-08-09T01:02:38Z",
+        "pushedAt": "2026-08-11T01:01:59Z",
         "description": "Github mirror of  MediaWiki extension PropertySuggester - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension PropertySuggester - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -934,7 +934,7 @@
         "name": "mediawiki-extensions-WikibaseLexeme",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikibaseLexeme",
         "createdAt": "2016-10-19T09:40:02Z",
-        "pushedAt": "2026-08-08T01:03:01Z",
+        "pushedAt": "2026-08-15T01:02:30Z",
         "description": "🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>🐐Github mirror of MediaWiki extension WikibaseLexeme - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -1077,6 +1077,9 @@
             },
             {
               "path": "resources"
+            },
+            {
+              "path": "specs"
             },
             {
               "path": "src"
@@ -1265,7 +1268,7 @@
         "name": "mediawiki-extensions-WikibaseQualityConstraints",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikibaseQualityConstraints",
         "createdAt": "2015-06-18T13:58:46Z",
-        "pushedAt": "2026-08-09T01:03:13Z",
+        "pushedAt": "2026-08-11T01:02:43Z",
         "description": "Github mirror of MediaWiki extension WikibaseQualityConstraints - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing)",
         "descriptionHTML": "<div>Github mirror of MediaWiki extension WikibaseQualityConstraints - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing)</div>",
         "primaryLanguage": {
@@ -1393,7 +1396,7 @@
         "name": "mediawiki-extensions-Wikidata.org",
         "nameWithOwner": "wikimedia/mediawiki-extensions-Wikidata.org",
         "createdAt": "2014-07-11T10:08:45Z",
-        "pushedAt": "2026-08-09T01:03:14Z",
+        "pushedAt": "2026-08-13T05:47:40Z",
         "description": "Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see https://www.mediawiki.org/wiki/Developer_access for contributing",
         "descriptionHTML": "<div>Github mirror of  MediaWiki extension Wikidata.org - our actual code is hosted with Gerrit (please see <a href=\"https://www.mediawiki.org/wiki/Developer_access\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://www.mediawiki.org/wiki/Developer_access</a> for contributing</div>",
         "primaryLanguage": {
@@ -1503,7 +1506,7 @@
         "name": "mediawiki-extensions-WikimediaBadges",
         "nameWithOwner": "wikimedia/mediawiki-extensions-WikimediaBadges",
         "createdAt": "2014-08-06T10:59:25Z",
-        "pushedAt": "2026-08-09T01:03:19Z",
+        "pushedAt": "2026-08-13T01:02:58Z",
         "description": "Mirror of https://gerrit.wikimedia.org/g/mediawiki/extensions/WikimediaBadges",
         "descriptionHTML": "<div>Mirror of <a href=\"https://gerrit.wikimedia.org/g/mediawiki/extensions/WikimediaBadges\" class=\"Link--inTextBlock\" rel=\"nofollow\">https://gerrit.wikimedia.org/g/mediawiki/extensions/WikimediaBadges</a></div>",
         "primaryLanguage": {
@@ -4416,14 +4419,14 @@
       }
     }
   },
-  "https://github.com/wmde/wikibase-release-pipeline": {
+  "https://github.com/wmde/wikibase-suite": {
     "data": {
       "repository": {
-        "url": "https://github.com/wmde/wikibase-release-pipeline",
-        "name": "wikibase-release-pipeline",
-        "nameWithOwner": "wmde/wikibase-release-pipeline",
+        "url": "https://github.com/wmde/wikibase-suite",
+        "name": "wikibase-suite",
+        "nameWithOwner": "wmde/wikibase-suite",
         "createdAt": "2020-11-09T13:35:36Z",
-        "pushedAt": "2026-08-09T21:02:08Z",
+        "pushedAt": "2026-08-14T12:25:53Z",
         "description": null,
         "descriptionHTML": "<div></div>",
         "primaryLanguage": {
@@ -4441,23 +4444,17 @@
               "name": "JavaScript"
             },
             {
-              "name": "Python"
+              "name": "PHP"
             },
             {
-              "name": "PHP"
+              "name": "Lua"
             }
           ]
         },
         "filesRoot": {
           "entries": [
             {
-              "path": ".dockerignore"
-            },
-            {
-              "path": ".eslintrc-whitespace.json"
-            },
-            {
-              "path": ".eslintrc.json"
+              "path": ".env.example"
             },
             {
               "path": ".gitattributes"
@@ -4472,25 +4469,13 @@
               "path": ".gitignore"
             },
             {
-              "path": ".hadolint.yml"
+              "path": ".wbs"
             },
             {
-              "path": ".nvmrc"
+              "path": "CHANGELOG.md"
             },
             {
-              "path": ".prettierignore"
-            },
-            {
-              "path": ".prettierrc.json"
-            },
-            {
-              "path": ".vscode"
-            },
-            {
-              "path": "DEVELOPMENT.md"
-            },
-            {
-              "path": "Dockerfile"
+              "path": "CONTRIBUTING.md"
             },
             {
               "path": "LICENSE"
@@ -4499,13 +4484,10 @@
               "path": "README.md"
             },
             {
-              "path": "build-tools.sh"
+              "path": "config"
             },
             {
-              "path": "build"
-            },
-            {
-              "path": "deploy"
+              "path": "development"
             },
             {
               "path": "docker-compose.yml"
@@ -4514,31 +4496,10 @@
               "path": "docs"
             },
             {
-              "path": "entrypoint.sh"
+              "path": "install"
             },
             {
-              "path": "lint.sh"
-            },
-            {
-              "path": "nx"
-            },
-            {
-              "path": "nx.json"
-            },
-            {
-              "path": "package.json"
-            },
-            {
-              "path": "pnpm-lock.yaml"
-            },
-            {
-              "path": "pnpm-workspace.yaml"
-            },
-            {
-              "path": "test"
-            },
-            {
-              "path": "tsconfig.json"
+              "path": "scripts"
             }
           ]
         },
@@ -4551,74 +4512,17 @@
               "path": ".github/config.yml"
             },
             {
+              "path": ".github/pages"
+            },
+            {
+              "path": ".github/scripts"
+            },
+            {
               "path": ".github/workflows"
             }
           ]
         },
-        "filesAdrs": {
-          "entries": [
-            {
-              "path": "docs/adr/0001-docker-image-repository.md"
-            },
-            {
-              "path": "docs/adr/0002-tarball-hosting.md"
-            },
-            {
-              "path": "docs/adr/0003-tarball-contents.md"
-            },
-            {
-              "path": "docs/adr/0004-wdqs-tarball-content.md"
-            },
-            {
-              "path": "docs/adr/0005-release-notes-process.md"
-            },
-            {
-              "path": "docs/adr/0006-pipline-runner.md"
-            },
-            {
-              "path": "docs/adr/0007-wikibase-release-notes-publish.md"
-            },
-            {
-              "path": "docs/adr/0008-wmde-repo-release-notes.md"
-            },
-            {
-              "path": "docs/adr/0009-non-WMDE-release-notes.md"
-            },
-            {
-              "path": "docs/adr/0010-queryservice-tarball.md"
-            },
-            {
-              "path": "docs/adr/0011-wikibase-bundle.md"
-            },
-            {
-              "path": "docs/adr/0012-versioning.md"
-            },
-            {
-              "path": "docs/adr/0013-docker-latest-tag.md"
-            },
-            {
-              "path": "docs/adr/0014-signing-release-packages.md"
-            },
-            {
-              "path": "docs/adr/0015-security-fixes-non-wmde-software.md"
-            },
-            {
-              "path": "docs/adr/0016-updating-non-wmde-software.md"
-            },
-            {
-              "path": "docs/adr/0017-using-mediawiki-docker-image.md"
-            },
-            {
-              "path": "docs/adr/0018-anonymous-access-defaults.md"
-            },
-            {
-              "path": "docs/adr/NNNN-adr-template.md"
-            },
-            {
-              "path": "docs/adr/index.md"
-            }
-          ]
-        }
+        "filesAdrs": null
       }
     }
   },
@@ -4812,7 +4716,7 @@
         "name": "wikidata-mismatch-finder",
         "nameWithOwner": "wmde/wikidata-mismatch-finder",
         "createdAt": "2021-06-16T09:08:26Z",
-        "pushedAt": "2026-08-01T00:28:17Z",
+        "pushedAt": "2026-08-15T00:08:50Z",
         "description": "A tool to review mismatches between Wikidata and External Databases",
         "descriptionHTML": "<div>A tool to review mismatches between Wikidata and External Databases</div>",
         "primaryLanguage": {
@@ -5080,7 +4984,7 @@
         "name": "wikidata-wikibase-team",
         "nameWithOwner": "wmde/wikidata-wikibase-team",
         "createdAt": "2021-03-11T12:55:42Z",
-        "pushedAt": "2026-08-03T07:15:34Z",
+        "pushedAt": "2026-08-10T06:34:50Z",
         "description": "Wikidata / Wikibase team site",
         "descriptionHTML": "<div>Wikidata / Wikibase team site</div>",
         "primaryLanguage": {
